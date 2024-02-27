@@ -1,0 +1,1339 @@
+{
+  "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjczOTdEODczNDgwREYzQTFGNDQ0MDYyMDUzQzkxQUNDQkEwMjMwM0VSUzI1NiIsInR5cCI6ImF0K2p3dCIsIng1dCI6ImM1ZlljMGdOODZIMFJBWWdVOGthekxvQ01ENCJ9.eyJuYmYiOjE3MDM0ODQzMTEsImV4cCI6MTcwMzU3MDcxMSwiaXNzIjoiaHR0cDovL2lic2wtdWF0LWFwaS5vaWMub3IudGgiLCJjbGllbnRfaWQiOiI0Iiwic3ViIjoiMTYyNSIsImF1dGhfdGltZSI6MTcwMzQ4NDMxMSwiaWRwIjoibG9jYWwiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGlwaGF0cGhvbmdAc2FoYWxpZmUuY28udGgiLCJpYXQiOjE3MDM0ODQzMTEsInNjb3BlIjpbImFwaSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJjdXN0b20iXX0.lIoePF7JuJvaJ_9CgCDlYR06m1eJ0T1JwFZSCQUIMm63McAkPCHu1z5VNdXWtpX78ViT8dFDbiQeS0MzTog6bqUjEnJGPX4N5k_lxtJXDQXMxl_iQrTboMJe1KENfWJPl6HlxCwRQmfYV7u1atoFbIGHjDa9rYMtFqPvbF3wdqVeMDX9KlgUXpgLbi1gpJR6gn2ymmBPu7GlDrkLxS66gNtfJ_VVctuEoURs_CvbfscY5wHXruC_ItgNw5-3CZL4A7plD6kNVqn852SQF7LGTwxftrNZAVdqVVU8WemAYYTZmIYBOXcXu3DIWkm_W16GH5lboSO-tPm6UEAaBXQ6Mg",
+  "expires_in": 86400,
+  "token_type": "Bearer",
+  "refresh_token": "8143BFB7356C37E0C85A104BB935F061CB9B9591D46CAD0785A6392B3FAB8282",
+  "scope": "api offline_access"
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "KIDp7jz9gFMxwhHEl7DlbyAI9tpXG2jga7kNu/qWcHSIbmZkJ22yFoky3hxlv1cDE7nfYrqki+xaqx7OZeMFcjUtP1iazQru7dP0pgrbJSH6pRtR87TD1lixCbwOIVgkCofztq+UdqNACDprhVseAldQIQvTHxZx7AxGosdm+U48nP1mPE7D8wf6KvjRu1f3hvPmSy+RBm4iLIRH2KWbq+7pTm7UB1Vpt9UjrmVC6Y9AyA3BdP7J8h2NIwP33B3/idDQOqEU/VnMYKp0VWQhCOMwjhhQqHimOv7RPscbinaaxrGQsc/5dvvMQR5mpPB7KQTrdGRixbhK/+9DJ9coucNp7Nqk+WsfL56xMS6Z5BEyjpJXBg1+Zmqsopytw/sRfzATxfpNQ10ykerqgHD4p7Oa6d7wohQbu2LtRH3gCZkPID9sB8Eo031d5BPBKImA8Ub3Yte5T7FeTYjWIIh8fCFn6QyixCWV9Ze/efShVdI8wfmIrJln6SlgYTEjMjE4lX46rRjByeKwp4VozH89XYLzew9qewtdYICgEBl6zNh77nq3XgYqi0rH8IQFkOsPgS5EzP7So4JQmjpcs5xZ/mqzNQooBnuGy3R/LMwfG+LwD89DDK4bRFnjsMH84zCc+YltzjWg7GjmLIH0x4IrumGGyDbLwjZNIgS42aAx6j4=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "qPLDanggq7HrMKmBEWkbm7voTi/0TQHiekE0pJf4DHSSTP9pAV7TAQAnYUim0n5oYfNJc34wQ67C9xo0baT1WnS5lC3DdRbkba2BXMPdcW5BMb/89NxIaAWLn2H7oU9Gcjl11mxBVIk3UjgIpZktNn8XGhx/QUTZ3bvcJ1GBwL0rEatB9CdQMupjSrrn6WHWb20BglcsouURpg3vQnkN87XTku9SCJJoEvZgedNUz4mArun33GnUBP5lDcBNyJQNnKG/sckToVkLWWEqAlVtCnvMUuzt5wemDqaKE4ce06ToZnmVKHkYyg/XuWPoDICzx04rTIyRzNu+8RqIfJtB07rqwXyI3kx8Gy6VCDDeFbTQXw4yrWfkqVEhbSsRLW01yOc/moH5raqQYjY4vlbnAPQWifl1pCNFIEgQdTLgUADIxcNnl/iQzfxK24j4DgLy3sSuMbbrZVrXDFvf59g8PKO4ht2bKNcLQf/ZmqSpvAdaC+vx+tDoMThXL+YeYTsQVhPdpz/80+HaOUOPpGWnUzPj6Jl7gOSNb2rc5x+H0uLBNoY+/5gEq8xrh97QTn4j8qBOIb7KP5bWYaYaagy7ngg3zXJWgWaPTqF3zjl4arH2SPtSl2+5X72WTArwiOpY1trhX75SyigOf/hQGfqropKEhpML4YkDJ74pGS9HGEc=",
+      "claim_pol_id": "q7NAOA6TB3aSGt9M6qBuEokyI/7B+gwv8c4N7dOaBQnOlOdF6TWQp2nrNQSXh1UUkqRg9fNYVGdvpMMT91H83yHr6TauVFIiqh4uSuctoFrFSBPX9En4Vr+Z9AzOOgfyUf7mcApg5OLEC9i53CTG0tlHzelMn/+LP6zcFrjVTqt4SYLHsHKD6l2pKMBOTXQgau75/kS2WGp9IUWBb1z7M4S+Qze9n6cKfPX3oW1Z8U39RGISgGHHJDnOe0wz95IA6FJql2jh9UpSD9hMnnOXelgju54NRzhiblJuEYPteIaWaLqKQ4e9692Vj9K/DpGIdihGGsNLgfHMdsMuZjZ+//AvJ6nZT16r2DoYr/da9aXpEmh9ika+WIJZyIrMzUhaesFQtK1IX0pr4ut3rpseFLG7mg5FGg8DP8LfluSalAcJYo4feyxY36p8nJW/3Ft5al4gqH15AJ9E4HQwv4S7OisDDJFCuvQOmMGiEkLIDxhE9EW5BiSfCIep89jQWLHbCCZsKTJq+J1/6dwl1Re1ZnnhH6cV2ZYmwIRaRmuIDqL3MpHIPtahCNH9/Ob/laXsjRWHgqLMa0oY1LE/ldJcK0EIRIekOgVXinJHJKB7RKCpM1aJ1cDgjv2v1ZbwpMIiX3hUVrUayB9shPDin/73dcjWhfZ2PPsJDTqug2GCIio=",
+      "claim_pol_refer_code_of_company": "ZtUKNRh5EQS+dlxfPPIuY3M+/Sf0BXzgBKTYPQirJsBdYJLb8QtrCUXDzq9vGCcg+b8vcSMcRNHjICCumETRcFY4BX76gYjHfIiEqLcrFojmlqJkBJsB3gAin1WQ6V1ZbO7nPiijCgarekuudJ3aVefJR1E6VhMTiZwd842Rn45JJYD3zA16zuQS/WkP73YcLZWx/T2FEBMQwIEm591qGvyiWKTRvAjP99LGqX0jv088rTQuyvD5drx+1k4Y+c2fl3yT/VDrjxAK7PwJJOtXHOEJGwg6kq93zVu8LwEAMRznuHxJynFnUUHeKqY1/zM4ZwTvetnLcGDrT+xKpztqzGqu+RCN2HP2AK7s6+is1oMrVZaJ4f6zaAgUeeWh7eYFVEooNQ/mtxjY6fuwtTKJlvnUlHQsyykZ8XGcon6nEUNcVDWJGT6rvQKI4z2gOUExyxg9ophvNiZuiVd2smvHZvu2Ksa5KhcP1RrY4ZrzYh0LdgteiaLZI6Am2yeHaaYRG0QUhxJY9+jR06xToQyp4Ma2GWMcMvjg4wIPkjaBfK3LeD2nk6HgGuE+scPuA3cR3dPYLtSw9ea5q1IXWH6IOD9AaHKMCaA6414803ojdQSt1KTD5osHL0Vzub9DiNz4GIRWgCZDLLufMStEkRJ6fyAGJzhKICq8SA3RJ0NdhxI=",
+      "claim_id": "XqPYKPct0ttSRcvunZpA8gpvOEH8kICqlU7nxaagQAmeBqQMvmEF1eEk7xXORSuz+Z2sjySttSvYwBOurmcGRuTpuj0v6i5HnRTUb1KQoA+s60XXEKvq4eQyLFbcBtEwQvUZtP9H5N+PgFXDJ63LvIuwf/hPSMxvINaRuEAnGcnZNOLmO9rYsAhljH295hke+b6quqJOanG9HDE2SCz4NSnc4AFYcmB8Beu4SKTkyRBG6VphTaiGdT/Q40VBzixJzRoz6Kq3P2QsJyVXaGFg/zH2SU+whWIluCELcKYp1d7bvHo+SNhg4SBSsR6EwI4Z86VruvXla/o2AwS7LwFRGBFVmAe/sKk5VjTnCEVXec0rgWsmG/++MBfN6xGxw6UvU/gHyPc/wY6OtR/Gw6Ihc3OaE0f3YH6woV4fm/I3o0qlsUoffN2P+L8XY4C59soL7mf3iEwI2K6Bf5gP8auxYBAPbMa8LCfwtyNfilwsSMdkEOVMzgtlWIlhrAgyQ88cEV1iagwa47PogW8Qkco6feTgMFsMsGKST/tkCoWckUdk9aBHoPYFEbXjgGwe6+7Nmd9l/j8MJ6X++HIEJcsSPddxxJ4ykIUUvbPMJYvO0Z6KNS50DRx+jJaITr4NBPmzh9lomyz48lwfQPjnjgKILTV+JKT30m8qGt6PX9214VU=",
+      "claim_no": "csVM1o/PFB0VBAZkU4FZWlUQ4bTFmVWlkjeg2mmTAizHLBKe9G3912KUVdyd01rr9uekHahgiXgBqE7iWbHPmZ55H8uxVdn4jVKcasLt3hFKC8aEyarWeMvrwy5iqJn8ICu8spvzuso9pu9EJUDiktwI3nLOwIHux/S/jNTsxdtUjUfBBiwm0UvWx65nyHKrt9IhSyt6tiZQR5eqHyAGcwUEtHPTF2Rf/E6aqIHET2YI2OZpOn05XET2W7OcVLyQJE75LhweAQlqt+fe/zor2TU/s4RYN6/uIDfcM4wnQdDjbaCTcjGcg0bVNl/5j3oWAu7E6nmO3vxK27Wp4yqpGMqOVCLRqwBop6SeQS9c0KfMvEYpD1C7KWGkU6F3nquBHp2Jhoe8gnursiFSUlreeHPWZFC4JPTOlsHq6CXWNySoAjvNiH0aoc4EjH4kBMxCz6wRJ32GZEVUHL6W0oeIkNtqVcI4IhzxG0p9y4NK8WLguGJDZ17gx9MX3AljqM+Voy6MJon3XIIz86B6FWl2Lft7pKJZ9+pVHCWpBQWVs/ANJa33uUmz7mfC+Ksj0EK6BNwn9aBk4fK6brm9U//zeYyfe+N0Lnefl4+815N900MvbrM1zOBxD/0Ehl//xVVGUWVI9OFW8FB+h2csgFirewjxXbAhCvr1XoKC80SYG/E=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-09-22T00:00:00+7:00",
+      "claim_report_date": "2022-11-11T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "โดนไฟฟ้าดูด",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "707/65",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-01-06T00:00:00+7:00",
+          "claim_payment_account_date": "2023-01-06T00:00:00+7:00",
+          "claim_payment_invoice_amt": 385000.0,
+          "claim_payment_amt": 385000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส. สาขาสิรินทร,น.ส.นิตยา  สำเภา"
+        }
+      ]
+    },
+    "Signature": "xcKXyasx3YOCl1TQ9nNrhgmvdmKHfxKhECDfX4xduBcxZv9GbT8DQMwgx41IFFOC7tyyQiAx3pmgxtVEwdvyyDt6iF8QCY4R6nZmhB+DSv4AJGIDxYS0UgAIlXH+k5z8/46ufMhEIfy/MdxbEbYdQjGvqXu+dG2QbG99uN+/tPu6kp4673Gw3jXR18Nl2iaS8ifiD7Ii6otzRfnsEhrr6E79RcQaaTx9sLHsZjxWd38p4NT6D55Qju1yiorej2fORNFMZ5zQ6bxYx0Ktv55MgsnW0r5hCNiEcjLWhlptvRmnz8txCVmzBdE0Y3tIf0H1y7AqdZzjCplZEkyv2HGltwtCG02PndC8b0EJtzcrK7Z+B6uBqxOGEPWl50UN6+XqIoTxCnx95v1RwtWWoKCO8OphmApiKNBcrozyL8435bOQQfI/ltLc1W65+n2zuGdWwfIMaNVj/1W5fsGn113sjwtqoZFsGXIPMljhEnGpvurdEyRS9sOL1gLrnhDcP7Y2SVuTlNMresmT6DNN7SpE7KsOa8P4u1ckaU2bHX3rcr1l7edyivoDf40DpTGR4F8Dy3rrRevCCBHczJeW0rVEsK6VdW9YZsigacCHY4SRDC7M+4hIuZ9Bf5NQ+dJhKqmE/xT6U6Xcic5FyrNQz5bks3+QCqE9W2yB+NEz9yD6TOI="
+  },
+  "Response": {
+    "response_id": "89baab14-74af-417b-ab2c-8fffffb9a714",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "q14Ufu/vy9d6o3OlBxKerzZXc6IPo7oQELpXSaoDXYncdO+EaduOsAo4Q6Q67q/rXhroGV0/zdv7tv4mUF8nIfd2//hd7/KfVUY9kCiTpcnJ5znCHrFXMFNB+1FPpoZXbTFZZ1qa0PjpKAGv0clVbe+LNyXYtMPHJuzbjhKrmH2dmvNg8BVrJIvLlBu6Zsl7iAcm+EKcBg95gru8+2qeAUoRcmSaBmgYWfZ6yl2c1fJGTPKpRb82gDSfTAE3KpsfUxwXvIWXPWg0LnX/USeGbFlfY0Ij4LKqfLZjukFHCjc6Mg12dvyCrWs4VQgtzlwWD3ZjiEkTiKBaU4DwqGh0ELwcgSevgt7RGjkJE8+E3Knk3SdZ/zqzRM4sHYgy7YHQRqLe1VEThKoA6wIKCYyfUIyfw/JCcVaYWciMib2gqICMxb7K3IsLRQp3qFaBavLwOkx6nCdALfOBpL3LvvMniCRGwQ6g+Jz9dYpYg8FOJfhyC41WB/lE6Lnd/37c46ZUIlnj+vtGJP531ZyysSN4Os9SrqDHSMzeubsR9s6kkh9C/SzB/2+Q+dJwbGzQsl+aVNFW0VGCZde7SJrSef4wbajj/cuf7Nt6YSc9zfINt5extW1mN6cqINvwgiJpAcUl289p6STX0j8eLyBIRDmKn4vrBHdjFux78HRCS8uehPk=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "KbT/a/UO73hAfHvoXE6ioYZ3Jp7Bz1D3kEhOBS4sKtQzAsHXtb3F+XoRg1ByLxi57YTpwWn08xX1sOLmu0S7Pi6c4ndL7v4YVmUJ8dECchp9oCKEh/UVGBAydzihV7ghsGc8pPQ4HVJKit288Bu/xs4ENWyMBy6miTorNE9lbAy3A6JEn5G0Qevv5WA6B3OGh9Uz5DQWU+OpimDyTwc/ftJfbNF0GF7v+z0G0nOHXXBUSXcbiCZw6wItTLsdqoZUIb+4nUBDT8dNBOkQ8ddUgd4ubjfni82zMaif+zyX/gzvDXf0rlgTS2VGQoahqYYo4BmYZpfZmO4JJkjrlI/nPr3x+WhqyslxlaRQp8EUgJHpCzS389OU7nkGDNw5ZTetQfQhuRjW3WA3rIMmG/Ny+Ei+KBUw2r3A2Q3tYTFZugpzN8Ai2jfOeehMxvo/vh9ZGz7wkISeANf2DHWbzYRcRRq5GRuoszy13rICW34vwHM1nhburKhg2TUDFOjXRE9THiDJHcvwkZ63C1BSlFYI7HRBSkdc1z5Gr8WKnErY9J7Tk4YG3dN1sUhgMkptwsuoTlVFvfHnd93jp0ZFMQ7OAEVpMH9k4jNRivhbRq3vw/1hNIH4Civ+vlCZYjhYFI/7AAMxB9fLHohytJgMM0KXlHNnKzsluwe3G3pMwv8SwJU=",
+      "claim_pol_id": "lGK5dFSFd6Hrg9nHgWgBPmR/Kn8PBtjlnShTg7bNPApQsHQ0UtyVc4uweWhyfsPtKnGKWTj60x+kiudyLg/2wgbm/9ZJJaXeo+BFNbynVfPVNbHanJYqS/LGBAyVYj3ToLQWGeYMbzeyTD2dtMsjibEzPHccRY6TN1K+Z74T21lGCETblP4eYdfm4a0gB9+5MHc9BA5NmjNy4Zqsr1/KXHNX3uuJiXBJ7+040q75aimi3UCV1ZeIIbOAvDBaq9RQn6jOW/WUdclKZGjkt4rvoWeVhBufXTIPWh9hzjjSwv4LH5U3A4251xeYuwh2+f8d9N6pX2a28bTUNJpbOXs4ozsHZQosd3nYxrZdGfcWi+96jRQgh8hmtp022UQRyhbETbbPAgmAo+zzNwC0V8Wt4XCpY/fDKi0EEMhOji6g0uK+SR0tyiq0eO5PusZ2lQQ0XI/+RNl9a82UQe/Lbqeh80yveHvOz6bqRtTMD+MyVjw5c4TbmzGo7lmhNtxJPdJ+cQpWgofK/hiMsECXaXK4MOA0hnENxOOi7Ge6u/y2JcUSzzoC7qNc7CXpyBGbawUo5BpfB/CTtxG+Z4owGMwEEE2ckUtOzTHj2/ttdSa93BEKakEUaakJMiZZtUhIzufv5iYcrdnzYKFdpWuSPdEjJMIcllvfQTScReLGnLjehyc=",
+      "claim_pol_refer_code_of_company": "QawqiNPNvkwTde+jPAJ4QKFnjt8J/i7/HlfVQKtdmSPD8IO3bu70TeVzBHTfmJHSrw7t37pik3ZjgmbToIYRVF2Arn7JuCQPZP/WH3Ioc6PHqzzZZB5zaXeCC7LEXkAPARhhUxFY8tpM3C5wBNS5czbHsH9fn8OA6uAxcIFf6OJx72hX0eFTaRWJatNOkr8ff4w4PnHvVwv69O6aW6XehZHAWbE/9u/R8fPlYMFo9K+7Rq6YYXh3ugLW20niduAXyI0cRQQiRzEKlKvX4e0VbFenhzrGGUaP+Vpkg5aC/M32Wcb3xOAY8RozcsuIA5RUjMt+naMzUj4sXuZtPpYFeHoGoPW4MOEU+NeCgxcdO2wdw99DI1AXq9+m52VYGyscvb4V0sHd5Ng1ZetHq8qXzrT8mj0mhCoJvr+Ql0cueGXzfZ24wgFBRyGK1syB7gf5dayxyKKaqTlH5lj2NogEoL33DIr/d3ssfaz6wo2ErOlJhkrTDLyD8eGFg90mRfV+lklzvkHNtLiTWZqCB6dZOb0oNZw+d+VqcXvWjIJHkxMcakPSkCFGZqAXvfca9dDCqqhuwBQayOmLemOYFeuX2QNFmAyqRdNSIZz/C7TWZ6u2ZLHXFDyPqWI+gn7JM215mI1gWsjHqR0yPVaReU7eqIJdTbrq3grRNWpChi6wPyY=",
+      "claim_id": "ykCpqYaW6t/XqjJkzb3ugBJgkAjnc4LcnF6y6Yb/ab7Ww/D32ugNA5l0Z6pvhGVVn5CMJRDoH110IYF2SnDgV+997iT7YJPnYtbNIms5DgessMDZ3/hlaffF6yX2yBk/Hm9ReYpwx3+jYrz4nPASKOEtcoHuXFIeWtNVNZt0dqG1AiEsAYYuKHSHBJzyX+sz6IW3/nOB0RKKTC4EhTqUmv38+qyadYaf7TJg/ECkMvs2SuyDx7f36OW9qClt8OFry4KlVCtBjOhUJR/SSE6JlrUGTQFLb4+YlbV4SALaOEv9DWe289upS95Mkmw1I6S9/1WesxCR8ZWUGEdJSnDJZZBXp0HHh3DwFInr8gqjUzxcsWceIMM2Pw9zBjI0+wtmCGN/Xcw2M7AVCqsOeAryC+lnJ/SINh942ZGqgJCBGpwAMF5A1734bQo6YqURipxGjPVsd+CDy0ntq/TSIxnNR4TPvvt/gtgR5/owz1Py/tEai87oC0NoqA6pdgEKMknSKQsiIwHGlxUqPlqgSW3wm5I+xhk+zhWf/iCxpy174H3rLOOiTzsGIrTqi4BuIdRu41VPa1TBzo4hIx4duaX+VRFzWaAZ3yNpgRctjZsQXKX/u4omb2cEvilIuAULETXHcdjmCpHeVqdKhIgCa5ERLPvMS5Z8Z+y+QU8zr+a8QKM=",
+      "claim_no": "ulnIVrflTcDI3T4/CneV2ehAr3dZCO+TksfwjAoWcqJJ+DElPaIC+y7kRCHSH+PBKFXExVxZhjQ7i3KwUk0XrOKUKi9mMsPANg4wQiS/VHeSrKDmP6t5/rBqO/17kbeRZYtErKSWqdp9jqC98mTIacgo18faz8NHXNZn3l/4xOVGmEq89IgaQ1GzV4c9+vtqhP6WpH7fkn7o88BDaO1fvdD5XxjdCw/O+kkahStS0p45sgBWpDBD9EgvMZ1OhDc2jyfOLS20oMZ9Aj9VEJRUvI6H39soqk4wJ7tQJeJwSE96wD0REku71tymOcs43n68PpRUD7CGWItujF9ds2P5xCfsvceVgW36WOz9ocojdNhVxOlDWCcYjqkRalSf4GVeRz1S5q8NIWmaxjM1cEN1XEt8uhVEkHX1r1vqxa6CZ9JHoRLuBfSo9Z036hVnzRrwI2cEOYIp3Zgef2kjVDXwfRp5vioFqQvxcZmOdR3P6PQEbUfrKFXRyZmtpj7AaRaa3tbditXonPlNERxaKum/HRzrVKXF38Dqo7ks8qTlBa1/a3Z2sUwA6o2rCp5kjWBvKqkH/DoNPCjqodwxW0v0Ja5LsrwvOUEhOqMyhl863UElVMAAjtpcEMmqAsF08G8JZqaXShocOJk7vL4bktJ1B18j/b5gHDj4O6yyQ4MwCjk=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-12-14T00:00:00+7:00",
+      "claim_report_date": "2022-12-28T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "อุบัติเหตุรถจักรยานยนต์ (ล้มเอง)",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "808/65",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-01-05T00:00:00+7:00",
+          "claim_payment_account_date": "2023-01-05T00:00:00+7:00",
+          "claim_payment_invoice_amt": 100000.0,
+          "claim_payment_amt": 100000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "นางสำเภา ถาวรจิตร"
+        }
+      ]
+    },
+    "Signature": "YxBS3QIkj+fZWwWrKE2Q79WlBd5JH6RRI97AzeTqyU3QHB95GF52TXTHAu8S05cg1VoLNtZWLrax9tdZI5E/reVeoYaH+RBxM5AQNVbtMwRJavMDYNhnngckv91Uc/aPfNynVIxcKi26YxJEd0HQr/QvaEErIDhuU/agilZmjDn+C1F0vDrvqPMZ5plz11BLCTR9k6KrpF8uoHgmSBGNW/vkH5VFxOxSPMs+pKye3Heexs9+9nSqWq9EsJaTLrPYxAn2rkfvosePjAwfsQRt+c2LL+F3zIIFf+X224WrJ+Z24f32PbGSjx7WqVpu+/rL+lPyKRI8GqyXO3SOQm48ouLk7ycgLRQf9z1pRGvJGWN2aLps2CBCxxh+jTR6OnhNfVUz0EBy4UJ/3F2ivIDRe3lYfMoYLJWMApt6YQ/7G2Sgt3uZGmAeO0DeoTo8DWGmMUNeMom9ZBYfylKtP6C2LRcq48nTEQJz1j47L6MtRMWgnYM6GJosIWC8na2ufifcG2lvwNPCnC9QxWoQuCF+Y8YprEY28wwnTIebcjNmcKeXIbYoyA95YzH/pxaxKrvTUyvFepJh3/ijpe4KApXcHo3yJ2LUNWurpejUoSG7Txg2X53wHzFtMdvJp2mI03bAcJhDHcmNWGxxwELF+FNtUMXkQpVk0yj6IinQrPU9G4w="
+  },
+  "Response": {
+    "response_id": "6318477d-4f4b-43ed-bfc1-01dfe85d979d",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "Nn/TFRpRDk0VvJZ0gOyFoMbQIMdF8polyMbgmd3+ZJ9FKrf1MJgDABQC9h84rRdbXDNiEV9JFyv8Ka3YLQF4LpIh8UtfAc7JJmxoqjLVjmVTZx68Ey2oyYRp3ZJ3gTM1DqpS79ibqtjj/7dD79AbWGlbhaBZtYLhyt0L14LuiyFrgQrJfabbUvOKZriFtJDOMtu00e6O5xTBnOIC76qOt6KRDo81m0StGQTohvj2yw+Ly9ZZZiLuwOGv+ui45qNTc3CnUz+XyeBl8RBgua/Gg+vP4tI4pe5yboO3IlsWri7p8rvNRiEhp0aSAwHb4QEyx7pyJuzLf40s3JKENpyY5vyTVyZDxhzmJg4viO3cqHA5CkIltRKm6jDLf8Hx46Mn9nfiahf2o3BBJSsPwJqXO8XFvUw6Pg+MfCypXkHiJIShwRy7n/3hMNHF6EFvDkUk1fyVhgr3+k1bd9/Bb7F+WtzTMflB0ZBrfJ68lFPpNcDGPvUXGe5/q+pSHtdjZGYoDFVk0Wuzb8SD4onPT3r+NkBSKla2m4UgOLwWCX0OekG0xKRzk2Cxp2GRtf6fpRA6QvavbberNBp9R7ESjHzL93nNU2L9fje9Y0YM53yt9/rFhtapTzPDicYuDGPsUbUKEgVIY8MnqS8vW/t1bv6mf/LcufBIK3/BZa41Osbp36E=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "ppaidwFaaxHh/l7NIecfwK7t1tRlvMRE/fFA+8I3MI3Uvc1Jg44Cw7mB30OreUXdbjsu/kspFzdjxFoHAZznVsNWEZAjbGy+yni+ysCApflPCHexddWo1n9yGQoJsueRdQkq+xQSCQvOdtrBfoodhGMRMW9tBBr1q7a7N3Mv4ckITUAmge8hMBdW8p8grSCx5WcurSBkP7/0baDZvi3XVp7isnyyN3995SoY6/nt5kCWDpIJ71A+WJcxAe76j9La7Yh/nmkwbRTwmJKO0CB9D5YTdhbFK9LUklAscy1V0+Dn7k0EWjGIRjAWU2Cj7Quv1Ea+IWq1JnbBccHPrPY05V/MlS94zq3IC3jwOvG4uM4sPs2YbHsAC9Cpo3kUVLlClQ3XXqUYhhcMnxL+PjNDjjS7N08MYZyhSxTaz9TPfPd/U5zpfm07mL8WCikJj0g5Ximyw9x3RvS92CET1kCCS3hbbsu/PFUYMxG+3Z5/BgpRRU/s6o9wPRMWqo5pZZy5QcanVdd7My3wOQOPP0pJwfMNqxORveTvNlHAeSCzzqfSKhxTspPOnIPg2SD3O9rCSSrQpfsGJBK3yEK8wZ5HbFvocnBJax/U/RW0+A4+phskqUb8Ybze7IueCxXF6csfk7+lYJ9gsJVtgX4sOyQ9rIfSlj4N3JY4XZ1PMZA8VDQ=",
+      "claim_pol_id": "SE3Fdfg3iPfPNe9BBGfFUaBt4ML+j5dkzinpwpBQZ2HlQxq9RLIBzB+l1gicHwiVtecKrglO8ommYKJoy4s4rC+N9GYLHtEaREQImhtmZbswiQNr9jn4T6V9k92CWwS1FVjihr1lJYHqVjOOVbjeB1PR4X4aS3hpUVUdKKzTtGtXqJUB3hCRBgH1OEYHdo3lTk61g647SEZrGS5ZkgtnOsd4WOIW4uaO5UR7DNqTn2GNyzksr0ywdRzBqMgmb3Z5k9xe/xVyAD8axP7RqnKh/tQB06NK2X+5SEJr8CWxdhL9It3JvqA0zDvx9LW8arduBmQkRE6p5UZrbGKol9LIAkFNDXR8bdYQagjw3nKCoc763MbWB9DkHt88dX/iqH3jLReRUjxTe7VIrpU/60hsEENaEFMpuHDe+tmoKkVT59TzdqYw/Cyj5LQdqQSkPwXZtNemXM5XfbZZVFjX8W6bapmb1u04HM0Fwhk69gp9w/z0YmjSFQo8bHCsmS+HnLUj5fttVrZijLSuFN42Ziz0Rw0U5Ld3CMb5vVpvO3Ac8Vh3P1Xu3dZGfHXBGuAcXkmZBcDCr+PK9Fu/7xhNABsNqz+rGRcj652c4xF5PiMVSVFrRxn/R9fP8ysXFwY39sEo4Dh65ehMHjVU063jzSYeEs/NzpC4dbHOsR8BDvUaqqw=",
+      "claim_pol_refer_code_of_company": "lIAUUu3+czh77nmDJtdibktJoUDigPtcoJmGjR0+SAyCswvWyBy42z8qlSsc8Qid9mN39JwaGEdG/kOONZbOZsiJTC0wXitaY6EHPLx3j/DOif66h8S+pL6b2FrqlNcmOWdJhHhQRGb84H7tBaGxMxfx2TQ6h8yhuHpRILl4U3cIq4N2S6f4R/+r/bHVhSUi3SFpVerJgvAr2wAIYoJ+TkmSZsO2kLCk0KNRRpOO+Jyomvk6W+nPqeJkxj7mV3QTXIUNzP7ePkq1gWAG0esXeZ+H2PiO4G0SJovjoucc17hgQ8j0ydJzO9DtEQOYsZUAmL63TB3ukhra2ASKnQRtn+XdiTyz1D1q2cWV/1ZRuHwPKQxvkOLTT//3oNos8O8kwqSOcumIxqyC8H/TgMo2prho8GrRTQU3vg2hQl0FyXRgWa+16jcTJNh+8JisElBMMK61showASqfWQIBuHmopgQX+tuSTSPaKV4k/gt9TvwcCJ3bJqfIG0Y9fxmm7psUy3GI1jW/lJWnpicFHXTLdxyPeHk2oqfcx50RFey7ANF0Z6KOJD/CaBBSCnmHuMK4UPZJpyUqekhXwTfjhvvQ281nYjiAeiKc+MJRN9u0KAeX+IIcRjEA3w1ZM8l4Mit8c1epj17M+KwfQQHvGYyZEagxTMhrS9vEt2sKlJQiIW4=",
+      "claim_id": "WctQyLLgo5yE7/MgZiRne4Fjem+us6+2GgcayZ4N0E6XK6/U6oR6c4T2jlV8yBOsv3zHkRq6fYqHPwslVTsWLlsMkUbNzzF22PGLZlnTbTPQc7KHEjY8FGVD1wyCsqDS13GxX47rk7F/DEmgL7Qc4KZi8Nn53GkzX51mWcJhMp/vOC02shxBVQDcPEnJXwfUOlSKgzdNxmmVKLIDT4bHKUEJi4oPPFxVZM3Ozif7MuiVyOgVaiLdmTSrbbRPTqfeU9Wc3vP2Qj4673BP5DgdcXmrJjsWbuRzELKP0SwySFTCAEFL30aoQ9ZhszyR519GH9uKza6aGcShky6PofX4DaIEdg7Qs/4k8GQUYVtFgHQ5P1bldPkLz+5Z97xZhwWETfFIJv24atITIYaxmqz7dtX0wxiauZ3VkZVcqbThy5dNEUkoc10NW7fxh/AnvvES4r7Ii3a7Q7Qwa/mhUnT+H8diTKmlTTCZwZgqFBut4GnTeN8v2/z8YfUE8/Jj2yTMat0q9FrfADNZ/NfsODAd5W+X5nOTzlQ3ik1ykeYWqm7yQgulcirPvS6SU4sDGL6bvTyBa0VodoGz+KFS3aVi2LJNX6DYgUjV+owb9R9HCA0l71QqNywwtWleIDyTrwBu4OCkAcMIUuhzH5UQDqqeKYz53ZoY9EGSgfAWHVonCAk=",
+      "claim_no": "MJ9I/wEtB/zUDPD3l5sDsnm193AuQVYW8Sd1s/9irr/YsigjnbSo7J1Yp4cphn6yjWfFG9yckRJ5/Kkx6pdCYITmXReXQhmPLyFkLaPKF7NUevC4L2WMWCOX5h9XTtF4l9d8/sWPveqcm67Aq2VlEQqmUuSi/SAsgAy+c4goq7YSIO8dF3kPcqiOrZxqp9yV1kpkmNYBXuXrghq/ANOYCDD9nCXL1kbIYhZWv3zwe8635xYjLoRqQoloArG2cdlbZkt9MdEbohsyMd1OdhBuSSH6JEH6ZSkcVuTz4eA2oHU52QH6j6YwfABvneBfuHknSAV3KZ3BKI0G1Gun2E3XUB2wSCAH9R+js02RJNLHSiBphyRonySD6/0nks0w6Cr6T2k+pBY4MMqtKy28X7/x5C5n+xntC3oItGEROEUyJnUlpfODJJKsCOWzawGCj+nsB4ExP5P/cJ88GyZVqSU0s8qfcxhN864mAdlMwYARYinLwyUWoyMoapGv3PjIR5rghjSQueKLqcn4jTw8HNxXbH5cRT2MFzoeDHLf2hea1GCPx7hiIGwE6PAmJ38ZtYuhNkpXKmvdkDk+q6fd9Ic75uViCN0Gi8pXrIBpK2MIepKT1QVlHG35gJTpwLTxSC3DOLkRAO0xwVESSwwQOb20lPmbYXtaHXhZhpNJz2Zh83I=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-12-21T00:00:00+7:00",
+      "claim_report_date": "2022-12-30T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "เลือดออดในช่องท้อง(อบ.รถจักรยานยนต์)",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "813/65",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-01-06T00:00:00+7:00",
+          "claim_payment_account_date": "2023-01-06T00:00:00+7:00",
+          "claim_payment_invoice_amt": 100000.0,
+          "claim_payment_amt": 100000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "นายไพบูลย์  มูลคม"
+        }
+      ]
+    },
+    "Signature": "YHgLBiz5ZAOvsw6TbmYGbG/F6EJstJpkWi4IrRiLNELwTHuRxi+DZBDZpbR2s6ciM+gFu8K3KsBi+WVX/ywbaf1SQRjTQ+uisbVzo0pjO7LAlA+OnZh7SOsqKgqGKXhBU1kTo4vOSseB5rmzU89ZEjzTty4AowLr6sRqjqQWYVz8xR8oIy8dJ8rM+saHz5FaEC58yilnJLpqloss39U8qKrCwzVSKQnAottxt+dQBJh8SwEIJAwu2iYNK9ChmNVknH3/bE6f5QsVBKcMZIlU19fJw/I4c1Ei+mBNzCXGH0SsiL4Vj4BC8HffLOkIgmf1BmsPDj2r9Hay/qk1MZt44FCQ1Sil3bfmBwP+RBWD546Pn59Vewag2X4ncZpPXnmSAQEyePE110Tg4EnqJntApU1jw6hfZ0GFUTZJ1Py4Zz1LiHwBVHGwyWPNi4wM3xHjeRtdf/GS9Jr2rN272Eul9vNpKPCxisnMajlGGbF3JV1pYLmnLV0q5uH/MJE/nsJhYWoqwmoOqtIQrWQCi2PGUZRvOiUNqS0ik2xldivkbOaPNUZX2H3Ib3AuQBQLpUhbYSH9suTtqvduwY0kuiG/k6v4JW7TGysMluqmojJ2NFmOneJX8LboEYMLakRTVi9oWv466OchOYjl7VfkHZI90dxCzfTV9iXyWhnwkgeJhBw="
+  },
+  "Response": {
+    "response_id": "38cd855b-0a2d-4e79-b307-67c873df6d6f",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "EJOeAbAqaCroc2Zp4swnq+0EaqkGoWgHkByZAAPuKs5c7BP55oGgnl3ehN/x78YrPSNWmTyRFLqMFagw6rXubBgI0sskxnt49nxT20XZfOqes/FYzMZmdZeV/Zo4pwOqn1p0oXfEa6s+KQdkdDFQeUg2CERhH2Zd6UAipbfU9Nj9f5g7oZJynzHxQ0Qpoumjz3l+3jx9KYVbR9BOAfq7ABiRdB36iIl5XIy1FTq5ltB3A0qGTpgspo73ciDrK3eyXDjE17wcaBAuhKzwy5rMakchsur5r4bX+KcnONopfCJ3J1u07M7N6vHPPf5N0NmKLkghqyW+rkRfhdbZjNufYeMW7Ly4peIzVdP+kzltkrYKrvYzTEDZM8Yl1QDH/5njcSiwaJqL3GhLjQEcTJXXth0vh2NqGtKAQHq6iIaka8AtlkUgxIF8AGenRRXh3dKwtT31IsnKgmlkm5t6+NP2AasnxiqL+x7xoslKbqrm2IlmtDu7Bfz0zpd1diD4nK7mMTpmU9Cgd9MP+Jn9/mWy0Sz6bvG+MFFyBjc/dLbRy06zXq4uI/ESTxjSnV11M6mQiNwGidlsCB9o7kal7p7bbkP1X1XibZDJy55nnvOak2qqSmA6nF93LIfWejokx8S8MfWGM99mN0wuDZQ8OhE86NbOANjvQhT7gQ+K34+o/Hw=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "VWZBuFuvBWRyRMWSM9B/3WRj3IVo2yFl8iGlIxfU6uPW5VJP5xIsf+PuC+zgT6pq1HhTkyAXS0fCO0lr8uW1YOYoXpt9Zw46QLECCK8trbRG54QOOvChYIKSnolSKXOx749zpgJtHtIFOkFDjoYe02aqOdPT/h4K5R0yr5vfasaiatTmCG71202LLhQhoZtwnbYaCQyHMT6w6aEFsDZLiEW9bOaypCoHTrPDvMN1+UQ0engw9fst6FjNioTHUQ9bma2WhfI394warVqpvu2Pxt17U3KV6NeTUy9VeC1iJEELUOmKZoJwGbPPi0YGofihrAfwJgm+FfKkHUkN3+BJj7s3ajekhZI8btwL9l7Gb0PzkG0kw4omg33UKNyYeD8+T41hht1Dh3q+nhc1i1tscJJWmir2YkRBe/f/K9630eWE45CZCOJfm3bxNW4hzALnbxMU6WNibikRj52nQGnKO9fVhgTqQ0LnuCdfZNqgpx/W5tT4fFdxA+gN3FctBAI3tG1uXLIHFd4MQOJoMC55LvEfnazD4A5gSnqM7FwCdoNjMZLuf6oJVHYZCOK4qec2cGn5C5nQs/YrfRjyTqBy9x1BmDpit4g83qoBgOszFq3PF1+EjabYqw4S9PsYQ9nF9X+HLxM5upgwAAMrxwV8a7xJJtIG5p2l9Hr0N11RYKM=",
+      "claim_pol_id": "Qdj+MzQB/uVRQIHieYplxH603v42Vw5mUCu8R9fIvpUxzkLGjJ/4kEu5FTxEINlL9KGjzWZmXUTAMSxZL+mMhsK1aplNdroROxxgTbuhMDVhPQGUEjNNcPUrTnhWrnJ+4V3Vvbp3hN+WQVDx4oRm+XfQJYWY6knQTrmoOKXwJSSMjoljdyg5t0YP5KNCMjFPQGRJgXWd5WVqsEhaWfRFvWNXRxUBHgurTPZCRGyqZGFpK0jD6NRibeo2fPmD4vz5zb1XdCZmgEu7/l7k6KfUlsVoDoNL/N0MQSBOWCp5wLatE1kYj8pKb1nRw5fO2/vU8E3gpMg3UABiL22RigfgMuTtWKfNUgL+HvsstugZpVMnF0GeX+UZuzpLMiMBmelmrpyjCaQtmkwXUlse/0DzPGXm1IFLe/83FHiU02+ycwOtcTzPMcVp0DtKbjU4aLLhAAzZyd6iYWQlI6/7FPCYMlBBbmKaxbvQKY6XPQoeJLrn+4LYOUcM5+gysp1a0rw2SM6hAHj0oPkuD90+NQRxL7tsH1rJHmVim1i7xfRlhy8WU4Vw1dVJzT/MWxICO+JpOn2Bcy0NDbzPbUiZrTTadF322S/DWanMdUTyvQ4xlPGQcQWhEly8POoAXMy1Vknk253hooRl8eH/j3rzGzCiBu7IbBmrhri0FrPuygcDeXc=",
+      "claim_pol_refer_code_of_company": "ftkZIqYzjIQzV95CwxUqbzQOjvauXyOWWkz4epYkRxG6jLFn7a121D6cRd//d+5KBsvgyA4f1HPf6dYlBsjEKGuFm1LoRL9GysaOJyYlixCWmJICiHgyf/45RNArXPJbctE2Rgnoxx+7OMQ4HSZm7yxilaJeGEZ9kHHITBhOw4EZ+fiFAumzZg3LIdURcgU0qnpselNHA35iyt1u7XubqZZUt5N4RDHxpq7xNaZcMQZ5Aw2GmlKeMjRfobkhRV4K/xTuiTtjTFR+elTX7E/ryXtDFkara6yrzffivuSQcAwZBPGQkohuW6GzqgD8uH2/GvM5ALPkFeVE5UFxDuEwKcWd0OXiXGLvwyB10g1qJB/CBIP5a8KXzAUVrDEZrssv/++9YKST43aFJhY6rSgrfcAVV53UmEdA7PPWRol5eYyf+A7qIYs3o1/nhpR7k3RLSvNQuV3r3QA5VsSwNYgs4yUizncmClJjR/Hc+EDmP4PxznkvCHfUR2/qPSE8CB3I5un1+0FknMjkrv9hclKm2LcWk/3hqnB0HPOh7z9qc2AGLvEZ+xhRb/OcLgg/9e0oVlWgur2tlxrobvPw62c8OmCMyj/snBFAslqKTzw+6PahONVaVEbkG35vfHG2sdzXbAFoOGU9ZVr+6xkhvhnjcaRaMVjlVlWs0uyOYcG8oho=",
+      "claim_id": "TtcMfdg+1MjgHEWWnTIethhIlyqRP+R47gGq8VUX4pnBATXL3hHTYbo7DlkT5YrWYQXp+SwoiljU/DPvV7NEk2+ldzfR4M6AKlfI5rlYxjoo3QevlOPgmtGn6TQuPVglmpzNOg78/Qljn8J5E//vSC0raLpgDMkXZYbqu7CB5cWuCnQVi4PT8SENY/EzjKSEhvjlTFD+o+w/MfbY+8bnPdDo6C5ra2bY8y8oOXwaXusx+udvg/33lu/xL9KJnaNK9oA0kGAgf9t5eod5cfFKc0j9iStwhqo44T6vBqrZ0aVqSUqxM++CMX51KJRuBgCgA71HfdYWZvIO12Av0qjE5v9PzTruyNqCD3Z902xnlu3jPrXlz1X072uta8vO9LhMwhjOojtKU/OUuJz03h+qSWfLhArIDqcEJdJ5QXRKyvkigylsvGlYk/5KVsaWDNrj/1DT8MAJ3nyvJTYC7AA6sEe5Pz0P7+SP4tAbp5tr5gLOZBrkRJQOrN7d8/gysrCOyrZkV10pJTTBZCkTZGtdEsH8VefgVC3DFUEU9rYaCVKUhKhu/Vzy915qxJemt86DAIEjIPzFYHECeaJ8y02wXziieqn/Unt87fOAJ3KhqO9V2i6S3C6vuT8am0wHs4AxJ9ytDIBnY3+zI8783zYiTLsQQbzeIQmFeI8VyYLpOKg=",
+      "claim_no": "kgFMPrP1ZzeHvUZ7QJmzRLDSj38S9Ou7OOkRUV/zdOOg1rIXHSXo0sPwM0asP/x3JWljA+G+gX747UiMwei/L8v7qmSXV418pK8XYbwyUvqppSrvaBwqODsHhRf1ge74x7wmXHgB2X1qDxtjymqLgA1yPqXX68MzOwQAK7T6TH+6vsag8Tf1gh7jQs9CnydU+tQ0yH6/ov5WQwePTBXy+Q1FrOkzWHRNPdm/qudDg+5LJfOMhwELRBJS1wy/5cKrG6fUytOLBihcKjMIJsZbAB8PKoZ0T3vHzdLOKxvHbI/kP2IF/WNiIKv/1Cnl+tt9CQzZtRb9HH5ziEgeFxxEmpfwOn7DCEIGcL1GfF8B124KXDPVFdB6bOugoHPoOBgx+OOo1m5/gk1moJ5sf/S8E2vMrd/1iBz/lcIIt7fm+QBqlOs2oFOzo5QBIFCVnDLeozxXyIUasK7FO4wL6lwzWJaNVsSVglaPUyjkFYcTNPCso/TdXXOGwgKoY957Ah44Z3lu0gPLlTbrEKxcUk/sRlSJluJiX1I25Rr6zQrLAOVsHNcgdUhITvvwiF6sB0DewansbGXGQycNWgscQwV251NMnJgsgrjTI+w3WfaB6oNM7ZjKFvoBaB/MkJ8LFGAwGlGTjSIwunyTK11ugDorPdmgBacUbOWsOlIOMAoO5p0=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-12-22T00:00:00+7:00",
+      "claim_report_date": "2023-01-09T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "มะเร็งตับ",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "19/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-01-12T00:00:00+7:00",
+          "claim_payment_account_date": "2023-01-12T00:00:00+7:00",
+          "claim_payment_invoice_amt": 20900.0,
+          "claim_payment_amt": 20900.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาท่าตะกียบ ,นางเฉลียว  อ่อนชวด"
+        }
+      ]
+    },
+    "Signature": "KvkKnvvPPS4i0ZdyvfcAMzcxi5wwRxDPPKYgefs3AAX4u/UWnhqm0Q+Ji2FmxlfsjT4Tja5Z59CJSP7VG0kmU1grq6hL5nf7Ws/cEFzb2nqmwjTi2/ht4kdggJ0chelll5OtCkx48+dEhB07O0Y3WKDxXaY3AAPYz+Y6x2M42gVVMqazGgcCnqNqslnZG1JfJ8Kp6O1/Q2ZfPMEApefOGs4rLrvGPE/LUTnlYHmNgl2B9P4d+Bg8TresRyipzsrup0LBJu1g+y/fRL+ABHH4ywEo4mGreR29mLXbwRq58XYSFk6Z9e2/ubbYQum8kc8kE95cLEiaBRHR1rWsktpEfMepBzDC1DMO9TzvzpbgpNSYvMitFpserPEQiYVgQX+MYd6DzljMv9+Wn0v47L+sbATGM8gPcmnPlmieqNNgWznLiTt7QqdOhxdbygXZIiZOpITZw/Bng6oEf9ltnZ1i9+Me698hUabBtcRaHFOj70iXLKWX6vCLEc9FkNj4IpzL3CssA+GvyYuVA5gv/VrVc5r+mejazOizbaXBNxLJp8KhS8PDsFTzPw23XKCwbXaQOOFGhbKn1wOwmABtsO4Scx/xWoCpKNmSx++PtbPQOCCQGR8ZZgo39U7IVhvx9RToyQxnZ+IF7lird0xQPnGeoBX1KPqdTsl7Qqg0HGS5dQI="
+  },
+  "Response": {
+    "response_id": "39c03511-fc01-4827-b970-a334c2b33655",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "gdy6PxJi7von0Whg8kS/uRqbcxWJT4pRNQ8MB9LmYdyW6B19zPIFGNPNSHr3mlRAOHDK3WKqF9sKHJ5dlSNjtnq/v0eIqIAtQ7pJ6c7D9KpsTHnia+HU1oVjeibJErsBhzDV1rwEjCNms2/3+ag9rsx7EqrrbQ3zZumTMPcCKrZw/m/BlXmT0/He2Nfaja+e+LJTZ27OHmT5BYBSPY+42WMMMdyHmXGv+1O/Evov1580Z7BaYtkClk92re9f3UoUCRvpSqNc6pphunTW373amaRvDkhLN0w880XOZ6OKMAt3uTQDsfYCqUYn0sr1xXvO5bwjojWUeijZUqDYEXjKmlAWCuvgcleTKDnlFHkzxnFTpDaqAvJk6YOFZxQp1jWokBAx4vvkhPKruq2hUYETzZxNK8JxgK5Smv/fdcV52h3kvZBWfHAQ+zptRqAsoal56yiYZnnb4iMfSELI/73FoX9zwGWn/mifiD7P/bYAU7XP6f/P3NHrQ3nx1i5BD86dL4Z5i0X78cZr9EPXv6hlp99mzHju/4rldlUWfZn63oap8Vj+zW1V6bsZsmv2cFVbTT9OqPOj5MiWvz3Pdv3cmFPOBqowz7AdjOuD7dVaDrpWi6JcjtjKCBVI3xlDLl+QjBPRpisz73vb0CIQw/Q7XFDpAxjwvL37Pgogn5rB2cE=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "Ku85JuFx/T32B+b5VNc+zpX9r9QP1ytMbp3UWK/34rwWt9v6/GByonpqGnEi2NPsmpWAQs6sr/xaO4c0EzXx2AsmjB4uh0Xa3f0AvT+yBcKGjKG2b8RanumikpuPh+4V+zaB+72Tunv7imb0MHYX/Q7h6SNlpZxiFAQkxsKUdb/9S6lD33z845gMYnGqnggjQ7tFa0r334crjW/KEPSbEodcUdIEzileg2uXMqasdDmCQ4hwBqynf9VoBw+4bHpW0NEOaAKAizhr/vZ8X8/e+qzg+DiD7bXyOosdFKyXcFX4ncg3VThmZ8EkMF/YaLH1ooaGKCiu77nbH1Afgks7HJOwxLM5o7cf0zzj/miG09pMNnSAzj8tX+6eoSK+WZXrMZif/dnCnivR/JjhKdRrAdOKb6EIQjSkUN4RwbQNvEONaBSE39Ol5qVGxHmFYkbTvK2P0blQiJq+v8amevlnnQHogcRsAMyP+Wi9DylqsQGZeJ+d+yhKAiyqW1ReULxArOCuSWQK/opqU0Um6JYE0108YhLDW4TA+Gj9jGZxkC7pF2+CdnrArqh5oa17b/aODjTQkK/u/YbxJ7Xv6GkhPH8uHWvTTt22FeuQuZwOwLZ+vuJuMxhgu2HWaZ0z3le/n9m2eNA0iVas8GJC0dBOt9ykVviYLztBLI0Gm76FOZU=",
+      "claim_pol_id": "kS4c1Hqzy2UQ9vze7MbYdwmzgYej6xHT3jt14WvGELL/8GWdrtMxUwM1xAJXrimXOueGfwF0OrxMi7dHK2VMcUBXLm5XACEBcXWJyUI2IJfknGxl2L3JJ5sra2Ii9UUxCkGPLVjEcVziitwn0XHZbLDl8KTUsZQV+qMVI0SjJ1AZ5tNokGt9nq+LxrZbpi8PLNchnYRHOy0HZ42fZudFQjTwUCmcmttPc1K52A9vOg7bNsUj1f5+baIENQAbtXCuEUZAcXbIZUmwz/QLV1ETyHbnf1qU9/CiUCLVsRpryMg1lze0ucth1jHv6Nrs6FsfrIm3osHvRkzYZKQ3axwP8zWvHKQZY+ggjCvw5tJYwTzgp7pcxZeI9kkl4SBl8SU+Vd+83cBWioIoIrfYd1jzfJlQ2XEk/5SNr+NsNKoJl06EoIkjL+kjFSg7lmMwZt/guo3SldbarCSrD3dqB83M/vkDIm0pXXXxukxzs6qTyO8XgfFZvxmfVVvPxk2WVbnaHSGZGV+4cJspiEfv0wvthcPlJRS0G7ScMFGa8SYOdba67FpqvC/wGxzfjA+q8weakwEkqvksl4kLplgHK8ViUNXo2upcnWkqhcbtSxDtT5TtRUZu8l9vc4fVVjXS8yf2xlumEk8TNdxUurN/QWbno+mjzK8YHJ/9GQR8ZrAF31E=",
+      "claim_pol_refer_code_of_company": "HiPepG+QD7pkU/fxZbMElKrJqdO5FL6egYxPxDw6TL4wR5hOzfGvk8pi4ZamT4oNfWnieaOSpIghsXa7Cdxtojlg/VtgYSKcfikwaggOmI7BERr0hJbyqjsD8PMjhTt1+GklFj7x7EzlCrBJcqYThM0J5uEZDV4Ee5NyOUrx3lSapE2UHEPk/ARhsEGdQsJ6G4lNB4MIlxm53+d1FfUqZeQ/WZSmWiYZMx/uBMA2vZJ7GjbS/jgnIGRc0Km5YvaufF7KgmG9x3Ge3DsnESQkBol3/y5goUbYDvJHKTVtrUctj2o69kD8CgT/16+n5n7RP/lFBjVww2RndsgcPVHy9KQMV+AO+YOGyR7ggE8TIGjfdVkIt/k/eA+vTeSVPrTe0u/xT0ZxS2Q05cJdnjYEh+VNSZG3AS2WwMA0A48awV3l+f1/EkucT0oLs+4ecDE54tXnV7/MywR/xe9onCwIRZCadF23RbLpesO3DAPv4jvFlKsVD/QLkGWU7sQhD3s+3z+mHUrC78mEH4DnU6miW4V4GP9ZDlIBfQL7oQ46HlB8xrvuzXmrkVicPdhZ3ivKhhM58UuHJ2kYqeMkVpwebwt73vS43uqVZyFeXzW3qroR47YNZhkj5B9MVTHdr51h37WscPrjCxGVqJkHGT+Gmq/x+uHqjB5AK/q9Qfz024w=",
+      "claim_id": "jdjMuTiSW09mc2TyxEjacgfe8azJIpbLd+nsFEyV2aHOukh3bUOj9028/gph7QVyoBENXUUeP663X0t7GYlqZWF4eIxYenLZ/QOkPhs6AReQRh/rmYq2MrYVIublburmz3AeSgayFTuQFpkXi9YyEIBdnB6Nvt8vDG044XgmZvRksAzRaLvxARLlPyDpo/ZyrP3qbxjhMGsx7RVNhFQiq56GvI9SnY1M2l2nL1gZM5ipHuWxYhZbJo0X1/5av0DHlhI2gSzFW7O2u0X/yzw7BDxliNY4ck+VfZyZ5AUccZxbjw0Vm3RUJPRrGw04ajWPB4Qhm1NsHYNxsXXAyKPTxFM53mn1zOBoIKc3WpTAC9o3U3AsU+9YN9JjyTRHgLoGYS3r5hkoD3B31GcgiVYb+vy/nOsGe9v+uIpLN/aDz4CmjHSZmdp7pXfknAVnvLzlAMDAGkEDGDmiFHJU1Y9srR4ivxN40C1hctcT13fatDtKI3ld2BARHgK8Ig/36NrBv+0Kok1BdDgoxbFBYfSCCvw3M8G4V9cuzFnRZORjYpcIhdg70Sdhf3UHLE9030qcr41vV+b6iMM4YWEl8keKnl8kqE5DYAt3TzompIuuLNgypsF6FXzhLPkxzRkLteGYBagmcahx4U499LswotkgJ6nvRpXoK7skVNoOJLefxGM=",
+      "claim_no": "UufWK/QS4+0FP+3HDYp691y5BVWdOirCjymAbjWwPHledwPPdS7SX0why9RhPobcwqmX4LcnRCE4byITEQUgbzteusCKSX3kC9RuBN5Oix5dw97gCed1xL0w9dUl7eU2CJuozJcRF41qKxajxONindWJWIVJTG2GvkpH5VYWLnRwia1GQFxhEAM/GtC7iwpAzoXAT8GuNCJRXHUGVWCr16OAzPglNUjVnK6TdjvNbySFt7aVq7HBbZggU5Ba1IrPkwci7w6k/0MRu2+SYEXiifFreyTV6oY3pspGtx9rmr0FJmTNZU4SCfN5HC9FBua3YmWxWcAtOLs7aHEJ1e9+DSLBQdPKqJ1Td9Kh6n2LB5lnBDBxqwuRSBuMyARQCPG0gyvqoKhumGYL0k9HBZDSrLFroYW24yzqi0JQqOMwKci2KGhEiZc98SmAc/WI9E9O+zE4xxsXOZQPe/4IykSSbqIYSdNYyvH+mMnePkDEqdsTPZOpkRLoSKUnRWwNNp1fqxGLQvuar6DtS8ZSulLtz1c+De0o41u5v3wJtE7+zX2rPBq5Df4Q/5r3madIniqeqHcOKi0u+LEMFEXxsaYjshjshgI0Tmfj4COBKCR9adZE4lRIS1Rz6fNNQnci2aNfvAsbDdqyoa4LQloTrvbjb1uLQ2P9bKGGMz7Bfdgiibg=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-12-30T00:00:00+7:00",
+      "claim_report_date": "2023-01-12T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "มะเร็งปอด",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "26/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-01-17T00:00:00+7:00",
+          "claim_payment_account_date": "2023-01-17T00:00:00+7:00",
+          "claim_payment_invoice_amt": 100000.0,
+          "claim_payment_amt": 100000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "สกก.สันติสุข จก.,ประภวิษณุ์, อิ่นมะโน"
+        }
+      ]
+    },
+    "Signature": "ZCZaH2If4CPj6nxG3kbK0iBB04WqzQf3n/B9XHTZYyzsptMi047OcQNh5LgCkY2UDAba/7tXiK5fpMZtXbq3N+6nmKLi169hwCJtvMszLTO6IU25tBESwoNRns+AZ7LAKggcV2VDaPJ55W5DR0ULLjW2XMtc8msZopeptjMWQj0kUIZnkfuVuAccl7EHWG23Gb/oXJqwIBn582KBh4J2v+AV8jf+ZoIQmYy+L06gE2QIE4foyWFP61ULMBE0Nq2mdTMNwxqWayTCN1EBCDSsrlsvwa9JQjS4k99intULz/hXvGc9SglpMjtmFxoQ9Eh+79ffD1QXkh7N5sfd9nTGZx0a6vpOP1K6Efqug7h2k9R4R2sFPOTQlHKt2MBUIKju11ddNZagufkuORXOJKanr8sUNJ1op5uTEaBh3Xqu292IJbmJNKRwF/Kfg5V72Xvj37QNv8nqwwZB4PDVENvQI40tu+AKHA6I/Hvg6OX2UTiLnxPp5hZqHDrovJaIIS4eedofPdoO6RF2twlABvw8qMY6+wkb14qlG5N83J4GaUtQvKZHiTC1uc5YpEcOVKvvEGeKJW0qkl4JOrD/PhEuCmUdLUnyFXM8is8wU3oBb2NmUpTuPRVklA4mqjgAN7IjehjNW8zYMk7s49xbXsWoMAQAhiCjkHcrzYk4F7nBeDw="
+  },
+  "Response": {
+    "response_id": "a4b0b60a-cdb7-417d-81da-9691997d0c0a",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "FszV1HhzKoaAbZhCD6f6Hunl5zs+1Glf/1OI98znQynk9dt2tZN26Pbd0P6Ieq8v7dTY6iDPeE4oN2IO9tQ4EylrLVAT4CVZoo/sgdLzL5WyENeqHBCbsPZlmSsBCccy0oOPFEKIYBEx8CI+Ld3Ae7Fmft897FJbux+bvm3HpH2Yu+EpywsvrkprtGNc8InDmFOo0beDINOpofVglYmpPT0czWcL6eUzOi+v2Dpq/DVYrYFbfjuLdx6JIxem9kZIaI7M6eBt/HcfWjsfHM9bDsWxycum24yA/NiU7jjtAXEgs8soWOQxmXDUDZvp4hq2cv8mu2h/jyQADK17uZ09shTZPVTutFByoeIW7zsjxKLRNaDDJehNwRItnvZ5z+pPlnAfEw23Ct+v65PCvcC/qIaAtFNdayUm8Uzm9TyXvo0y0LuPOOFpL+Wa+sFceQeGydwjP7bFPxeksCuzg8y5781xrYaXC+5Jk4f1lRwuCtr0Fp+dOlJQyIVHUdTiKkLMbvTxMDFFis4AvVmvI6LsBKTeayhQaaNny9K3rtktUv+4qmoyOE3+PCTxEL4vvPcoRlzByIsXGvxTzKBItVwDzLvobRcsDCdPdVN+v5LhcGBYmtMwGZQmHjjPXRiW/eXgh1z3thw4ch03MgSzr3l1Ty9HrjKkJI5kt1Fk8J0P+98=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "S9ueA8RNwHFfYnIMxDERqlAuLo4x3IvH6LOvH5LfA9ObTqagejSF7ct08hb81C1ZyXqP9exhfVOIy5k5O91axHkzWuypNECQZHUBkoli3tEeTKvVtKVtR7S6TPVl2awsZ8nJbl1dcuUqwY+vlBY+mKIrsw7zMdXtGhclzBxdVNmE1wk7qLyUKObOZgb1JhIgyg9uVevXFOvtNMZa5XS3mlWPvq7fqi//x2yOBV/FnHK5Mf+NQYjqOA2e42O2NigWLFYL8l3o24pSzjSXCCu4xpAs9Xnx2K+N9zJ91TA5UBDCQSr6CY1LVHlFQI3/hIVJNbfzxTYjIqy0GWcC3ZK8U4kF1IqtJDjDjhjv5HAu9u2arIgw8zvPx+oEhg86TwjrOnALi0dhqgEwvbOf5up14cNfBINLCmCav1piDDy2N+BoEZDi0PnKd9osisk+NYOPE4vt+5wi+kYkJJrhrC7h7SaKSbFPF1cx+xpJlF7SWzO96IzFOfsa+xs3p3Iv/hfJJ84eJOy5M14tWyaNtJkyJS7kBF3aJzRRNR61aH/3hA7MkV6zqIgwKDLGrWqVkniG2OhqoyVlOut8fdVCGEDca+bY0Oq//wZX8LdjAAzQnD8wZDhkZPwbRI7SNpfzjvmso/0KpoC3SQLsQtEq4BvFdBxfAKQ9Y9dOGqDVmRFX/BY=",
+      "claim_pol_id": "rck26moEft0l4pByOtrH2KiyjszCqMNe0/7lz8YnGdZ4VfRKD6fw6Z2aJGToBqCHNhqI/O7Q02aJ0MPCJq/Yp+QcOu6p2Xd+DXA2sSVHTlrPxLgi8ZP9yoIHMdixNlzAVLLjaha1ARqj/CC8mNlRsOQ71Cva4sRyHqwg8bnBvxChfc6cRgyIrkWEhDelnDC8omsLsJHlYa51xmuG84sF7m+EzzGJXqyVrrrA4l2m7rsQvTWznrBY38/aytCL5yxqN46eVVFQCJ+JRfquDrAXHY1G4if4U7eMecYVwkCf+zY8fBrof5aBBg3eQPUvOhxauLKaqkXc9KVCC/utY48rKFltBrrYqVsKiRHw3rUTC+gv4ndaTq0mF/CXv8jrEBuLjXT7P12K8qWKR6CE5d0e0eARNViG/jwTLnMTizuzHmQBE2whVY7IjkxhuJFpO75SWE/mhR/Rjn4vvbN6isGKtGeF/9NecOIbYNgNab+24t/aF/Ke32fdE3z+ME3D7MnYRyGHpBzPe1JfSHnyutw9Ld7YJeH/bJY8DZDTVWsLQxSgdAZhj02/sdGjtH6QM5Q8/jn/flouR6e2nKYnzl1FrxumfIrj28Z6waCijlvebIBmVbQw2sW8jHffDwnuKYine0Y9yQ0Uj3AZCJcG3PCJ96GSjvhHfUV+up+2nfubPJw=",
+      "claim_pol_refer_code_of_company": "s1jpoqKfTCaC3Xv2f+fyg2cpBitL0z9o+yCsFAzFSDKI88j3rz0QFx5xAajPM1uisrhnlj5EQLnIrCUcMAIcbc52vpd5kp8tZalxWWefSeX5YXKWgUthgRGfE9WcREFgsKv9nZS+Sl2fZtkEkivm1JFPlWsOleGxAvhkK23kmEhIIYVBhgo+2MA8y6W4lB1+MWsl5VK4tuuP6syJ/NsKpKiQ0CJdjGsT5MWBdFu7Ku8r6Jbeq2VFn8A6upvJa2fgU+XiHbq7b3nj1x3BMIrlJX9STjv1nW4oYn/CfN18aUG2iFYkZzj0dlkFlBB7VW6ZM8J0gAaSTzYp5yE7v1PJuqKFGqU/gfXfFmF251Jxze+PlrHseHmlNcw99MJklH7SG9MD5NMk9ApEK5NKz0suAQzAB9SqQhcJ1Hg37HJHLsH9En9qNpUFCBO8AkMZz8qWmwIu6aZSZjgpDUsGh0lHcel9kptLjlhwCkkuLk8LFZmcmvcWqcz4OoyHO4+RGIn6YBClaEA2ijthKPo2I7dolJFz8s6GbVN5W5MjewUd4Qz4I0kWlG4qY+pZ9pIWHkXRXyKbZCXWpuBCrmLFPyAva+BBDtpF/dYPp+75JQDl2szlaVo9Hgkmd3ay/g26O2wThgI1tgjH9uurLKtv8lCdrSEldB4KwZ6+oUNMxoYu3EE=",
+      "claim_id": "JIHL12E1hQ4LukPM6Doza3/RGi2ZnCQUATQSNSad0AOBH5Q9ObazGcZfqo8kCFtDVAo8apzScbSPwKUBRaiXGGjK3fLHnlwhnLBPQuigzZXwf9QxsFDpkg+JGs9ZevwZaPWLb/SVctPkHvhv9uAF9ZlXRs7REqXDPY0B0f9UtgbUFKWh9zUmQtQd4kZ5dPC7r9MqDPSbBQWKYfsJsAQOF9dHxWKu7q+42TdR1VzNij1TYqLve6K6gbjW9FocVYfJAekpSqFjtDQhr9X9AiQZ4qefRnZXno8CiyAR+vzoeKoSv4L7/BmNkSkyWSVUSwwr1En0BH6aAzpygMSRzpke5OwLkgtPUhr8uv1xRNTdIhsZWXltugxr2X0+1Wt3MkYj2S5iITQLFUCymCzgMJS/ejm1KOamCeDdLM9bI01aOMrGRc1Yi81xoXV3MpVNZNhm+V8knQX/VYBm7AfCTgSOji41I2Ie/JQX3cw5RVrkbbxVM7N0HdaUE1fP6AMv4XO183Ywchrqq2BL6d7/jwpK+oKm2QUQylyl2GkDyBvaTs8TdASjaFlFAQC+nxbmjx6+GB3LobGYMRbTIocMp8RKokacxa7UXnqn0qwNBQHaZOjg5AhbHBmdK0W+ts+m14mEr43cpKirPNRaKHeZZZnSg7oCtRdRURijffEwn0Girng=",
+      "claim_no": "cIB7lUev4lqcU0BXmMcTjwoxUSFBwBIkbSuuMk5US17AcDY+cyWqcfacxctUIMeaL/OUlCjojQfFg5ycaIoSEuGflQAAAcusfnFOxTGdFR47RwpuiUAOJGeax/UHzSuVVZP2vSt2aqwTHXpiaIjz2XAVNS2ia6qCBZpB2cwoDO579oezbn0SUWdY2X/4FiE4ITTq1kDCflJr/pnmJKTMWfkoQrFzwUsdUpBcBcxd+cDDWSyt0tg5FKmf0MU9gdVPCH1/NwrTPQb6xK1EP2rdP5xyTrSWDt52XS70pqkBWvMqhTrkK5jXaUHzGSXOFPUzzo2uP9pjY0+qXMY/NWIZXzhyoA1ZrXFumMENw5qs+dmBEyI+VjBaqqTQPcRfWiUECYo8npNUQEIQ63VPjG4gD8BktU5o4pEckQnrWXwJ4rvfNLp2joc+PM/XB3Yo/nZUiiVlChdkGfjWZbniUbjNL/y6RdAV7XkMEbfLmsjlubEKC3fMrffLJo3UOBx0Vz9FpECuUuX3X+LLJt11OSbsIR9XyaeCy8YCNfYTcl5dYmQFqY+350EcF/uWp9BZUiXdSF+9svqfYynu+jeV4wl2isboTeCZMmmP7CgeAKtmjXfAiBNbmOPt6CDdNNgz8/zdB/BgoJxH+tNQKL8OcH6DkHKXdUDj3T6o9D/fHpuDxXQ=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-13T00:00:00+7:00",
+      "claim_report_date": "2023-01-23T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "โรคมะเร็งลำไส้",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "48/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-01-31T00:00:00+7:00",
+          "claim_payment_account_date": "2023-01-31T00:00:00+7:00",
+          "claim_payment_invoice_amt": 100000.0,
+          "claim_payment_amt": 100000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "สกก.กุสุมาลย์ จำกัด,นางไพรัตน์  ดากาวงศ์"
+        }
+      ]
+    },
+    "Signature": "HdtSrVmynPK86KG2cvHSyMvBot6tn6wmYHh5k2EYchHNul6J9OwpMrKgfUAbzbHa82XFtIN8X7u48RN9SzXLdnHmCSzO4S7is2dawG/UZtzumM0n0S0DmH0SUhh70hIbaoaAI6N7cn34j9Ta2i1yhyNA1XVvyzd6xtLJabKy/yvskJZFHut8NCEQSCOfgQcBvOXZV1YWoQ4pxrsx2BmgX9zWQz/p96mg4tSd3BrIRhZR/1ssHdfiVxpDI8T7mc+IN+dWo0nduSz80kjt+0NnBB5Ysp3pgymxOf5S4hv0CqNIco4HM3cNrn+8HBNY/Ci/cldQFRSVr14KKoJVDe6IDiHxDJtBlvq3859uIQuPTqN+g1SwyMHxSY3Lq98QdgpFPaOMB4CCpefzRccasEyvHaeFkNH5Ha9B9pqCz5a2m2J6+ihTpRuHEee6NrtJiD/ZGJ83EEald12hFqCzUuUTv2vvqv50VYMO5kZdnp/J60yidyaCUWg3bl7ML8zSOfECTQ9qmeQElXm9rWeszlkP8cYzgwEfBj1yAlI8Vc0Tf7vgROM4DenVDTz/zTd6qfhrg82w80u5VGLe60xvD4ss1tNSdouuySRmhKgXkOIzKbqXbXPZ2Bk4As8K2+qhktjbMMJAnZnDjv4cs8Y4cpYHwX5Kt+xcNUc1TgwbIkvHR8M="
+  },
+  "Response": {
+    "response_id": "cdb10c5e-0c89-422a-bf29-0af638f7034b",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "KylFH96/NIDmeiQzpBHKLH6MxwWdws5mn0HGmkcctbY7BE2zAFrU0c0/WNOIXj80rDyrRpLCumejyUpLGUrD06Fan5vERXNTL1kfY6axCGirNzF2vrTLOvHX0tsy92RJPET5bKFBYRh7xRuvTpdvnyCKwyf5tctlmuPyDfoGtNgm66fN/Ztd3x5czSJmPgenWkCIWSsE2GZKpMITEqQf8+KFtZz+hWnQsDcZNzDJNtI+pFUlkY6po9ra34i+05ahDQFwcUbaMPNGCYBXiBlnoql64L8GEIA1ANAzPZb6HeM/ghA3rU1JyXNvDtwpiv6FfVLa6tWgcrmztdVcX87tyYgA/LvLASEBXGaIfc0BmuAc9a6eW0LrJp69Ow82KtrKmMoEXJlFZd/6GMDpmEnqke9PvMijeKB9uG2/kN8HUPRcg086L3tl2hoKbaCzmuwLgsXgRR1/TLwrHZ1VubOEW2O1/TcKnLmjg5oQG32kRddHd53vnKuMOkQ+elgiixS7oqwsRINED02/vyq9hMDuxPSMNUgAunXhtcoiRAdtViljSZncfIyTDufWklFeqSUeHq+3b2AVy53U71tT+k1Cny68e694Bkp8GEtQ/YBa/kOdJAmdBzBbACiIJDjD4su+82QnJWGoqjJu69QtJFx18YMiUgM9Tev9fmntKzK4zP4=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "kfggKzD0PMstXlxSi8OEF10kH9CpMnOdYFpPdC57E7BHMs5kgeNFzV5DjwwrFeTwQuGMC9ZRp7ipBIfgWDb8sbqr9IO0ZwRTZdS0lDpXFQh4Dqef0qxLVd7wLC7WDH+zUuOvi/uCneswa+MOu4K0YgOBoLUQ87GTBBgdX8QEpLio1QJ6QbXiFkmXFUU/eiArWB3affs0ZTQTBkSs54RE1Iv4JEnFGy7g0tVINWG7jz6na6k41ac8qoYMBO+wE9x7niV0aCWhjGcgDHwEg06jUHBa6H7iY7UTblB+xy+vApqJpgy2D3E1zc8wp/WfDDh5eifY7HDNfjtFL1SUuC5fOy4lIuZvXKUC+rAEtcqfuIF+eU/mmmVdOn2caBpLCw4Hg3q+cmErN8f27uiuUP7u/rBveQf+glrbuiUDx4LszftHDthlR8IM2M86EafA6nHbewN0bkI2XOa/OjvsRpx+4AqE8/OrOefwjuGPmRlqpXzFcHK9iMxgTrW6cTu1tQdk4+UKkRl6iza7D9jcycQ1GfGtk/AgNnK1Fpr3qEkSTL/W50jz/24k6FPuCSTAS5UemopWUNaWD5t+PIW9QAKyDNy9TYqjgOeF9pQSzLqR89AXCgJB9JAaaX3MYZOoyrtxP3jirhvMTEO1N54Mh4LH9HG0W1o+/G1VDAEHRLdv6qM=",
+      "claim_pol_id": "Q30qwVoPbdLr9CNDh/bpJUSj+KFXAge5R6wGvMLRvnLCziOJdL4IgCMx0ggYFtN2XeBGcWCv/p2ej1H2l8s3B/sf9FRM2wP/+HXTxxDpk4eNIEsflOZhhdghkUfXO+n+jfXKGIeyqkMB4IJjzXmTiutS+MZoz5sA5QjDa/SkhAimgeGyoE8xXVHjdGtekgzRBi8p/6Dk+H/xE0acIHuG+5m+2s7sPbFzNAqM7+3NKCWL7n3TwLbplFLOAfIIBMIPHwzvlZH6jqVBFmEt/v8suas9qjkisU1hgV8f9EOlxeiZzebLVwFGTgKm4E1pLcr5SurmK2lWif0eUOlHTkOZOIA+hGE315WzopYSNIN4hgZ8Mk0ceXXcsddva7QRDzYt7MnjcGKeLAmrwESySh/TH61gS8lR1+VNox1pvxBOGQD+HUiQzKegEKxoaNh7S0f4R8JIjxie6LFo3XIAUhm32sy/OKNoUeGbeNS2mYdIM3zhPF7ZKYN0w3L+s2QnY7z8rYHHw/vdZvUvrnPqN1LFckvO1+2RS+vGS5l166vaohlLv5rz2+fdlZBb/ypehoarO+e0jphjec1avuiBVI6FK0KkF1bDknA6salglkkJrTlvDDCXI/SXJ9lbeiGQEOumLXDyTSHZh5EW5bqivEUYsz2CiLT1fpV35Z8/yKq7FhY=",
+      "claim_pol_refer_code_of_company": "jlCWgFQh6aAaoch/p0wwC6GhpkqHBMOMqJNSC2SgKkBkR6/m6Mao2MWi8HcGJHWR9ETzvEhij/y1Qbm1adx/iAmNkyfZ/oa3zxbdwvmsgI/IiK6cmhy1p7+6Tn53I/4+oBoKcd5f1LRd8hhBqtlLDcFl4+qqXSvhIJ5x/LrOPHRQHLYnnBjVYYrkgXpa2XxhiuOlHa0KnyY9UBdxXM+59HqWutBh/s9bQqM26PCX1h+XFCUrB21wkJns9Gj6iViyL4xFdwYIizu9ZomH1ojT62f/gn1DLd0ig3gULtIeqfNc/RjoxQrJAO9n57AYRpcNwgZfq1IBOSivw6deDcVYt4445Zth82YAbwy7OG9IOWB/nuooap/a5/wKz6+n4xPB2HdRpTBJ2UR0gFG4IH4HsJbJwTVUipLTHDkWrU9OELX/bhCoEQH7CAlckXCuajDCTjenjxXP4QCYUsODuzYxzv86T1+9tDKOyXioHBFKkdqfCDGX0a+FDgwEH/a2j1gsw+Fp3Gww5hvncgKtzdrlVsB9oqexWL1nvKlq2dX/tLUWfRwQ6gw0M0GlV5GL/I08XOK9js+BEKUT7OQd2G65/FK3Luv4V4mMr08S/rxPdVvSLIqan9UGXimgMIsSSDn+PRW+hwWtWIFzXV9AbWHGDuSb+Uv5WdgikbF+nisP/ro=",
+      "claim_id": "Nk++N9G07hCPfkA60Bd19gt/ydw+4BkodjtuAVZhlWhgvux2ml1b6fGT30Qxr4pJ5ULiUCVnc5oWqnrFG6zaHFZYExJmT+Qhv348ML/jLWopCC5XYsPsTFSiHshMmR39DIfX+A3sNF8cZFmucn4IxhER83lumhcjyPtHl6bDamkH6L9qXL8jhHtBio/Se5cSCqHSguEySslnJ8AQphEyzRDYjQt2NjTeOeC8/8ODfTFbZI/jOjW+V5HYtDMaZMpUhfTZlCpaeQYjFPK7p1Kk0P6lSbtbk0uuVzBGaM3toOfwfQYgdqKHQzV1lVM4XbkYMFv0DZix3rjNvniY3aBDTb4YwvyQhKliLhbgkAW5AaxnBDug+A1L3+bu30TfJirz4pBjI4Yu9iQapI1GLFcP2Y9dzmpQQzb0sIYmgCtXGdK9WiRnBiS8vkMvsH5CstfYv55m8sHclkvPQAKqK8GP6QbLGuowY2O5MaScv8r3HOfEGXVaE5bUQXfFuVT7r46A24RVntcVYY1uZX0VpSjE1MdiJBogj/PsgPTAEGIEVHEf5Jm/9K2CmbvZcsSFEuKXOYjN9IFxoBhT9Nb3eyyCnRA9UBNmP1sQGJf/oEbO/pgHJWSRXsxpdqTmDDg7CC2X+tQyxyWASSqL4jA07ZKquHCIG+VKHRXj2P/kNjTlNxU=",
+      "claim_no": "uSmgdrUzo0Z5AoRVY4a1wiEvAaI0H2k75s0fAn+dxVkggXgSBy+QNkuhIAmItUCFRsYP6NeILTpVrW4qbQTxtC5MMj65omUKZ+B5R5YsbQDmqQCXSzcd3OfLDH/RANvo9uYTpl8TWk1ifLAWgC4smIihiMsip7cQw3Aj0MxSyRS2S0XIWxoDZyG9KsBCG4I6f2BC/nK8j8M4mdW/f+nZQiN19NRWbEWJBQeJJbycs/oME3gUc9bmi1q/md6BphAsK7BAug6uqw3IdsS+xo7R1c+aPayAExBN09u7NjERJnq6wo19N11sHM7hVQxg7KlZf2aOExSEvjkf0p4yGkf5fdAcUYguSshJ++4IkvdFfRYV/WxvEnqK6WriHXYUSqTGjVUQQd9uOcUX3meAI9A/ELkM34TzIdxJKRa2BXGQktBuSYLt+rxHpC6Vngk3UECwm9L26RWokUxn99p2wsxM9D5SMX6+soHRbIWtGsw0MXXnXeCtft9IUQt34H6lhY6rETaT0QKNCWoWvescAoe+74Hisf3g4r4D9OAVLH/AigaUDnWuB9TXnC1mh/1pG69PvyvOscyIP8YlDKM9ClAaknKu2QiLlCWORZVaaHVgj/whx4zSef82l2WjLrLY0aHrjm2ToOP3Iw9AGnzT3i0UwqN4ViMW3oz9DZEsG3+Qc2c=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-09T00:00:00+7:00",
+      "claim_report_date": "2023-01-24T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "โรคหัวใจ",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "54/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-02-16T00:00:00+7:00",
+          "claim_payment_account_date": "2023-02-16T00:00:00+7:00",
+          "claim_payment_invoice_amt": 220000.0,
+          "claim_payment_amt": 220000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาตาลสุม น.ส.ชญามล รสเย็น"
+        }
+      ]
+    },
+    "Signature": "iMzVjVasEOfsDtwrG3JKzq2ML388cOcoAwfl1YKO/BR1zVzTv9HQMR12XCxUcRsJAIuc1Wo6+DWKfn4eO5O2ay3WaJaA4xizdYNFOMgHBnO3IZr99r+Njbumfwyrr5I7f+uMOnqfQro3gAWdqpnFeXKtz37VOAZli1YPtrgGxnDbVdbK34/9ewwJHqHAhJoB9fopOJbw7KemthsqZTGdO/gNs0ph1gNtm2DFYrJ3qxDPUC8/+tBpbSyzKY3XuzPK64FJRU0v7YuYkXHqmF7KFEAJdSNTrFYhVYp0K0lcQGNcPlyXK2mztBBti80pitxMn9yGFoG0aFS4E2n3mZFZtC7qySbq5Swb/kwHIVT1KiD4duyNVd9uGHOvm1xqNl4TpYKNHaRfCPYL/O3y9tB5lnBwZnxyHvh9VfDciMQyPMs+yYcr1DtoO0z4BkLZQcpp63w7dG3x8Ri5QNJpyyOuY6ghq6H3V8PRG4zhHsDGCWjSXLt6bOJ5S90VRWpLKqOyZJcaEfm4y6Ze7Yooycen6FS05zad98KRRDxmg1/Nx1pdyFDVxm5BjMjKqMqc/BrSMZXpTODktlhakOBSP0+v3ahEnwgqwdeRtgt5H/+BD+lSwuWt8ZFbsK+zz/60uYfG8NwdbunoPjyksEssVqiTsYkf1oTYyx0QLEt+fe/5M0g="
+  },
+  "Response": {
+    "response_id": "016645cf-56ca-4e0a-841b-51bd32d4be28",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "NEVuEt/38aBdE704lOvQnJFgSb7CCsorsQTWkedywlqGpgWQUYhlWUov5QjA91Wt+6/LOfUg880RnNl+l64H7rmrk8PZdRbwlHaUMmuJEW/6THQyNnrrsGbzMe/s2D1q0xpOKH4FpPPvbH0E4SCEZUSVNMvQk4Gjl6xoE1RV1X/Pc6YMYlZ6REVPclNyY23d8LIWq6vyrMnQNmRY3I4knEadV+X3sUAqEh+WISbqTu7p3fG5jxvlq+wIKRLZNhXtYwbxp8XEQOdm+HHRCaPay7CshQmg2G1Kcvr7TshQOYRjbiNgxsguEfK34I85vegcpdGxpp88K+v8h3DwqNwroYZPlXp5AtPyl2rjtLHndBIVykOp1OpZ/SfNFjVuzEAPnz+RMyHq2gtOLwc+XzYeTv3U0SHO5I1rV0DbMpBY5MK+MdUAgHUSPaMeEltypibozgs/G/ML7ccczk3lrVzb6w5WW8G096hK6OhBEMV7UKWybSkWFF2tyCZchVbp3kXNRfJomidCMajmPzSuwPozhdim7Sw1KUM9w3p7DKrUGejk7eLbh1CUeGGHGRCJRxkYUmYD+/Ci9x54YOb8DCUJDM4N/tEOBbkDqaLpXBqemS3tq87071ICORqezlMAyIv2DZG375WtUj8jBoCitACjFJ/FKtiEobb9SOQbxbKDnE4=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "NdQBJpiCCqoHXbO9VQEH06Bi0M8RNj6lXz0KPRA9/rSK0hYqyDbLWIsCJUp5T1KULMvEfTHyz18t3y6MB/mU6t5q2uzlULiZIEvkLo/cHYkmJQuxZxt5mX1/BTpfM4lKJsXp8zWMoZyyF8vVsXH5HKb7DoWEpHPJOOiKul94yk7at2hGF5hJt5XdelowWBTO7NjjH3lHBL5K139Ju4ymLD8LYA641n9Zl6+uEwDpVvoN1wksClbI/Fpzd3GBrXwzeLSpmrlb/wdL93lzzg4mSU/BLh5iUx5EdoGh+cBcAXOydYgjUvjSy0TtPVHM/EOc4YuMXun9skbGll+GaLc8TxMZUjqCkJUgCUhu+FXzUz3pSIWMz3VH+1pwgaM/4GSFlGWRCCcCTxePT6T/81GyrcAWI+2OKHp9E1r1i708HINAkJAI1JqCNpSLEtvJdzpgnkuozQoCp8k3NbIAuqmS+QLr2xo2XhGvnbr/p70Luncbpn8dUW5YRr0yR+Au51RyXJprm78PnevHuSlXQ8Ke/WkWSLbPwJiVL3GCNO7aB58Yl/IDLBAjLGzvVbaJ1M+HjdDmtBslO32DdIn+/u28RnclUkNF2yZu+YAhXMlf/lNm2/Ku4RaibJHo5IzwNiwET3XkKlBxv8sExM6hRYkIGAhq4Lu48k0vxKHVIDPpkSM=",
+      "claim_pol_id": "u81okshds+R7/YMqfnO5LuaA85mb+OKxmV8HIJiG6A+UzxLJC3cwEA4bzGnbZ5DA9QIeCrhS3eun4Umvo4zYhNKYXH3vyjWPeZaM/a6HUQ0DUCBDD5SO4ubZPXeMfGYPgf28zPlHAybSdhD35/C86cpSCySgz58b9uoGiZkN4EE/3aKx+/HajLWq46gNcaDzS+iN1UMkdbqTlEDyzSm8+U1xTSs08Z1wAh8keS4bMMp/2DJQoL0BPJLrKWKJDJl/R2NSuf1b0V5zQinRfuB2V29Q3rD1q8Ql+xn26A5t0dBvQB4jVbZYasbC9pC/0P0Mw0V7Su0p6wk6nAgGGJs+sIT+Wi5FTi2gKvNsa48hStlR1YRRqNF18wYShLxrRGQcayUm3ut/jp5e5AdQCVlbJmW0T0FqdEFCfUhgkJGl0Zs9BGDVDrStM29txVonSuloWjd4OYyEpbATmAahjDTBW6y0qwMIgF3Gh6Ic/xm2YuKJu6UmI3L/wjO9Wn+6hDQD5daN/2ffQkl/bVIiSAU7Hm+ta00PblcHwis2D91PW7R4NeNuaXTkZFrFsY3eDpJH583l4TWnIksEmqapt33lcCxj2t2zbQ19szThEybo9huVT6aId718K5lHL3lvuN/fgz/DJUBq+aS3tkc45mdaHvSIxZkP/6Sl1Jbd8kjtDoc=",
+      "claim_pol_refer_code_of_company": "evk+ilIV4PNsOCnhSanKRZi6pOMmp2icEHn4TWIUXbpa89LAgt9a4DeFE9A7Q886bdoDvLKfWC2j0xtxI5JuFSO6dkdBYTccCnIUngghhbvDf1Wl28AJttbOdtU8/RjnQECQRKHSDr68wbCs5klibW5izGFQj/vQ/BX7iT6zPmAL6CkCPB3XYDVnyMomwVBzIVsvvmm0oknvibJ5Bc+VDWrtAFcC+lSYMvQLeF4ANG/xPiJDLjiA2Rm5Kkb5eIFpFFNQdzdg4vVUPgg4RLHdXrIirtxz3nc6W4PhorZYSAxDM5//dij2d5QxG2NVpICfDmAva/0qVxknnbrSv6ecJvK5krjwefYiHRE4GprRmpbpQIlO1a8Gi2CPt3Nag6lDz6tykjNtF7iRPdHY8G8qTfjUs8BsmpEeVwwmbGgxHZ3hKPsaOjMlDQB/+G0G1rICVMk1QveaWbrDmAZoL+0a/1c++nR92Gx5ptNJiO5t0z5faQKE+I37WOqrMl4/lvG3ViS14n8i6DAgyqPodk57bENs041dVYypTyNXVnXpYZGhmZD5MgxuWOlFFMIDBTC7FjIWTiEm/gSrxtoxxRJM83onWpjKyuwHDxdjqfUsinGkOIWxg07CBuewKTB+QADBjoQhiHPplApMgBdCSgvDbjSF0BmutyTzT6H311JxiXQ=",
+      "claim_id": "MIMWIWP0VfewqdcD4u4DEYOqMmVk9j5baqJunuF78XuOEPBBERFy69SjS46fLUQd9pKVuaPgDJi67gGH7H2ZNdJQRP+wMx9lP/U5AYXzCuwY24k18uK6WYnXviv05xcxzyAOIo8GYzXJBb3yBUe/f9kZmNb3+segcVY1yBVGvMAfN66dVPt+91vSIbIwFSw8C4NoB8q+xwaM4GwQlGGQ2oli+lTgOiUFgRCQ9OcT83Vy7FqtWL5DUFZgWZjkwoXra0Xq53wJuLt8oy2XkrrTXD+e+BpfhBjrnukvn+DNu9ugIAbVATwKhblhOxt7JF416z4pMZOPl3JvBKM0PCa7dr0HDZjcP/GFESbu+I9MIn9DNXwRffcBeRZCiLalaxt+WdyWsdZYnAHA9GUPqLBqJySRbHhLHGn0furtE5Lt9RNri4lg195h2oqB1BygTHNfI26Q2vp8O9fTpHT8S/xe7W/bwYeBL1iT2Z47PRqI4hyTYERw6pVGBPpyjUbd2Ha9+/lB1Hf+hJng5G3185r1Ey1hQmrfdhHSfM+iKwh1RnNjN7Pue1lLJ1QKvj3ZPYN/2fdUb3Ps7eJprEhVpZo7w/bUm0aPe39+ZNHkM7EovYcdFqrj7Af+ahef4fwDzj+s4kyfg9RFV16UDzUNkWr1scxScche8w2QN1h5wG4Owzc=",
+      "claim_no": "zVi3O79RisGVCRzlTUXd5+IVeHxhPrekf0JfYsIEq1+c8nVXjQOrroDfGbr0WkFuhRnZwdqNXibG5hKQZoM1Qz8GnrH+/7DALKYALwKzy0X0eY+KWUisn3MMyg3TvTqwnP2m+lH29NGwqB/0soR0PdYRD3we96g9N2wqVAalEaG+PkLAeTanKCWuFZFtkEYl6jZsXGsbgJ1J92m49+3n3rbPHr3nPMEnZsmCk0ydPbXorTByhW0QLhUs1s8+MXZVsKSFj0/7gfirryWc3lVP2fTBtW+pmlGkssrWb3bC1x0aOaTHgku9wXjzNToBgP9UAKE6X3ihe5UsfgCuuWECjiw3apAehcYeax+T4V9agaO9KQRjt/JcgYRa4PML+WIZUi1T+4LdAKuKe39jKH99rdlp7EmugKl4DoTypsDRugwzzd4tHaX1rf2Vs92nZmFrJO1PMXkeAZrwv9+9QVVYnkV8yoKOjOgh/hoj4ifvS/1P+EiECZCFUVD2c0s1xY2WnXHcMsJS0QhLyNq8BxBD7suLJ8rd9sLLNbhG3UNX8aRqX1+nZofPaJU1BZKJlo6m6s9vTeOEYTPCT8zR2VOoP4r+yrvj16b025c6037ZQI1fKrEG7f3Sebr1mWY3KL0GcWiEGcJyiE8D8fQgFWS+4MG4wvPPPZxIkyfTaFNaM9w=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-02T00:00:00+7:00",
+      "claim_report_date": "2023-01-24T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "หัวใจล้มเหลวเฉียบพลัน",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "56/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-02-27T00:00:00+7:00",
+          "claim_payment_account_date": "2023-02-27T00:00:00+7:00",
+          "claim_payment_invoice_amt": 220000.0,
+          "claim_payment_amt": 220000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาวาริชภูมิ นายรมษณ์จักดิ์ ยอดไพอินทร์"
+        }
+      ]
+    },
+    "Signature": "Z/9ucSkl5E5GJJ6xxpfHWzYO3aDVV2hqH+QkBKQY/ulm2mLaOmkQDLwfkXCts2vGi2i9m8tuZJAW96BCYNG0DKaUR/io2yQKlTrCqMK45WfLZFyYpiZX3Vh6ay28G355vNgcrPCDIgAL92GL1X7Hhh8L+ST0iIS1TY4OPJ7amYIp6La2fakX75fv0mltTNVeYRaS7px8poZTddQkoMDyNVKbKjcCLW2Qx+O02w3hOWnQq1o0eQZfqCZnOaSOfMgfNx7lwdcgTyz8GDX0N7lXQCWgTlknk25mU31KtsZCv/rgyhyAAFkSawUYrFnVM2QuRIQoJNf9nZdvFXulclMXeylrXfTvjbQ3LurH+jw0iOWcvuK91LKT+UE4b1bH+BmRWSzt6Ota0kCqbGshF/DkKTBvfjFkFAqj+lnbKnazc/YSmZzB86mjPtHZCj5tjxiWKXZV2R0DxxF+9z54JYRqYoir09cE4/EjHgG6SC45TlrM2dgNyhxCLRrntiUVuFUK7Xpk9/byY1JiyYeOv4L75qxPAmBLbFERPdHMlz5erGm1wDbGsIGXk5J69FwAUQ9Y45hxKpzpIvSqQ2YwJK4Htrmu62YR2cQ7Au/08L+iFNPubzNMoYOWxwYWBWwE+5bBo2i7Hg2xfZW++nKK5dNloKiRhXXMoiOqo/ayPuXWSO4="
+  },
+  "Response": {
+    "response_id": "773ba2d7-2d47-4d1d-8b2f-7ef67d599745",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "JePMj/LR9JGzedJ4z+d1OIkc7GoiMpSjWEt9pLEvBmyBP+nEF3cp5tKb47c/kCYq9GW6jQJwj9frGy6KnXivx/Kk25916yL8H0nHHqaTOHC1NatAoSFszrvdGIjyv1Rdlg00UjTNtdfJYakLbbn4tv97AFKrN+ZuJoHAiEy8ZTadNxwOBLaMXTXz0HUkZcQp0NQ+u97JXPvqWZKdwAPWTOvB9MfY34dPfWXaPnuMzT3Ly9nIbT4nc+nxmtAmYnjvHAKnANxkO7b9zE/CT1K+Sz4l29c4zRaWkZMJHIN3qxHmMPgzbVO2Kg9mPZVz2x4MPnzkLMg46fiXqNYxWdVchKrXCPU4aDY5bRpeDx6I7dsYTohlxe+ibwCIqY+u61CJ+wBLU/iybNlIHJAcCe2gJDRfbmzpP5BnJ8viNcR7pFR512YHOLwUlhcRvxOZrIUCP0dh9SZt7ifJk/Q6VKtA7OToRmvC0DN6Kkl3lJyflZWNHH2xtIZ+AnorbfDu0oaN/J2+wVoe7h9OiD4DEY20RTGTkgFXvptoptwrihfEfvQoSne09TCpJ+CsBvwzuVxE8bopht3uEArqkj3wJhuIUkrHFWdpcYFc3IfGmgmcj/idp6/aHSt4A+aXwvy5/jOjP5t1vRmqNXyxmV/52PcLj/w22mfuJJw2BYqZP0x5Rbk=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "0BMuE6UlkP6Jp3qY/GMk5bw+UTcn12nWR2VKuFf+D/KeJGoJzIL8wkFz39m9pVIQQT95x3m7+OHEaqojyUGXCbKM7A5f3SiQyl+HuqOM0BgIt8YktNqogTRXV8XctnCh5hsF25Ph6ArdVs0nnlS4GxkxfeAhWqkZUeHyzCUhMJCAy/hlWCSGrLj+U0RmeqJXdi4zdqmmZ1XG9B0pWBmGnGxxo3hENWr7O9hekQ/5aHeA0caBNW6JB6uG1HcnuL63SqdSa1nnSCq1FgnrtUQJ9YY/qjEGUbQnEKbkBrG8hc1TOemBsxoWzRaaclq5lAduqgg7wEChtSGXIWYucFeTMPnlqC3uAeMytmv+FvHzJIPqLZdc1oBdox0o/9fxs73ONt1jFFAqqgFeDPIWKCU0AZB0fbpU8Ud/nERLriXD4ne06734275EvqGJw3UYxIhHfQSrRl26LqEVVCRjVxCxC986TNdLFwDZjHgNC34n4XkTOB3OoSes7IzQaGp6839IqUYcnszC2vlUCZ8DTTLN03at8Yi65YTXHbtE7auR2f8roM4UWbYr9eCeeJYRfNSvKXQjjhsbgvsJl579Sh7uKXGUQhAjg0CfLC6qzYPjwB3w157baU0czDsiE9Vg3/XX9xlqaw65qM+RnLpr7vHqodB10DA9L4b0GAGPW3MhiY8=",
+      "claim_pol_id": "yR17D5QSW+pGzO/GBXj3OBbNKCy3IH6Akg9k2yzujkYBVU8VcCgpIqQhKE3EUjJWxw5LeTkSnRY4a9nlBG8BS4vrrDUUV7ZMnh1eSfSgKkTofI5qYqeSqb6juepbqJHfpswRhtU9sM1I6bPTQAama3EDu32Y+ovmK919gKbOA2aTCPyydnPGywioxJS7Osl6z2dLvSeCqVHpAHrMxp/WnfMW/YGG6c+q6wHWrXGoecuJSP+ke9aWfTBTIo14HzYYadBzYXdHfOwBoDen3BD+zHqj4ZqLvwfdEjslY3X9I3UQnBnod5xspUabfQYvKWXIP2Pd17gvPkSBbC3pAbljQyvgZjDoCRYkMdDxVUJv75L/kXsHQaFWOIvbVublAZVqps+qHuB0akzMiIrKAqsg65e/DsXd5ybntuvCp/deRf16u78IXp+yWuUgSC/ZOMpvubRJDUoyaqwD0dMSa87ESg1UmoRZuHebTHna/taRthwssDND3n+ekW0L08t1n0RuJadr22NRlxqygClDpQdjW+FFAS4vLHH0PdGaULymmeKijZUm+op6fdUDXc0uPjlA1f9SOSUnRLpeBGjXWQvsWvLZmHr5c/j/8/O+BLj2Mxp5erYtJ65zlny03M1LAWZ0YbBBq/flVYKNSJazpfW1ocbj43KNIqrmMILM0QJstcQ=",
+      "claim_pol_refer_code_of_company": "V8cymRskVSexgvEP66ukWySeD7k2S8mK2Gm7aODxce3gpXbSSPZkOxy4cuwLpsJIvSEoQD6ACdxX/mF3Zgw/IiB0H4vBKioSPjd94o/X+h5LbGghrFziuXA6IDr6fE5Ukk2Q+iNSMCQlzVu6Eliu/AhfrA8rhX0pcFkKN1i8LlIUKsMdbq62fC6B2dQAQBNFU8VgUF5lgLwov4K0GUjs2YCgNd2pp7ctk1zfQkedr180L/XMbMlqFdxTDvM74NYhEsep4mdAg00riOjFPzCrNAJdjlA3C8Y6HcMtErRJqcBJapI/ytMHl1VaZSYcScEDHv5GxcSSElXtKdj1nzf8wGRteFJIQ/E/yxt++mwKFuzWWBJ91STAYp5wfEFeU29DGhde+VZ9Xz5ZRVjXVaSJJAT28n3UWOK7/ghEzPyZdtOx1FktS4dwR7TIEhObQRg6rIQhGP+xR1R0HUrTgR0bq11mjYHkZQeB+Xjd//osKaN2vpZQLOGnEF9dhBVixOttZby6o/dcFA3+eYs/tn8YwHhOVsFe4Wy5NWAoBS+l29qDFLD/vpK+HZOme73ZbcXhxzHgsuqEiPH2my811ziU6UdYTgGKx8rmjpHULscusctgQ/FU1qDLrQTLsWV0u5gIYq8Jiby45igTE7nycxcSpmH10UFwp/8dcooMwrgl4AU=",
+      "claim_id": "Tx/M1EEVYsmLvm1A4gnJ+jZderBDsKAOAiT63mAZdeyHnsInUw/C2V5d+SnwS5V4JqjSCVcxbqxOGQGn3o0yhkUggXliFpLRDLeikAO8keYGB4Jy3uik2cmHN1YnIJzZa+SIXbNsOOWBfx3ar5KAmYB4ttSFgl0dAhCzmEluZCSKw0oWVdkNy/hxRyPKUzYTczM6lB0Pf2c5VrzOWYwbind46Gu27zuNmLDfg6/3H08ngzZ8waWT9Mtzsn64yWCCxxZ4d/rBtCMrV7FzTlgVHGB8yj/QsQjibKRVyeG7GlOZrWUxlla+Qj6/YyarFPD0IzegP+Q0FP3cvLgZsMit7U4eOlDrDTO8KYtzZyS3smBckyq2r6Xs167a+AQuF1ne8yvpmGrxwtpMWEN2YunV6J7ozOlc2tjDqW/VT+1hSGHcxPLWLndf+3QWrap0khSOC+z+6PrsciN+2dVJYzvjbM2TYuDKogqL5AM4u6KH4SNqsFw3KpL/ruy6VpG9OkVSWBvqUEspeauNaKvigv2xirqLqL/j7mEY2xymvIlo7DN4xFMxyzyYb1K7kGlvZeB5wdjEA2B1hs1yP/C2EKHl8hOtzF+1hgKXy52X8zg3+crIjfzWu6X79dP+SU80s/rjVp+lLKV9jqMI9Vq+Z6nFW6uTImRdYH0lc+cx64UsSmI=",
+      "claim_no": "JyD/7E+UQZOY0CatLO9HLqjxh4kS1h1jj8MyDK7qSAD5o9faql38UDAD9bADc2h57Hz/ODXj3LgNlxf16N4AtbrhtHrewdn7akamT8Fbsnz1VaPMsXM8vQdrduXqNin1oxjn9a2ehZluI94M5B+JrHVfAeKNdqDuVDs7Yp7NtNQYsCTD4V/5tDDje5HY5zZa8ZPqP1t1DnXQp4M17sOdh9HzXMNSlSoIagnoANDmM+emJ4XMdAashVtY4n2/dz5fwDg/Aw6k2yCgf5IlkaCVK6trQJ9B8rjzWAoDQ8vADDspOx+C0cBJpW4GL7XmscUWSxKNpny0gr1Q3ZTTfTOPR+qELfC+LAWgxla72fOUAceO5qy48HSiZGqLBVNafV072jNAYLOvKR38sGFGj42L8wk+YoCROINL6Q0NqrLXBQwLOqs4S9yio+L/BQYnQPlgnckXgPorJwMbm1kz6KiD/CHAgBUDbvWUHQFEVynmGHa8InH4QdBHfHMavE69qmDIWMfnBS16EhBKoeAW6IFJOnglkmeGDd+x4qaQREDa+JewflDWjfhMXnZdHx1VOdg/qZAYsJ5lnpG8AsqUIDJ7YA1F/xm+iGAzsJnO6Z7U+zG5MMf2Gu5LxHizpJ320CQULegrPK5APA10pfg8BhFG7VxktH35fPghRjLLAlSl3SQ=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-08T00:00:00+7:00",
+      "claim_report_date": "2023-01-27T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "หัวใจวายเฉียบพลัน",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "63/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-02-10T00:00:00+7:00",
+          "claim_payment_account_date": "2023-02-10T00:00:00+7:00",
+          "claim_payment_invoice_amt": 100000.0,
+          "claim_payment_amt": 100000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "นายชยธร  สังข์ศิริคุปต์"
+        }
+      ]
+    },
+    "Signature": "XQof3t47yEb8pOQs3vhlLVbGpOjo6Sk1aYvBjsddXf2su4bna3S0DfwyxAOPMOae2X04o1VNr67WWO3A59U3uJTEOn1GphI9AroZPeS+K+oHyXwz3ezUyz+oE76dOTo0Yw1t1oF/K48LT3QWlTGqMPo/MlRKZTnmW7WO7wv7nHz35cYDeopEPT9uIYxHczDDj9qb4GdBUMPtIZBmLVFFYCileCyBVZGLoJLrm5Z8g4bSlWW+/D+Gf3+zZsQ/RvnTFO3cVYrrV3uJ5cRgiXGLcAyZYDf1OlzpErydFOKQrzA+f3MF3CLpmXRPy7S6qnGfZE6oMYHp+g6OR3tKO5mkz8NAgMHCKsHwvCR2P5r/d+UBTzHBUrvIDqY1WdmqViXrDSPB/oYTr/+Id+X3tWaNryvBoTEa6QPz4fgIxE2BQoZs/REddbmHp9vEwDmrkqJTXLva5jQ6/b249zOniLhahnzSgs+kU6TebRjfK4K/+qbfm85xBNeqlvhIopxMzqIon9Nl/+r4W7qG+GPoIwAw4O4e+NQgffGc8dXjl9zUwnYjE56e014myNMohxbxu13R8LQ9dH4E3J3YKmPJPBSdDYHUgCVu6Dw87JjsUEyJQAzhoMD8XXsEB0px503liHnftBCVIiWDG6nj89JAwuSfjTrr0ci6jaSyp7kk8vc1GqQ="
+  },
+  "Response": {
+    "response_id": "5a3864ee-809c-4892-9aeb-849e6e0daf3a",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "ymZacEw8L9UinHmu1v6vLdsD/XQIxUsd5+QgPvRjLDPOpI2bPCR50q19OBgvuiEKm3V+Ht79owigcZ5hCoLnWsYMnEca5Z3vsPOk2oxzXvk2gk7ygfj5++hvs3Crmm9X5OI+wxZihBZmZu6lhmaWTolhDi3Fam00cXLyIBe4Bmo1OkVhHd2p4AQ2msTK+DV7WpbnRVmVdC981MwPmImgR57qt6wHYSeL4udW2MTALTPEHXyVKp8STUwTbaqvmLdYpf50iE10SrdzcBPSn8Wokpo/hFXn6uZmYsbiZHHcSzeHwA/xa6170FvScpRkuoHbOOxmeOmiZ/cLxAcPfIL9+tmTot3LpH9k6W0GIbJOUDpOEwIeT/JQg2TtfRLZFdRYdaruCckHVI/mxz7aO4JmaJW1PRaCUAMV6lcEa7y0EZI0dunVBVwJaC+16sWJxGWinklFW/w56o7nsm5VbKnd/EHB3OvH5q5da6mZvmgkI/5HNzJil0SyGGKspRr7Wgaq1NNN72gFCqPDgslW/JsMsjpAWNL7p+Yr+loorlOCxcQ9DzuzEj9FzwJ2Ei1Hjy2DMDvTLeCQ2C65jAbMfL6vI0Q7WHpqGAm3GCnezUxj4OpPSsvYIEwwfvbmzhAt2kUjoUAS0z/NeRyVIzgf1m3dRzbUkiMbL2k11elEttq41Dg=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "qnagaly+IvvqpePLGfr+Ux++ZIeO5QGs+CBemyry1nWGgHdwtthZ4VdakRdTPLdI/w8XhRKY7ifxav/yuXP6StE9TBBLlpNKXqCE8tLvqwc9KLdiHaxC/ENTZUw9lxHojTkxoWNWgORGs7ya1Y6NEhZzN5JmFLihqzNEmaL/AM8REPeta1P/9oEmmBx9sWPKrb+qV6NDQrnBwMy9rYiPzMLFudp5NlnE0qfc1b3xSWg6xognBRRVLpXNZHdqTvQDbQw2IV5l7kZx7fJPfQRbSdNXedU2Vte2bBhu/iIMKsqN4r8bymDDIuMmEFWRAD+kufzqvlnaZF+CEOxO90u43QNeZrKp/UiCXyB9KunX6VrzbMahc1jEpBCge+QIYVMGGPHFjTHKVOfT75cypx8lDCIlnKr8i2CGdQv7IFXCmXi7zymqEXQrfmC8LAO2w4Cl4nNqFD0R8jJ5J3wpYMOweABV0/7n4nGgl2DTWp3EEk5J4E38D9ZntcUSexihhXRghBEv+STCrErFOZdtw57CSFFYm7tznUvrRnFsfYqAIbQE7tcHeVECyOkRnjHlSeqGixM+1Am5nxPPGTWQnUK/F57+mxV20zqc4+CQM2GOm8ksqulypFV5N5JDHMdpUpGaRMFpWZr8ydzbNL81dmbbg7UruUMQpPSNhjmdomMgpH0=",
+      "claim_pol_id": "Hh9jImTbhHcBC6F+MM3MQjQ/MWvxzvf4uvkK7WvmnNiPfCBAfWe7csF1coxud/XQNlnwA9kVGa98/+sG+vP3LOMoN99viTewZ5OY+Pk34ewZOl5+0nQZLvDngRLS766+CxeV3TAoEXuQa65BZbyDxNHDopdsjNt4/ybMzJAUkX8iqzDfdDrghI8aDiGLDweOMMIe2+c+TK+RWlcn5V1UVAkQWuhgYnueriJazPv9tnY2aW2AZW4cZ8TAJ42YCYZYjdKxSq1EzqxbmoTXzPheS4Q6bgVoRYs9lyWSOGhqhJ4N/JErQ8gUIEBHAsc2S0WIiCxczLQfa4Oec/PeEyrryzjF5+HwhDPqSmrYbe7fDvlpUBSl2e+B4h5ED/0VUoqL7D0tXwLhPJUI/yzqjKIy7fRzdVRp3YBSzEKleyckXLcy0dSnIFVMVUyy2DdAxHsHwjz3nvZNqQSuZNLHkW0v6ObJmbrzq51GmZljmisNwmQAyuNMmMUnFPKJURWGfup+fSfBUq/piFG0oSlNck0hiXX7U0JcYtU0r55msmno7R77YBOILx27UFpXfkJBv5cnm/74EzNR2RSgUlrI408GN4xkeGuraNUGLb8jLBUe97BDZxvTeRfNwGQPGPmaayTKjkxW9Q4WdCVrOxBUU5oHEsAtvtyYELP2/dOZY8dC0WI=",
+      "claim_pol_refer_code_of_company": "qbVkSAInx/WBLVHnzfDzIISQDs+OcCKSDHNzWkOphDlSJdFAoZAonrb96IYiQ16RY3U1NV7Jddax6yOL3BYvyhVBE7UJ4oKaflfK6Pj6N8LRXM+E9hr1eFpsayvd/P38IZZ8mKtbS3FhaNYcKM79+GymwLqfFMxiFKTtey92XWWiCaBS3ED1glEh5oeVuSYLCpYxWsV9UHX6pJ91b8bH6suIyd/mi8GvWA9OUEa9UU+whE8SUrf5h2+yrJeGF1KuY47Fhu4NSFKPe/ncbVHHGLQ5Gu7wcck4RNhj7MyqvvImFf351HxoD/N2J7Ak5aE10Co2DL/kfOnbhBWrJcZWEIdllM0O+gPFnOBU1dag75ZacAoJJ+iIlio51+R/f+vrESXe2x2hdGPRDoy6OpBj68BKFpbwoMWP6ky4b910/dGM2+6R9mYvPXUKoE+g4eZZyS3L5NxRsmE/CFZLAQwoQaGqYRS34HFoSYZVsxNz1hJhFwmbTrTx+zbiuXEHVc2SKEajUzZkUsXFyJLTEFk5t2YJRpTarM3AeBhGVotaV6/mlarwC0vYy3HDp3rFryLxWItM99GDWUZOmbdVZLcFHBFYIZZ1DueeT1ymjqfA3x8W1NSNt8atlPQndSavP+ncFTDMR7LRy69DscqEWT96XC0BwbLRFG2SuKaEsJulR4Y=",
+      "claim_id": "ywIKNLPYIFCh6xzvVVwhNt8Q1u/vHew0S+08QDI0xo6CIIxheyspNlqDTl5EPFQSAB5geKdvBxkbXAlHNALVI3lzntDAmRUaZCiBcp40lSwbDJ985UbWE8WnqElcRmYx6PcITKmhA63iZbpiTX4Gsrt5+LaAGUkoZ5It5o6+XUzvX65yH92VMOzjRZ8DEb+yc3uzHHvcm2YunyY7vcXhV4C3xGI4bsi9evKmibOWkolprgbcjyxs2/IvSackOL4lUDYlYuojxXdxzYRDLGWfuSi15b4wSW2CyXubxqjum078iLMdbFFYSgkh3PQClFE7HzTAmNtviDRsGnKw6FmDxXqR4vE14SjcijBDAYETnkTgJ3VlowqjAq0NLw59pNG3VU6a7dVklult315k8Ev5odcxS+mHQxjNZNZq0rGQ5wQTjcJ23oJh86ddilYrRZwAbmsF9eROFXkmIuQx4RExAmqRPajCy8oTPKL4oC9Qo3dXVEdJHPnuNuaaS1E3y++wapan8utRKzhy+eJTfoJPwcddWovudN5wQkJJ9x+6a4TlGh/nSMcLCoadbvsEc4Lq1u8D7UgGyUpZWzpB2ngVWw/SNIMFlYQc14pomy7mbxwcF6Skfc0j3mEoUfK5RuZEAOyTucqtGlKDLVBoJ2lKx26VXablqSvc//eQ0bVQVm8=",
+      "claim_no": "PBgEtx3yoPeaz3C8flSz1JqdESOjwsBXsI55Oy3TgBYphmJLcBkgw5Ls/pYg+AZxKPAUc4BkzoCkj3QncZH/yJBrCM0zGx2Ge1bYQnqJiOpFZsz6U0Cz+JWP/Ed9nmAggsXuWyr2no7x7d219aTmha3GvDFn9u0vUqZJVCsbC1lE7oE7wG0zPppf/HpI6TUwJdczUKOxbFGdNAhRe9heTrO3N7dOjpR8KtzWT75qWnSq0TlMfyF6Cc4XBwpkCe7wV1sPlxlQp2h7b73CuwQZSi4DTzgJ5kahmdeMKv/lg76eRuiRfVoWaFamRxItTnaLV26sGwqQsFz2wooA/bNytiyE+FMIpvfuBouUy7SW0jJ4diYCHKunnxypJ5l+tfFw4U4IWqt+6bJdPVkoNRPl/Myb0Pd0vd/mb4TpCVD6tKmjbGlbUQf+mgMnRYAHfuJP7I7AuAKfT4S1/ti3Wku+rrmvNN5HFXTztssbWRIngKy1pZmYj91avzoLWyc3XvJ+4tnc/q6C8HAIPWZvyuTi2bCdkGOYAHaEVyWFcY7jLPzoxJqyLT45pM/ZP0M9YeOZFqIClvn6x+sG3hQlOex1L+CFfrSVfjKsN15RYhgL374cKqyTSLMPqNI5gwu+z3FQRDWX/9689KWbCycbSUgePqPh8gbTJt5brJA+95u7wNs=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-12T00:00:00+7:00",
+      "claim_report_date": "2023-01-30T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "อวัยวะได้รับบาดเจ็บหลายแห่ง เนื่องจากการจราจรทางบก",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "65//66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-02-10T00:00:00+7:00",
+          "claim_payment_account_date": "2023-02-10T00:00:00+7:00",
+          "claim_payment_invoice_amt": 300000.0,
+          "claim_payment_amt": 300000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "นางอำภา  ตันบุญเรือง"
+        }
+      ]
+    },
+    "Signature": "n6bdKMfkon1ZV6A/e/4GXawHx8fLStV6I/tMfs6mgNa7aIeWPn5b7ecEh72OcOynzQSHHoIRkS4I4qR9cn8+3yQZueVLloEzS8B/KBONnuFZD3xfEoKHpJn+4Wbm/gv2P2NKb+NHqF7ya+Jlj46jZ6zPfiOmHPDXV/8v74t5gbiivQ/sBYi85j6dOIRWyfeBFWtS+qYBBWz9X4pqok0AClkFnZvut0ABSjFkKLYUKQCj7zwdr/yGprzk2siCAGpljASJOchySiU5k3xU92IRm/5iiahZjF6y37CoAv+eYZwba3zMm0bowlgfTehL91xxLAOnVrMl5qRO+++oyhtQsiJGTrPknMpgQi5b+YR6P2a+0GOLcKbJFHnsV4weCz4N3x1furHpFRYCgMIEx8GuC3IVUTHHLRNqCXYohTqw70BPhfTkAyKJakXhUL8ntWqI5UNxpsCgqYDpsAkASJV493xoclSkaZoyVxwYsBN/GmgrPYC63rtzYwKKraGY49RSpCZ3hQBgUf5ZpYznewLjwEXQ3tXZDQM+pR3vT5bAfnrVnUfaX17prvhuw0fQHraPY7jTT53rCTizbZICEK0vD0RtUMgDIEpj7ecLLMsDwSDci+62VBowGGB73ICwOWR/gyZ15IP3nvv6GvJfTjUX9xSYVlPS/+QleJwex7NBSH4="
+  },
+  "Response": {
+    "response_id": "08519fc1-57bb-42f6-8143-2fc842589917",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "kRh5rCtNLKUX7mFRS3vHa33giez6mIIHrAQZ+4g0VgLK30lWoMs1y5jWelmM5UO8cAeBMPcBS6nU4ILpN6Dj96oxYiCK0FLRJGKqs5GzMr2BkvBhhoRhLNEOZg8oUexmUMiwrQiVsxtUQMc51Ab+arlydh4phIO2F1hMM5dUE6bt0+hQ/Q9c5ARs6Dm2zzpt154JTAihB/rL06CRqhZeB99Vn7QRTbnCWLsmy3zc+P7CPPUlssqcwmdJcr38Q+5aWAKjeLYy2tRwGSMKDc/ZCoxmSpZivVu1wfdRhrmCQ1IEBWsZ+891txq42FqN+2v8qEniu6fWAC4vqc4ZOZax8p/odQMsAp1MQHIFTqU9fpGRB70A5ZfnSpbPemWTeEgWsaMhXuwygHJXf8HHscqNQ3E6uK8aE3cLYYPD8rkTNFT6HFONIpkdEJSFYdwZpJZzldqLHlYSYhMHf7cjrD6G6EZdMdM+zCldnQAjiKBsaql8l4WmSlcxhFXv+eIyAVom/T6FpmpZCN35OXBSPcuzlpgGZn9hdlKWmUFTGyNdhwDEbB74U3pZPWpxTkIFGo8FhA+HenSVNHVwpqtyUB2coUmySCp/CIU2EwJeCG+arqEW3tT/yQWJa9tlLR0x0KSkLFYjNVy0uZxTD+4oP9trpgd7fxNVSw0exxkq2/6y5MM=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "i2H2ijoA6LNkGXumE4LJV67lwibjTEuUh/8U2Q/Bo7jCvEjlsmdmZ3OmmD/I8/dES2ifYUBAtcCooZ8ZyC8woqlnq6qvmxniRvD0LnwVQmxZ4SqMKX+8Pi05VQuk6JRCCdxQPFvcEWRMeI5F5faTYW+a6UcvP8xI/NGsAX0BKMxSIJ6don8ymJ5QYL7RuukXfbf0vSrqU1WihBDM6P1MUfvCi/iDh2WYLOMvj+SuyDGKd/LBAywmnQqFJzKdYBzdZOgzcIzHsUr0jcdpwmYPHC/Wr48omchJ8jyD8QZ0xz1Rq8rhl2Ac6WVh21aTBew6yl6P63F6nij3rKQVinCcXPjIfh7Wn75CJWjCjxFikxnaA49UCNR4Gs5QbDpt3nRczQMRNN5iap5LkKRhzxdy0GPmKsL150S4y7RIgius8/p2VmxqHonopiRI9BfVWiMNl+C1+sJVUxMP/BYwrkCXpBZq7l85u6VPk/zh6wsDONEjGR9PRPcuAzAnoXwS0saM61jwj4tFOgRzITLjgh1Pm0UeihDspGv10LZJoC5LxOo9drDPvRbiUcCGqDSIPDT4sfv6w1NGSpdcgWGX7kf+ul/SPMz5ni+ri8DzJ9AnGm5D2CGN/2DDc9gPEHNYe8bhVI4nop0esdekit5TsYH2xeZeCr6xFplnv3BBONVHwLg=",
+      "claim_pol_id": "TBrPMTaeuK5UrPMoYnX1AYyAhbwKMqbUELXEr5oUM95zDhlGagaKibL7aZuWhNZvz+9a1Oc+2R4uQX+ljVExNMWVdrL9dhVpLBD4gYvi72pT5R0PKDgtwYWMDeXSVQJ9lSPhZi9bPEA5U+ShJRWwb9/ZcLDVEkJn3+ofrqERaAruW8vnmmpV3bRWE5AmQrAZI3E7gf3WzKxYTlRBnM5jRUDzGt1VLNiiF6e0svutTFyyn9qbXDk5NgeNIJhlLxZ47Tgt/P5h5DlYI21uyOJUVh9GzF8po9xf06a8xL1dd4yruFd2XhnpPR/OWkJ9+gdQqNQXRty9u4A5D8lIRDuQiInknY0ISj6N49kkECklAPT0gUKXnFHrDs7Uyuut7pP0Ou1bCcP00SV8NWHLc1nGcLqx6Vxi37jJ8YxooIJ7W6i41zu5Io3LRFL2WDLJkQBaxFUfKk4aBkOxd7TTgMeV4NNvCZWf4zxuIjBERNnHNMyonCXdCzhxGc59vZaMZLu3POCXhx1yu7eL85udA36ma5tPYpA/gtKtR/xqeLbh1SjP6O7xuB92JxteF7J3qW/pnFaj2OedGXtMMD0C4+zK7b952z566sn6SDo3fdi5zrXrPAh03O8r0/tulM/bUX6oz6n4Mtl1yACAx16aa0ADyiG8utf/m9hNel4K3HGO9x4=",
+      "claim_pol_refer_code_of_company": "kOO8kr0nmAW64uz933/Mtj6vOIjYH2m97XWd/cTKGROPodzdxlrY9Gyry15touK32klVeo9s72/u0C8OAIuEsWnLcTkiCW2AByMSpiAD+XopmJe1ttGSrgJXcrSO8DwdgWIdvW6lJvtrr8S32pj+5sZwHNp6wKlRrhbH6hOb2mYZ54R2Z94I7Yw095XMjvJtXRwzxxKmvrtHkEPwuVGm76Gd9WWJOFN1iETiZbnpG5blBvgaG4X3krABktYBqzd/k9fLqbcDvPQlHc9jwzucJ0w9d6hZBbHBpdCahJhjcaW/Cx27lPmVz2rBPdF85Z9GNb8V8GC4ThWwvuSPqn5zC3aJMZy9QAZnhCEo8dAE31JrDEVIldfXJ8KpTH/T0zsoysVpuarYQepY71FTZeHqIr3x+7SEa5h/OU+oAE0Y2O/L3sjBbugkXSQkVn65K2g2KRVxpgv7kzJFepgmxdHtdBvMuN+Js2yBCD6uuTkJKOJdV+gsTz3kb/uQYapoOVMDBdqUS9b1jW0Seh3iuIJdU+YgSB6sJVZPHZ5PIlLsNuy/fS67DRI8n+Idc8l2T45tn0HGYgZucqz4r5a9PnQ1ylGF3m5YKF/eRMXlE6Y7Bp7BelEqEXMNREcxv6+8WfH7dD2i+h9d06Fx2v6x4vjYWp43gHtXQOVf+RaExa2VQlA=",
+      "claim_id": "Gjb3NAByjTXrGNps9aMJfNSr/H5B1EXbRpH2UTW9Q50sdXY/hRDIgCI4m4FOPA52ynN1NaNmq0faIfVtk7gON+u/ETZ1A+pQlwlIMjSTLIz7xVHT6UcysNV2cKEi5isfOWXzGl420gh93OZjvh8X9rziSyEoIV3kUXiUUwnSLERNKceRhN1URQjFeGSi72Jcx1ouIRL7YAekXQl7kJR5HZnqMOnm7uX2fm9J37L5CfIBL9SVaJgz7pldso3VEWwq3+jjtqTKAjuPKq1pl/pzRqHKmYg6IugrxnLzg6yEOS7Rb1+EDfwNkpgCOcjyZemqUqaV41xiNO2aZBFPavcn6v4r3tlzg3XVvmFSNjvCoIT62WbTJnzuaoggJkl0fD3rityJF9Q/tX5XG+Au8LBW5tlQUvsFkrmUlyUQ7X13fjsIQA6UQ33/3v87uSdvXe+eJRwjR5VrcDAt1xxTFNTGZjSvwVQz1rBDgTNtQnpo0ysTigG+MkgrL6gZ4LsKt+2+BC8gRy541D4TTowIu39W0JGxEK5ZaiImN0sxooxhQhs/hBrl7l1clsJ1UA0OFW60+Tiqcx0kyF+0chvaoKvPiGnmci6zSMp9zT2AcxVHUj0XvSbljCL8mwscvBePJymhR1HxhDIUkXmzOnQc1rApM6N4cCQVRbRZP2SBvyYpFHY=",
+      "claim_no": "nbqbUSpKYnx5l89UBzKkn7BdiOnbN0TWt1gQ4EI0lwdW6xDiPf73z8ze2cXp7NSSwkQkBHHglE4HyrdAaHAZLMWtNqWBoE0HXxYgtosL1l3eEf50D9GiIF89dQc4TZCp6QUvmFVXLy46JqsmTCT91oN8YQ8tiw4LaJIxfRvInVynB1/hu5bypqbNmS6CJFzFXghfCZm+l3x3aRP2IBMcRCF+N+kGCCRksFotFIXrn7kVIixNjoMQLvUeKx+5LQYYlEVoXqGPm5Swq2iJYQGQpnos9r+3EgqAnaa29hbMMpBMU58m8kxTNxpaehv8vM1pAAjnUBrCKAqRXnTiQhlo6sLmXHHyi4jiUaHIiGy+ptAPYuB3Hs++S65JVKQ6v4leMvbRXj+pso4Co5zAwUoJecZsZtaoVat5Oa8AzKMA5pEwWmV6XdJdH6p+5njtwdts6T9Ms+Ou8lqZ4yK0AwRvzyHyVmVMH6ain7LO/cjCt+9nPFqMgfwGQRiWOZuY/nd6xAIGqEX5Hgjpqr/csNToO4GB38+7ukd+6WbU85Ye7zR+H+FZAy96QomZNRGfhg6YPxdal9gJvKoHa42VQB+q8qD0dhcgHAQhcJgBcuvV/Z1wFfd0aUnD2IOAQ8OXP/DWIyuWbjwu1M8P/BfSjJ+gnnJWU9gQWVBKCCa8P5Wz/uk=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-10-31T00:00:00+7:00",
+      "claim_report_date": "2023-02-06T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "มะเร็งตับ",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "97/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-02-10T00:00:00+7:00",
+          "claim_payment_account_date": "2023-02-10T00:00:00+7:00",
+          "claim_payment_invoice_amt": 385000.0,
+          "claim_payment_amt": 385000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาโพธิ์ไทร "
+        }
+      ]
+    },
+    "Signature": "w0+ereO7jLT82k6BNFibqqCMavmlkFlTc5aW52/OOQFkJlQFqeeTJfxD1SudkerqTvHCn/YdMuHY53AG5zbZ8jBF/d5QsxvML3xGWHJAf0yT1/7pBcoqCanI8tcxMzGQzU/zBN0hmJDWQ9gt34aXID4rKHqQQpxT5TRxDUfBI84X9LQ0KgFlJChvf+Uej+Zk6XiHIsm95N5ptEiZZYXn1I5dK/nUlZPqWlKK7tgDetknrY/pi5W3XYwkkhr4DPHYGZPjhYQ2qZTIR30wfQhQOBWgOE4PXF20wJKXDhQcnv6CR8i5+C21nRj/BeMtkHxGGuK998jwb4jTC9M0mHKOSde7kxlNUeOaH8vYiiVvUNh0cM/CaGVY1C06dDF1S1sm/mgGNKV92f27rIH6eTqnJj9t71K79OWoqpW1rcNhCfhJeDdzUFVE80v2TxR1452HyJE23oyqEeWThvs/OgSuV1Jfz6hvBVjW0N3AAajTjsDwRsEoB0WamLyhHbxKpoVs/VBFW8W9d93q+qtV/O4PmBFTJ67Ytl3EixnqTd90WN3v1efVI2gV3go3znXnTCEra46rR+jvPab2Htz3xIIBiDe/iv64dU5VD/NEOK6O9W55X78qh2tWGdE4Fcd5A6VRJOLlEo/WqBLQAmExmqo6T53ZjJgzkdWtfMlMzbPQkDY="
+  },
+  "Response": {
+    "response_id": "8987740e-e7dc-439d-9c5c-e357a00455d2",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "FQMqVLXtrYoh2h0JBlbMhfrQEs8oGKV3Bq6vYNm2ULgaLcGw8Xic8IdMS4faKmn35mBi2K9VFl0DQSADBtbNkU4F6hc5TZ8jG8/CpyvaWu7wiqcuc9zn0Km6c9w4wYuFlWwvMfc+w8fcHfSYgtUp4RlPrWia1rb945g3y076bYMUBvwk2dH9hTa0yOwr2ZABL2T0HntTe2LXa68/k3dku4OiWFXTPnqeUSbPENGGLYUj3zf0B6ptQNcA8QdBCjSi5oRw+QTXF6NvxCSsE1mRKrYXWwck6mxU6UKgSfxo8eSjw3Um5PIIKCHXuh+QjNKGYLnfn97s50hEBbsRGRbBLtfjVmd8XBo7yv5KqExAaadW0Ulkhnbj+PXjgrHhoXFbrgMQ9uL5/aSZ2mtHTlgKqJG1U2BtfoaEpHp8gaetrC4LHOvWH44FeAJg6BNb8RVTIW2NK7B946rqOpsHZoGpX2spDACnu2roeOA975iWNkIJBmD4NF4xE570TmzgOV/MzWBtqJG8wdxbuc/bRKsQmgKIBco1PUlcyakMYxV25ho8T1+JavS2KdnXvuy5jrMtZPzuufR/oBAru4SLST5eVgqh1FQTQorq2QDw11ILdSqhDTnHBGGrETK6e5H3epVDFFYNi8VShLJGx0BseTECrOx9p8eQnUb0i1uojyFAKc8=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "mKw6x+7zo9fbIbaxV+Fdmi8+MZsDX0HPT0dVaja90akk3BjZAGasxGk++6vcuEimRmm4I4Vwu3/nyTjz1Gx8rcqxkwZtHgphK1uyS91aytKOCM06tOS/R+DV+1rsrIcD/2ef1c/F8+4ZVFvAV+Ot89L5o8+0BnCinb57+99CUCIXqvR/U4Ii6jrpVLfwkME4Krz0FMomsDtIcZeL0KxuL0S17RSbg2QEH9QjIjD1Q8RNSsXoMl9IMIXW3aseO/9/X1dcqFbm13/kttI9Lgy7IT5zDx354EULglEHRT1pzl9L5KIIAuiuyg9IasWA1HlAa21p6aJfIWkUWuATXOvPnUHyGL/BmFYv74H8sz/yigi7b+uTjr+ez59a2NOjwTkrwNLveoUpsn/L6GiSQNHosr4CYZWZjQew9Xv7vTpwatgF8yDYC1w4M6BMQT7p+goBwrHbs7vJb1OpALl0cr9fXa559QzOzP0Y+00lQeLLt3FhkrwogQlYVxrwCNtNbZo3ujF8/P2ZWzJbSjnr3bBq75eVpyP4xHWY8m9bENf0cPNsZwxEG+I0UsefiAwSeVKTi43EDZ5T2ot/mrZEvb2NCxdpB8tugLLGnKc8+ATxCMPqo8gdUk8DdXrFuaMWdlyzglkEt0wBOWuBgDqipZuRSlpTnZIvOpH13VxxeRoqeaA=",
+      "claim_pol_id": "tciiPEpM83wFhsXuZeI5MOmUm4MOuT7NUBhLAvmWzAh8dTspFIljcxygO5IU5QaczAI1/n7dFIrZQyR1Suc4FtjkSkKBoPPt3RQxaEMEzvJZwopNvfcGLwfOwis+i5lM/BvENv6eVWwthBSivZL7j8V6rT4BWbaNik3LxIpzNOLkChtUeJhkVGKGdc4sWRYosbp9MU9lJu1mbnJXG0j34eEm6tJVJDLPcJ9mJhdxG2z9acxwoSVQvrh7xHcTAuJugj5vp/EJ5atBqxk7x3T0Bu829vKcLE7cuc75d5+DPb6oSfCCWd9cAkiMQxo8JIyJzyq8FVYuGaPd9CF2Rk8kKaCPpuSAqWVpTIan+QXzEl9pGIzvU+guu/122iHKzFIjcRZa6cK75MGJqOG6REBAhnOGDVhJKyNpkdV9jr50okXgymYl6to7SwxrftGAiP9S8vFU4FGpEKK+ue46lxLVmcAsL1pBzyXSDhrJhIqvJIKX946/y6PApN5QVd4xJEbdedE+03TMijLi0jQuiTjcq88sny1Fpsc2zG6XDnoYjAg9mDsr2QElie3yF7hAt1tBOXu/fzitj0u0AqTYAZJmBImlGxQaNZN0tGBDd+KO0TOGfSa6HIpJiF5uB7PgJVrjkzpKTl7ehxbkJIvK8ajopPNb3f0I4jCPbEmbCPqypdc=",
+      "claim_pol_refer_code_of_company": "LgNFFUzr4PT/KuoYb3nW71ehhTJl8j7llASJpDC6rC+iizJjWH/snIs2mJXioPxBvUg/RaamDsZeT55mD4R2deRzYHaw+vmpbQHehGmH+rAICmW9AwruRQCdCxPSOJU138PC628ZdhoiKkZwmPzKhg3YooudcGbdB7RFjIAuukBMoN+j27urmqhUCiH2L7dRPB8UKZ7c1WKNQhKwrpsCDetMko2prdqPc4BANYi6Dlx7qBEboqXqsm7hiNeWplm/0qnkgCOVYCWRlnUqY6FNBJTkpCPn3qCKbSxifXfuYYx8Ri1Y/DvDeWG9qsSbOGKX/8tIUjK/9yPgXk34ehUDfs3QLNKSrNZRMJ6VYibRKsM9qZicSTWLdfTHCpD+BmVr+BTNQCwi4BpOWgrN05eY1sS6BhY/WlIN8YWL81jfH3B+mvfnS/giPRBfkM5A0rqMy3s55x2sNvcreZ2zbpR1UfnH/SrEJh+UKSJQzJCzzq4LKW/C/sB8jlBrUOcFUgWMg5IdVtwS70cIG3BzqxBPhMAPRbxR6zwutt3DQ2dNmdzOAkP8F44E6DRUpF5JZ3xERpsQUQSG4mSDQYlX0zV4Ztf84nm4i/QDNxcbersnVm2T8ACXI0Mwedgol2UUuC8I+UGme6eODwJh2msWn6t1+SQ+CNeO5IO1gvbJ/FWwlvA=",
+      "claim_id": "le1daZQ7cOXKOj+Knhy3oH5Wt1yNlBBA6Zbq95hXTp7m8+Rby4h+LRGegKoW07psaNM14FoVHizOwKvq4BDu4FB2/irzWkoU/mZL98WSln+IAzUFgkInQ9lXdl+gN2/j74nwYtezgZAzxJv9OypvMt1g7R/4/AOYJfDxR1emeQL0PBMYNQPRaBOnIItC+AJOES9s8muq4zPkD4oFwMVuWj1B8rDYiR0bAnlvWXBYGINb6xMmtjwQLoWvcqlSYYo9N4g1uasnmQnaINU3bRZPM6I6SQf0TrjhUKOYld8q1jt5Bkq4BdxD12l/PbBEYk7HHnAs+PrrQEd5kpu+t02Pqqo82SPt/fzLbSrjY/NS1xjd40SGVme4g5F4yRnvLc5ITZiRS0JRYjjkSDThXjTycR1uqOce0Q/g1cjJkrUPsmjgFGBiWX2mAZoP5YpwKiGffhzCrrdrqKN9I+PfXfqM/duNo+g1zDbnQFfBKD6pak/torAlHd2FINBdZn0OylJ1P2z2+Nx8YouwLflP3y/OUG3p7HG/urIlBePbiMTqggMz6MWG6VOcABGzPJjz2VVegI50Qud6qQK39q7gNKK7xa5XbUNdSbH2sa3Dhmq1FHf4HdjDGlkNklC6iiCW9miO991AgqgvwroFyC47QtKAOEFUPGq15YoU5/PsghjZ+Uc=",
+      "claim_no": "L0G44zEfbyvVvRKbATKl6KEX35Z8INXpp55c1obVg93PkWPTlaP7v8RvjzfcQH3sEsQPpauFjs8EjP0hCeNQz5BqwwJUdNeUD5GG5IwTl3M/yuap1EO6ZSDEVSok8/Mm/b/eCIbZWPVysQEpnMj+ttMz/qCVRULBKcWncbivWNIi0pYJ1KchJWzwPJHxZ/rCcgOdFsGMidI1KeLBxQUGLKggK4CKTd7aF0YCpr1hRs8Uvwf77mbeC+3rvIuzfsQGRWgC8ykHkD+imNf9nnS/RGZ8zhvyDwRvj6hEiFItgvom4DfBCMEeDeoCIKkVyh6IekcD1XJ7e7IKWYwoX3RY5CBompPRfiTniyFvuYLIrbOP9oh5w4P92ESrLf5Wk4BTcbtPo2tUiTjPeNHvnSHZ+XdpIDvM/ZFny1xyGcGVI7VOIOE2Sfb+Zo5Pnf2RDOUG9UN6S4AcVp9Cnm230XSLE3SrHM5fI78JUkfJGhEY2wvH1wNMshU5p25QTxB4WvRHqEJmLwn1JPlmdVg5pAyey9DP+pR1eh5frV8LDEAvSVCjEHR9vCt4/1vC79eTlZ4wUbS6DEdRM7wuRGj6DiVKuXBT5h7zFERWbwa9YKoBZqaBFkzlmw7YA2pdc7jULE8TThfIanclOB9b7vuYzx/CQkPuwT7y+lsL0qBPyaeMMSE=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-26T00:00:00+7:00",
+      "claim_report_date": "2023-02-08T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "สันนิษฐานว่าเสียชีวิตเนื่องจากบาดแผลอาวุธปืนลูกโม่เข้าสมอง(ฆ่าตัวตาย)",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "101/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-02-13T00:00:00+7:00",
+          "claim_payment_account_date": "2023-02-13T00:00:00+7:00",
+          "claim_payment_invoice_amt": 100000.0,
+          "claim_payment_amt": 100000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "สกก.วังชิ้น จำกัด"
+        }
+      ]
+    },
+    "Signature": "0bMOt6CJOCHK4WtEn4gWWHD3+QwNmZrmQX6b3dHQrWo72t0Q0c3aJ0zM9RLT1MRAT2Dkgo+Cyt0o1icAf4KZ7LM7fs7FRnqN8J2+lccz/UGumK/rxWQCEuI67ZInKZBFq+ENK/g5F3hhgb1YzeoAVAA/Ub98+Sd/GZwCNr3e6Lj95hseKL6VUxeLMO0OSSCi6uotkm70DFEAp0jVopEA7hFXe+8DE2hhW2mjPfjrKhe+PxPThegGZjHzAIq/grYFfyElfboy6XdPT37QGWCRq3PeytK6FKvmK1LbKoW0pedShQl6SkLq+/Mw4k0NR7tcdT79xNmcRBukjV6Cf8mX+fWHfHkrULwKyAL5JhZ0+rOltYKDRGMq8J4PUFTRi9UOoNBnbmYsso2B4bztDohZr6gbYh849a6Z3/p8Qj43MeOu+INzvPYlzVIhAaAlS67M/c2ZSnkOshNcojKaNauCTg44OKeqBUZEuTnSw5q61LOzvRn3XfsldQQWIHb/TeAtDYTseFZ7H8yPju+0BNg4/ST7kdZ7ydaLevZIiwISo+/IOvq8XpJviv1HR3zRMuY/mUNqW4ILjlaa0mf8fVbNPbtilFVFOnIfQPJBofbg/vU9MAtvNxDu2ye4ZC9gNNtEUT4xAMeNmmOqr0+bYQJT5hnq0Ex+aWAfx0Nw4944jLE="
+  },
+  "Response": {
+    "response_id": "be1d711b-a601-4440-8e18-6675813173b1",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "bhcsf+QNiMOgtXVcUfgc3CSE2bkgi0mo4kCA+N9va9eKaLIHjbhYUGnqFv/Dg2OJzpGGl7QomZRygglHbpmTma3mbfCIRTipEkOJw5bCzy7QYGFW+0BlzZEqJYKxzbkmc8sXx+Xt8Gxh2K6cOgkXx/8NLm94zhTP+C7h0QUtL7Oy5xGP3586jchW6I2/StehwtEPTokm11mp/I/xlT2K4b9FYmHCf5ALVgY+yMNTviB409WZ62VjGVNiJeskr1WBrlzgkRfuz7G1qSX/D4rnJJNgm5W65tDdgplgHNqjPFPHNHpiEkd/+NbMR68VMCSH4VFkjqwstRKy/hBR4C+syTTWyTTngIxCFhQEtGRlryGex+PLr7BXKNXWx8Mv8Y/M9jmj6YNKv6zros6DAW9t9/3dzOO0vac9ZcUjOXcC9vJgE+trqtsVXluwGSHa4VUmw5a4eyBvsVgrSRR64femsx8eAaOaREW1ZXNM5TPwP9iaps2T3JfTuTe58jY+dn7pKw+cV6+WEnWjRYum+VxA1bOmdf5/ntLTW5Mmx3jTMEgfndWugDCGqj4EUkKvs2Wiznpm7nwXcfjvDZVP1mJzU5oNztMkKKoO6vBkR0nuuR5zR7g+4Ef2WIn5fMWFKOXDZVI5g1h0143fj/Nsd2NaqPnAN72RJlzMrdSA63tsq7I=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "UO6iROA/tTN8V5MVt0REeisfy5bH6GGaPHws2UJP9XkkuQt/eA0kYwVpgwPt7HkKvJf6wRxDp+HBOCyNbC862lk9lfANHBZXV7YbKlimqD8uhUXke7fkR8+FrgfbZk7zYwyK3Ko1S61XvaXsQLtgaMureSKBsVjiruDdWfVYM2nUlx5Z9oGQv4aAL94pMINjZNutbV6Hx/5p2AftoAVI7JJNXF7u/wh61SGJfFJH1t+RSDtelKZL1mGUDxT5lJbbAY4bJUc6ospZZKfoP3hzAQXsSwYibPtF2H0HdJeJ/FWtefO7mOOQP7oJeu9K8MRiFxIqhoB6DRMk6aknPnWpX5N2ZqQaxIrD/FkA0Q2Wv9O3bbXc7pvkzwgGL5DSu3yB7XUqNHl/+3MrSQb4/OmbrJUiyRkY2CD38bVpGI8C0EFW2poxf40fjzZlVUCwMXCJXzFJqziEzSLTgrC1uatALrZaeZCorw/a9opVjJu78+tVk1G24R7FFeqPTQsdfZCE8Rcvre8AJ+JqdLQnaTsmfyZBdCLPIWS1p3FZrUDFeNxpIkq6jLTzpW9gub8BJ339FkkR3wA+h6KRVRCoP2aQDr7elu9WHCutAhXCJ0+qOMU0uL02iJ8T07ScyyWobnQiBbSF8Bn/IpgjdSHNjvy2Iiumv6m6yuPmWle3NuDAV2M=",
+      "claim_pol_id": "utdZWzCyUImgo0BbttqRtr5yOa2QQ6XToylqNcHIdcUWeKQMEHbNaGyt3U0ySsUjSC9y/TzMJo+EPOEzoIpsk83ZdkoAJmj5K0OsecUjlBfGUtiJL+LwYNpFL7lF8wI/693uGUPgU1fSJfIqk5A1IyZ7n71nNJeGgr5RCq6ssxmkUJ8UPa507MqncXxH4Or9jShJYFKgvxhUyAcx4gXRE/NmceIiHtrl4uOKAlzsgk1thelPfJuxlOynUKK5EAVhAORH5y/tXpj1sFM0XECbAL6RLj7m1Xx+wPdIW37pQvEjjGxOzqLnIpB8jCYBUnDigiGuZql/eJdyN5poUHRsCWg1fVfeC7/MDDcZqH++5r0O2Pme/s+dWJQfBMO6+hElFaVJVEOrG1G0ineauQDWHHqWd/vdE4BRF94+qYi1ZeaiesW3m/BKwzH981uZvanwoMu4KoyD3ZXZjttWOSFZDvAi2Onk9LPw9bVkjKt5Swj17bCCVVOvSOf34BZK1tscp9SaEUeIN0PvaYkaVitqhgxJl/SlzsRSBdHxYCD2OugUYigBqNV+a5ZBpWNft1qRN9JPsn1BXwLDfCzqaPsL72s2QD++zE0IPtGlneND8WMQ3EayA1uzC7RxvBUlkGhtx9RgaGUc8sOGbKI8+oKzGMjEpiC6QUBdidu16Blx5HE=",
+      "claim_pol_refer_code_of_company": "OJ6rTtgcXVnDj6NgTGT5HmliL9VX+1vm94ghiOTw9k22VV2/x9Q4MQj8hseMh4lVDOjRTvKT9Vr1vXCMd8NOzWvxD1zPhyOc3oUltH0ra1Dr8gy8WrZgwE79g/UypNAUtJF97/ygTk9kHc+wlVxZ7bZD9Cu4fuahCKhMAH6JHILS1aCK9dAhXy7Z1QjkDGSUB86HDfL1R79O9rvE3y4QTJQcvHEgvd6cMV3Syz19kz2JLfO4pGDCDtkAi9TjztKglxPq1/CoriOJx6rX3V6Le9pORFnavxdcWdF7pDQCC8YReyy3jg3UQrnP7wu26V9Dk4Vlm/MNzfDVrJrCff091EDsiy+NCeTouZFS+nDFR9lTJIFqzRuG/OlFugfTa4JcKF4fm3mmQZzC+2J3kULSmWpVG+d1duikVN0forH/cVzyyJ2ewdpRoX7TBI3pq6Hj03h3PenbLgQjptePazffGVw5K0zwFs2PkEafMyy0IJspo8ShrNoQDdEujy/oJ9GEIywZuFlXQ3r58bFTxFPG0eVZ6KT3n1394XL916RyqIeotVDa9CQA3kKDRyod5zJNkMOuJs8PKsC/GBUOqS+bJMAJ6s9+GOqHF5dzVjsjEpoJMtjH03fg1GGEzg5b4uZf/h85aQAeHRNEOLEL+Lvrfq6fnHrkv3e/swKN3OOb7DA=",
+      "claim_id": "evTbjv0bWIOtSTTwgKjpMUrM/AqNH5G0GBFEOebrYS4/XzzrLF2FUfBZ3mKLbJ/C5n503Cdm0+Cbpgaj8FCutWubg79ztir26/82YLhbMeKdh9NzjwcGL7Ix5QFnUGJtY2XfkGkfrHelfZA21OxYHTBPgfGMBTX/TOek3wHh1PelSfl/5PVSUjwOqE04Kpelt7Ve+TzPgLqQ4mGjnBBmd+hTIifudG6mxc+Cna1Pw+VB/kTF3wUR+nKo0+LM6C57/yNs3AOgl+u4NG2eX3W3OFnwqqhm8yV/6jywQjeD8aT82BwIC714CCSuXKKcPUWb+zcneTpaqnu1ZgAf2Z1nGZ1D/PP3RwXRR7Xi21FGxzCXgWAKSaskB4NbvngTTX7Tg1nnTWU/Y+HcvGZA0PKisyfQOr7eo213xT+e2mvIErEa1CQxZP7yQO5BY6LjnTcz6i9lll8QbfCESYj6qbZy2UF6TyiNIODkKd/QEfmiBWg04cDIorwh/C/0IyHlVpt81i0+k8QqmwiY4JoX8HQsrxgMX2mtdotFHkNrhS78JXb+guK9FAF917c2rxxk6vfYpO89VWl+dbKIE5GLSoDS2plU2X82omu6r8jaaJvD4wvoEU2niLP0TasLu8UBn9FCWMGy+0x86VeuBE+DHTbwCGMzMQu6xPs+V+7jSz4RlUs=",
+      "claim_no": "NDJ2XgIe8f7YtgwYZu6rzpTt7qDmsGzvK2171W8nyx6BVpcacondNqP0dxxtQBkrRq07CT9C0KmhznyDAOyjzlv3D287DR/XE1Q2lgtuGiUec0k4HvjYFGY8GTxz90i+dLMU1UKrDjmr5oUDYIN+6kBBuGI/DAYHk6FEIGpvE20LMBLXmbR+T/2/eoviU+Gblr7vrdu206fmrCYRGzuWoh3QquPHGGXrsANxEyXVdDOd/4Sk9aQjP83vlhZU/+0p7mMer3vuaHgrRxreHlcnZwm4wu5ond8g2myu48InhXgCDqLaqqie4YXsVzjRA2yjX3YD1jjgf6LDBKAzZxAtmzJL9Wad3IBLn9dDStxvVI2HdOcE8Rh+OyFGXJFg/PI/vF5DhViCRl47lbF9N6xcP1aa0EkBjCEQ87LsT4QNOJ4q3/LMq9Y5ukyC3j2uAHPzfDcnhB1BkEQVNsjg8YnSEym+xerGqyGiJb2wyK1/3kK+FkNOPdsTwG2jBOiqmI6jFcCVDowo4q42D8zcmBNPVCYZkg+i9oRgXMQPNjlci8b3VTiUpoCblLND+slVpbo5j1VpPs8NJtd/9Oam1RynurKFgs/URiSvU59sp0YOAlhnY7xIQ4AduE/lYg9CmDrKQ1JPJDUDs2QNhQtLoaLoG7mVl9EbJCPZfj8R69n3cAA=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-02T00:00:00+7:00",
+      "claim_report_date": "2023-02-13T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "มะเร็งตับ",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "111/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-02-17T00:00:00+7:00",
+          "claim_payment_account_date": "2023-02-17T00:00:00+7:00",
+          "claim_payment_invoice_amt": 141900.0,
+          "claim_payment_amt": 141900.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาน้ำขุ่น"
+        }
+      ]
+    },
+    "Signature": "t/2iEzMfEdqvgCYXufVFIEkTLq3bNJn7iEqhMevR9Dppbpa6Q6rH/6EspgJpWKEIOz5ICi9JLOBQJZRuVKI9P1KHSTNJgyz5jFDFQsBhin3D52WVbOgyVx0hnlyov4CnixM3t0OLafZ8ntU4EHVuzlUMVEFpAk86usZ+ImMgAymfJpGqnPEBQoT6zNlosiGTvGrfLptLhJDLRTXDxFYOTTocapTsBmaLA7hcFliRQeV0HTkytqZMiBkSWMvZ0TNTdgx97KHFwkIpdQ350wMZJobaP/u0xA4xahZYFhxqrmEG7RDSoV70zq0gSrM1uY/0HrTTbgBIsJrflfVoIXuFdS/6TCWHJmthlLjOfMzUUpt9bFBBuoCigkw0XdZTRqoCwmcyc6Mw3OF3HcMETqRkCaMQzmIei8XrE6MtPSOe9z7A5WzR2hr8KRyzOFiBLS22OMz9ZBwdo0eot9V16flxzXn4fcD7qdoVXwjt1aR1QZbgs4iBY1mr1GPmadOC906xS3pL1Er2ZhJs3MnLaOXFS11W+4YTvF4qhU1qStpdIJNrUDQGMt8dfmqleuEOg3eEb+ZhLO/+Vsik1ZVAy3UuKaLwx/vlLTJl5GwGKUtMhBdFXGd8Q1ZhJSh3UgdL714X6rDNaPo4NwSJNhorZjweTgOjt8GZNzyjE8AHFGplUpg="
+  },
+  "Response": {
+    "response_id": "02cab1dd-1a27-4942-b9a1-ddf8495729aa",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "tDLXdgiVIHQ9BREC0IAOOfIZKuPJe8bY+81O6uzz+/Kv3n7eT/j6AsTEMFqhTWHuxEU0+lYmF0Jd29qnhg5oTKGF5VIW7ibtTuueSsi2yQQeG00ihDQhnSm1n7USdufvI5ep3EQ8BV2tAp1kDU/HxFTYhy33w/zBmAkTmsYUYppgdhKN6gNK6R3jX3dvnhfLF9fJTmlhLWQshzpX3/lrAvfzPq//zWKCTC6ISD1OLLwmpTSgcHqHTT2h2zVLJohhW0NmaoV+du1GMg0esAVJY2HU/7/O/YUhZc00OZIWP8bzpmLfcC4yDLGFcoINqwwMtp+pZMyrR/iONGRT47GesT9xoazabzJmffKgq/0kfki9m4iBzbcQujA8vaFo1Es0rhE2+2DWe0OncQ2y/w0In8pk81u1np4whJY65pmMU6exgB8UkBsO+/yHpUNoH7BRYeSf+iKaiEwLrqjfNAy63WxsiyaQ2OgDgQXzOUBQ/pJSTV5Ky0SGrxJsbDsi/QkYsZe3jyLZGf3xNdQYawNJKA4xzXpeJZEnEomPc/fAwRok4qa/ux9OAKo/3DTDPsLfuApLAJviqe5ez8pSiE79+2Uzy3Mqtsd5RXpbAIiKHreB/rWV2RXRqoEFB88AVkT09+EoNZRbWyTaoyF4yhol/ucx71cibAEyIgBy0M+wk2Q=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "JcuFdO8HRA7eXC0OTegCwcs+V446Awu5QsVGIyXzXsGrKZdt08AbedCv+Kp206VxuDog07YMtkPPKLT2b/4rP4IYIU7xjPbkIur2nUA3Dtwf9MCIJz3XG7DYxMXCIgx0KT2UCHToJPuoW0wVWWnoh8hqtyx+nIpOwhymyRn3OVwqUoWeoPKGO+57XX0PYPyHwDVMysDitUyANApjpqKHZFAET39W8ojmld/6lewzfRVkpIKfKcZqLQSpCDzFV0y11DYDUwHXX09zQQcs9a8Sds5OmHtG/Mxu/BEaG4FN6CkHOYKok3Fz8al3TcUquD0VQuvmMC+v5Vc7Ro7p9l+scCwzd76BSn/3ZPHmPFrrbK0B9om/FKxRm+M9uELZwbjnvwlyJEpn2/AYP4DPUMooJHuIHPErkPBJqXpAkBl6eCHrd6JALazjQ4UNRxhYFNuiDMr9txBDi27p+aRNcWnQzNSz4OhqXkUBtVtNcTN1z9C3kn0pdglJyd7vaaQi9tO3iVClr8wgrwCvi/ekSdaRMZ7RYIRArANTUp53ICN1wl3GfLC/cuFE6vxzdSqW1c55Q6yxhwVlKenOki7XTX0tbG1rxQHwo3YQyvynwga5vfygE3Q5sEz74SImu2KaFf+FO6VCaHkztXVx9mANshUbA1wVEWSBEbAmBm/mI65wZk4=",
+      "claim_pol_id": "AAwLjt1CL1ty2w0c36+xDIFPZlmsKTf7prSyyz32fGPY+UA+n2q7ADQzKITkBrbu0y2DG3202J+m2qw5Q3/c3aeEglmNfHyV7F6tvyrC81/zskyhAsHwI/ppwYFR+Ncbk2eXdVdODzAsT+gKUkDgG1rGJIGZIEtONouN3ORRRad5PkI0jmvrbBcjicAwa1hipzGEtE1pg0Yt90fnBg8F+M/Ex6BJ3kfi7i3Jkl98SVrQI21rqZy+T52VcbpzxHemveQVgNnUSqs3wNT6uX7QdhvnIi8+IS6r8qEQ10TvRMHnzWfrA74RWsfs/n1rlOh5q5QnTYhGvlBVfyhW9UStIVd6T/amqu5dIwznnIU3czzrtsTWpEQ20s3uCLVzGDZEyJ/b35tT36I86ebqwAi/ai04ebb8ir+NbCryHpIkhMV+Mqwv3KC9CEn8g0WA9KMUz1W3BFUq6nZVIv+rHzysM7fNFypWF70KrBslNira2HJ3e7HM3V70dvnGfSYa4EkIBWbSWguOuPpqjgi3t3Si02J7X87xMIB0YdUdtDhxRnvCbMrcbBiYcL1HCHnzdrgyhxKPogogXDm8uPvNSHK2NiCTtC9aw2vAUfMPYdmGZiDUpxFpE7C9sd7JilW6VaOqgsyuybZRSsoVhsudiLkRdw0XJVue9FGAEOuM06GwZj4=",
+      "claim_pol_refer_code_of_company": "svSjr6e9XPAWWxs/8/BIsgorsMluT15V9/K8s+fRfAqdbHqWdV32/CfLNIg9YGcO3b+lraTQ3ghI4k6EXHoES1MLOel5hhKji4KCaKtQaFEIDibY6hxtZYzrwdpYXJGCGGzkB+y4XdtSMyTWjAYmJDtIq3Qoc/ITs8gQw8r9WQvOJXpn51wx9WxeSzKocI7Duc+EaKeFTLXg2sts+0f3TdGjLOy2RWlVJxU1Pr4n2PygbtoMLKNz6D97ifj+PMXfySomA62qWexngpd4+2JrMz9nPLWiovcDo79hFuXCcXq2ksgzkwBhkmr1/vsenJc+JkCT4Af0uPABwwrNQMyFh/5I361ty0ezhgzuBTQ79syRH3QQ55M+jqZkPHPs97e0B6N79iGsfH3X0eIJl6VyMRpJoRlwr0U7DRDPNfUkOZg18cteBqgUcK1OalGu0JrK1L+znXdVe5ANxTElhF+El4eBXwFXA2f/oP/wMbDXYyYqOcnX8lt164UXYwlcB4L4Ibj7X/9ldkDPSlFwbnPzIZlz3yH7cNijSLnRD6eK323EkMXV71xVIAgrfC5/dvMvL4A2DDp+jEGBroxdfNJCNUlv3QEjkslAHes4RqnvLfPNxnQnEAsJNS/r74W4JbCr0plhqGGs1uJ8qeEHbDK8ozG4U3Bj3H7A40grgGewgZE=",
+      "claim_id": "kZ9onloAVJfhSuhxX1Zb+xK/qrFdoPv5dKDK4WZO8HYq34iVZZPKV2czxNmL2y7E5lPFuFbBiX7mxLV3jU2WfegV94UZio49QN+wn3rQO+179Pyaf3C8t9MfFbC2CcXY91clnbNjW9Qf57doYAo8QDTHWl4gGEtGX9DDLKZ+/a817kTfmCJX4u+I25V0ylWnVWV+lyjrfjpTfYZas2dz7xEs93pb6aRFSL6aaqYMlKBmebjBXMykORUTY9q2gB7/IZiI8tJJ5qYGgeGygoBdVCfnAEAyLtVzsncZwtF3hEhNa6C8DDfyFDEYOSz9tB/fzBvK1q40r2odrZjO9gmo0ibtrQ3sKlUi60SwrtF8yaf7IZmNFlufgY+eeY8ww3/4kX/La176H4uuTtLwOMEdORosY/+TlmPchomkSYYXe3MBonSStMK/aUWC3ebA0fmiMLYLKlAnAPqEn3D6DobaePq9dTGBWlaz0lTZHiuLsmZELDNcN7SAoqMDUA1TGnxlZfhMw5CRDCMU6SzIOsCq7FEf9qJ3xG/4acLQFK5nOpXxk3ZcFMB7q5CX2cRgcUqZ81cMNTEGawxZ85q65xznou/wMp3kGDJc0L/1BR+QeFa7MlaO7ElnbsVkM2gqzdfLoW5nmkUJ7L4+5yD5lOJrOZjVau8c+vDF7eIWGPPLA10=",
+      "claim_no": "pxTZaGK/NpDF//eXc7bznxlvoJ1089BaRe8b4IkLzG/QlxTsPsW+qHzHNB3AqHPbeRcJPIw17wU5umvmPYOGSbQHvq81ZwgK4FQrUqj5uDo0MjaPql/H9/6YDKbqXOf4L9E60YGVoTbNDCEWVQmdYyJ/J6TpIxnb6uA1XO8TyhGwsFFl5eFmZqxnZM9YS71R0DEy6ZvLtNvztlL71ETYyYXyvUJ4JMsOIuF0iokPkQD5jTzeNBT/Xe39qfaFssq7xzzCCjplT+fyNe8koSIWbiBJlVgbpKE7Yyn/vvPKKBhoxTYjDbj6vafEdyXA2yf9mApenefqiaQu+1uQDu8njv1xdhD8AqH5BzMOUNI7GcC4mLf7fGfDslsjZqHIq79GK8H0pfw+DzAVIUjzCokHMMlXWmumvKArPlaBVBhryi/bsvIFZ/Wn816Ma903tzbxHSowXQVA+TzRceUYsnXwi97xMbcz4kxo97C0EokbLYfbGYUYeSlyDlgfegB9z1vcSp3DGUd35+AdXE0IygifZ5rawUygk9DHzF0vqC5NE6My92FCr/ZCDQ8DEO17QZ20Frjf71j2tEnMrt7QeJO/Y6LSjVRZj4jgtyCiy0tDV2RXV4YvY6scCTDi2TPGeCAkg9saX3SrPaxt9wRfJTIRKhAqOIRQaKgULW5OA3Y3uUY=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-11-24T00:00:00+7:00",
+      "claim_report_date": "2022-12-13T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "ตับแข็ง",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "777/65",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-03-02T00:00:00+7:00",
+          "claim_payment_account_date": "2023-03-02T00:00:00+7:00",
+          "claim_payment_invoice_amt": 110000.0,
+          "claim_payment_amt": 110000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาหนองหาน,น.ส.รัชนี ละโป้"
+        }
+      ]
+    },
+    "Signature": "xsVJoy8v+s828FfaCup0gIjbaLA/dE+csFf/6PH6dFkgOPoTzrhJ5G7p+AdDZ+XmtmR91k4cfdZ567z688EO75/ALA+2BoDHbL4UC2hqfpvnq59vwVa3CTBsJTp0FlBYDw0GrfdgU3DQC0XskikAvLoBbI2n9LhV4VCLIyf38FkR16aREXMn0zMg4c3kMWrEYK/LApB+YlqT7VckFLsE4HzkTNKO78kI6ORzpM/WS+HO3ROt6AtNBvLGECtHsKJZ3WCs0ecYPjeZdZNjsIPTFrGzO3ulQXtapAOo9mJiLuHlH0GiJetkphiKbpE32sQzQvEgYENVvxZJ2qk1BuNplyR1HuXgaPrjBcJ5iszl1R39A6IbxCD819gGt2zYN0BWZJSikCZqa82HnLml6O6ACHY4EsJW7IugcfqM6nIEgigu+AFqXXYmJRfQBdvKLf+OaRfMgoQb0QqDYL/aEY5ak/CGHXR9VyOtKkjz0E7MBIPlSt6fcUwk84VssZmo0LLlgZNM5iV0GUb5eY6o5f5LWW+Ed57UycYiRnlARGDcI1HSqBZ33dQbMI7i9357MvKUIYFK73kjxqIqdgRgEaA1w0CSqqg+BNCAcf7vF1DHEgTET+d57WKjoCLB68uRyhyfuhNBJ19XEfmenHEGanAuyQFuchqNtswMbebhwEUuHe4="
+  },
+  "Response": {
+    "response_id": "bbf2675f-93dd-459d-932a-a05d3dcc0ece",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "yUCK2jRj0n3icqe6Sb4zla8NE1Mq23tCqQugDNGptcX0ydhWEBtWCcc813EAsYetzODVvjyM1iHPthT1ks4NWfZiVq+VLgXnsVs3GAMmE/oDdTOxhkcFBOHE09jaHDU1odQ/DjkVEGAdatFr6jU28rDKb4+1kSTv7wVKrarCu+vlz+/ly7kGY62Jk4j+P0e4Lr5aVyA0l3sCAXkJUPUuVBrA9kHbijuUkzUd1jufNOzuWYXO7y6u8s5EQonW/7HiUeCefulcsdeh4bGtoLCTFYGwDfkApYHIEW0E1t5m2f2xHiO6NZeyyLsi47ggTWdyQCrw6/5irX7NyCJA5qspruHpo8/LgzakwucAtA0qGuRtX84eEGGXrQnXwAw/wyXu3ROdRAsJ2y9K8CTZW9V00QvRzNynqc43DWibxjHHeR5wl/SEdKaFLeez8AIWpsluF5VdZ+3D9tZNsHdVTuvk2ZgUNQWLyE+l8eri7fubEv2udI+0Xx5VHhHea0ZPRPCB6a7ObY36lckiByoq7VaR2PA9dGbttaELkfMqO6KE339SzCfN2hbtJBHAYjA/24LwZ+haTDooyA5mS8eQnNRAX3dQLb3bVmQRXVTL4p/W8+iFf5H+61FujqkTcGUDoYnxgxxgynrZZH8gmcjoUoyzKF++UP8G08guLApo7MNF9ds=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "kbPGCI9Y8pJoq0Lzz8EOJmlG/zfG5HHITuN62Quh2nFxBo6FnVw4UsoNHHii49mYxqlTJgwxkrIFN+IjlcfdwjP9USI9YiOwNp3zSLiARADiXNDrR3616CTXmp33qHgU2+mVi6muVglpJtZV0iYGXdIw7g1ufIwYsbGctvPDcOvPSUMmZyBbQxzVy1+8JcE+KYlVJtchJeHVswINfEjb3sb1+bJkaBM2PtDdCXL4e6bfL4ETEMSmXGrRl8G3ZjzHRyLd2UqLfbcoBAsHQiHVC6LZX3x4yPMbFmnIPvTqWUkste1UWKKzpN5S2EQpAn8SHMe3nKNaVCGiVOdL+bHlKW+v8QPDdz9FO0Hlj+Ipn5lSUSf1hjpewKxH2dHDgaSY3+Z1zYtQOENWI9z4Q8E01hTmtjAgpJ8gpEwSbyRKKIB/2F/TQbCxF3mTvgBRksVYW10AojJg4xel1RINcVWg7wJUi8SC6v6l/cs39ACsXsHTy7HerCHpICp3F2D7TR8B09WmVCNlOoYhv2YlhKpvxztROGqMc/DvpHSqE7j65F46sL5ivAgGEfxFHgCmNa/KMR1saFv8h01Vyn/WdALokljm4LdaVDsg6U13FFOHLXr3Es2R4RLVT1ZA8Hh9MKPCMxwXDypJjrEmkUzbly39bA49aw3vULXdA1E/g3uWl+c=",
+      "claim_pol_id": "fbwj8S2F4ZMhIQBKO8nwOCeXxzMJc3zomSVuiFq/S0ZdNv+p0BdkckXUkCx6apbLLZFgpR0IpbNO1XSNC5iTeF8L9Dr79Mc4rhz+JLBHOhsCp1GCfFFLvAbWIdTzH2Z1G4qer/5b1GjjTe9Tt7/ficWw1nOmHlrX/ioNGTqsFHCAoJVloKaJijHL5qsf57cP3JOtmv8aMFusDfox9D/7aHz+1nZe8vp6LFCw4bEcOJQdzrRvk3mO/BEOkWGM2pr23BkX5CcjHcCbSk0suzV2NOcPA4nmjfcyNQdolmetluTezlYgqNsWfk8f2DA55gGUKYQMlB+TxU8Cne4rEENj2VPtKX2+9AENgXNHDQr0QPOYC0RLvj0x+ULus5KMFyXsa3UGqAPIXvhHX1ZOVhTL5WPt9n++SAUVrwy9m1uf+6rtosEDisMBLWP+XM/NwtMEMNxAz8BKitYmfO9neMTrrDHrbX8VriDQ5RTOF2BXuIXje9biwwKNmN9g7BvFLRLGvFM8pgKVGLajfbiIdm83Q5T8Y56KFBChb8kEzkEuM9cuFi1u9vC4emZnh7UYJW3JKMbN+4zbOt9d8e566/aI5ZkRmJd1JC4sQO2v8WxYH9/Ml/wuwMbkFVsh3037oSUIpjUX45/eby/ZZkx9h6g/DpWQUCY91CFJ+MLHEg8qvdE=",
+      "claim_pol_refer_code_of_company": "rvo9Pijeb4OHofslsPrcLgCTr/pq/1Bs4Zw266ssEUR7OqEU5Ne0QFMpFB6Mq1hgzvinPL1C5X5Gnxx0ES7P6SrCmhmeaQmnZvxhv0x0LgMwVfFIglaME2xxrKIhD/nYhMx4bwih07RaEyu678aAECBp5RloRIzKvUj0gZ6FnkIXhdjlKU1S23sVwxpN7R9Ol0MDJBiAV+nHTZsiFGExC28QnzhmorJKyXExIp3Vp2qTEB5MwoeyV6VjE7KzCrMffh1Kns2jd1WcxPS/O8XbCW0s/bHKbyvqPDwclb4RHdwCwkkj8b6HUW386/wNyLPaXweMnMhT+l/rzKEmax2Y7xR5AsDsK20XfeMoBKL720XlfdWiHWxBDAPK9PbwYspUfh+wfWphvv8D9QM68bsp9gCFTPilgxGTrnX13tLnXGtLYGEpTp6N8dFRsQCRPWeduhIRPIIw7xAYggxjVcdzJENHllNMn9hZ0KPsBJfMec1GHZXBYSE6x5U+pA5uQrlS9SpuWbve3UjQnWZVu0YA2kC3x0/sDYUvycz4IVna3kkt5Aoy9n77i3i7XKiZfJF9M9A/DY6mOBUTDMG+n3wl/CsPmP0AJQALEZIeRrLcPwomTyaVMRWWVqA2ZJwbX84wtSYr1KYtuX97fepgi4vzu2/AonJJ43NdSgOvjrbyVyg=",
+      "claim_id": "iJjHoQxSWEcZNwuP6XthL7rwxQke8maRxy5wczf1QSYM8dTnN2YbJkKr3iZ6SQ0qvacCkOC2Ve9KX5jGhXTpHlZjQ5v4p0FaYZ3E0PkGFee+NI66WcQ1xYbNWDck9LFfuX5IIbENFkRJchtfWpVAlmIFO6iUA8Gn1kgmeCxWszg1Jad6aSjsD6SK7V0nBlTmjPoAHroh1tZcvkqxZ3TXJ5l/gYWtID8/of1kBj3H1dIw5gBBKeqRBEj6a1fV75ju74jvh39dejdxtFIuCnpb7/gsNKSfjRTiSYqNtvtN09Y8sQpiV9KS8bxOJT324FWTHYAtskM8TPfvpOAfVP2EgS3VK1cehCurUYNSPf34p7FTzBwMt4ZVZWHoeVmJoX45vl4+UEDFjszuhfPDuxvKAO0kuumFhK9rR5H3+sdAUCWOjbi2UIU/ovyYzuwFr2pGlJG+c4Hk6BMCC+f9JL0hQvkrqg8hjrJmkxG6KfOGbAEH8wMZwvaSs6/jjOGInejCTnPB2Na2eTdUfGnuQPzvy+hrK6jMtO/Z5qUSyw4zhVrzAPXoTiq9wboQif/WD7cz4CEg8ThxvkRP+PF5q/lesq3se7BH+FgZrshJpaYkj8h07aGgXB7imyWoUYyDl9SWalVwKeSFzVx62dmUXy1V/a0Uwkf1UKpOrb9qBxP32eg=",
+      "claim_no": "ghdvWdfIYZTIW8BfcA+Iaorq9nsezrYVBLUeRMl/yS4eoUKMwhWFc1Sodmj9pn53PJLGozBad7+isteXHVeC1HHhir6qlaiQ+SwImTgeKc9hxbZnzHRZnFDSNRBalFHzzEfnZfYOCYXYHkMCHoR0rgjkojzc2b4qbWLotH2upGpkO7NJfp5j3/y83Cu+bJFacwD+23iGuJrzUpBtAbAc3ZeAKHDTD8hmVhPyMDKlzulqe3kRoYVKOnV/3CUdfFzY2DXnl9LSYXZAc2/ExF6nLcZHfPWglGH+eF7j2cbcQs+t+GQRzfZ87auqag62M7PET9HT4cC32nu0A6LreQhvdFKm+j9QgCGdbBVrZ09Q0R10RH6WQRyZgRAhSXYQi3sxQpfuDGM3BFJx5/IK46Ltj49srmA5uIdGb2fCWNi1+/KqIUj/U1Kjmb1h0Qe0aKirpz+1+vML9VaFbfLPJmKib4JO1EHu0PT7K4q9wPSEfxXP7RiZiRUfIWPYEeiUFBBorW4wggGTMgRzaoMo4g8+dGOLPBGa7bulkUk/VU2Okwgu+HBBfE0NzhjQiKBfmsYgvl3olQpCp5sy8dk2bhmjX5RlugBEJE0yx+heFRmlEaNaK/dMMqe/5AeqoX6tIJcBK4udTDe/+8SWoAD64P5F/a4BvK7V+cnK40/jzphbvpQ=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-11-29T00:00:00+7:00",
+      "claim_report_date": "2022-12-22T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "ติดเชื้อแบคทีเรียรุนแรงที่ผิวหนังชั้นลึกที่ขาซ้าย",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "800/65",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-03-16T00:00:00+7:00",
+          "claim_payment_account_date": "2023-03-16T00:00:00+7:00",
+          "claim_payment_invoice_amt": 110000.0,
+          "claim_payment_amt": 110000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาชุมแพ,นายนิคม  ล้านน้อย"
+        }
+      ]
+    },
+    "Signature": "eS20YFJOs+JSkV/zYrbmk8QnTjyb3leieBq4uYC2gz9EdQixKl8dU5xJQvSor0FwlK1zD9NoQ/XpvQaylR5+3C265kgREOmlOEHh77SUMkOzq3IkthcZoxy/4jH33rrFu3tP3+lncZGnXaCc3wmITT/tZ2eE7cDfCB3vQpvqMFfNtKEcoIG1coIitdGLVgZr/gndKukI3IBYaXZHOBAVkHcganGrdFpk2+OMVH7ek9xdoYFpF2Ut6Thd4dt10D+Mwfd1CHRyiNqh9BakmaULZOuT0JRuHk/mn+pRm8oAiXahMbwuMBuJ1tlCj9na2hseX3eoP7Ee+vyw6jW8nU6dwUtUU+3LheQMewPxhHUiJ+JPP+qJdpMKljkfqmPTAk12JTSK7kiAkE/tbN69nQBF/JiD3/sP3wGzNL5Hv/sZXw7qcw3kIazsz1qTvdPxAgj4eNAkZgFp5b4YrZPYRLh91+V303jqW4etvMqzHzeFbeIBFTRUOfPQ09SLk/aUvrUP+ZUFqwdYqENJe6PF1SxD1elz/IwWbNkycj+8yHJCn4oU0aTODSDHvqD0DhI4nbpqHJZVowXwtEpUmZR0sQIwUnYkO+YWsb2qLw3fvY8FUiGE8OPewhieOnJ7gLxoWs4lLAyiLjPoYV8KP3b8mp34hSN2+j3n266R5tspYM/RBcA="
+  },
+  "Response": {
+    "response_id": "50df8f10-9151-4cb1-8365-f9c63e81f69a",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "iIwkmPxm7y9AivtjL6nEipR8QaxNsYv6dhaxEBkDu+WEWgNCWdHwQ3dUWX2ZbmtLzU8Dml/ZySCt9jY5IGUkaPiUIQ9138sJuk/p3f41e6LG2e3GW7Po6BFPAnAIw+jD4fPnXq3MqPO/aA2Dpf7rS/H+59Cx1WFBS/zLiNo9Vafy+8I7JMk/SlXLa4YUYKFn5iUxiTQAm+BdjQBcnXM7x0Eor8bOogkirBZkKvy3kLOIoPRPw0FkwldYDnuSt5zQHLF13gguRvFfGZxVmzlmbHu6zmM4kfD7+3sTUWuC6HpBig/p/iWtFyeisBbuTF6bhjcD7lSVkKsTg8tFKntMFvZkpUFnEPwbZDf2W5nQTKNqLQ/Da9wDqHk3bY6VqPw5KtzFMKCu4hRhES8ScORou2vfmGwj6XWGOkFwRpNH10r5DYLOstcpwswnId7bLJIGAfhuOvdQHN4Sk1CNvD+vV/oYDl6/MMqXAufwxL1OSqpk+qrB3D5CQFl0uOy3hBpx/xjRHyRYqPYTuOORnnjlBCbsA1vFadESXKJV1pxbXq4XCXSSKylrPzP13FsqhD72NoMo5xk0mYlDk57kV7mQD8QbxWWfVelpkZURQZRYWh8TWDf0cPMvAPte9FeLcDKpxlv8vdXowqG47ggcV9jGvtmGEqPUnsoM4VXyn0CfCVg=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "YcLoIgPvOJwNEiIg/0TyTeCqi7lsPtolAbpX5Hj+Nk+JizjjjRqeL/tW00w5ZaK4C5Brhnuz1gp5ONntCtN9W4F9AehCgn060+eIVlYUuoM8r1S1/Tfj+SPj0xr0VyZUPBa3WPU60sAh2GOfxiPmZGrF3PHTnsHAtoVKN8+f1U3UhRS6ZkIviMYiPLyCLAMbSgC1jPRLKMq5nqMSQBpUNvHaNLjnlnEzzRsIzCBgYQ53+E41p5+TVHherDg4Exk8t3Y3EaQuLZrmSOBhs731qHhxAB3SMc7ERFeg2/eb21zar3bKL2YeNqWbwGGuaLlrwKXy18/7J66eYhWubL43ELcSLS/oP5JA/3Jo/cXUW1G1bwVYBdqhEOMjbvXhkDSgCI+agssewwi+duU1v8zWNQw+1Zfgs5bb4MzdCy0QZyQJKDs5McpRwnNF9K7cVFPN5zmZ7pFef0fYWoSxteyFdjJ9JaBSzY2VulA0wt4csjEIxIdp0MwrHt3/rUkQEXtz/wgp/9eUljEbCUetfWcHKg5+XZ9JCseUOcmY3YgS6VsVK97fi1pnRLEECnyXtlZlytSuTzAuU5NnChbN+ni5JO+SVXmcdnMyAZZIiLslO+wAJCHUcvUDPrDXFchkeWPCNofk29iXxUhlXRHZ7N4gqcygKnNMBJdN7tq7uNZL+pw=",
+      "claim_pol_id": "b3L/UErXhmRZAZw4PVBtE3wrfUj5bdY4Lc8AbdSLaGGA3QugTFfXq0sRow/PEg8l9xGhK5n7UU+8rZ7L5y/wrnPsgkjkhNvIt5DGPNN6DzFNNz8uRjgLsiprmo5UVaD1qF4nzGFFuBaSLCmhrkTN4UoTUGJOZt0RCMVE45Dx7/3D8W3EXueqgq0LeOl2KYbtpbjV6M/fzzCU0yNU3bdDDO0EPJGqsYJMlRxeDcqoVIzy9N0QhjHzVWeujDaIEncIn4UeTcvxmxHM+ftpCLJ9Ewu3eUoH6MJUgEHhTrLhh9fLcKanCS5dArp4fpIIRaG0w/kTMFRvRMIWBrTAAowg0w/6IBTteo6bAbSj8n/Rftdxa3iYis7TDklxiPI5wM0XBkZrv1J+MxGi+tbsxbH27BprAj/X4gUYoxn65VlnJjfAua5OUTmmO7uLzk0maUYjSend911ro6f9/mPP3bO2xIE3eGSr7t2dALzxqqqqzCUshNw20FiqGlvO8C5EvhPZs3LT/HsoivZFR1SvqLe3xfXZiYwR3cfVLsRng2GkX6PuhVRFJMpg0scA7R6z5GUjyPJF83IMSnbCTq1CrvDZLpxIL4sy98B6mkOF5VbQEjhl3xCrlkCUubEb6HcEtBHWhmFQ3tx02X7KZ1JNg0iMtW47TZhH0zUR/iAjpdDDmnY=",
+      "claim_pol_refer_code_of_company": "Ws6zVP9sLhdu6k/JXSqNT9lW5a9KG/RQsfQHQeoQ/mdTrGQKw9GQUO1ei0IunyYum54mcivioSe5hHjIzKa7LlpjGreh1WE761gqu7uorCCmzknUUXyYuphq16074a8Nau12ilYrm8nCGpFYakLg4VZ5lb5SzClQXGl4DIC2rsr1DAwom2z4kgWESjkKW7RMH6XJcQCZayDRFv2mE7JwWMb4SnfgMVAa2n3sAyo+xHBJKAhJHIiP6NcIxsKfYy1xGd+PoM0y5tro6ysecAATEkpaAjpVNnNbRe+slKTphFw3bSjZKCoBAyvdK1Qiiud/QiWJHOUBEgMGUvXWd23+EUrznclt/lQLjy/S810OiVMXesxoFQIfaxKOpzIAt7TDs1n76hHicW2CTsMJeuJD1p8I4AIr61OG5/Z/aR4NPY3gFfhp+bymMXqCxWTbUeoYUK9Z87UUY6vo9siNqC/BlXW3H54jKBdj6OSpIClZu+gWPu5rWXN1oMnXVzD/p4iedk7/OH7G6PO5b/HpcPX32JS+HcDJm7FBdxSJ312GG2yoTZOkXqeObqZk0XnbzxNm8rxY4/pt41u2Yto7NNc/Jj6EGckb/yR2tpqt8bShH0nUPikj+4Cs4e5OJy7InUzp/SPYux4QP9v2fzDLGeDaI1jFELoLU4TTB/qGjEPk8ys=",
+      "claim_id": "GAvaoQayWvd4YfiqLESsk6bDQX/fK8WUGTqYPbwVJF0eRaPeXelf8TYnmTfnij+rA5A7HIziPZS8rHUqt/PiJ3hKDHkMEzzXr2t+dlt0L4OZlWb4SmCHRFmr9DbaeA3W5nETQrZDvzPNvHZjnK4/VaYvPo+Egw/k7YpXpdtZcrGSzAo/PK+GI1hU/9lAhh7aWpISkaDYuZAF05PlDIBVeIT8ddtTn9VKbsWtd01Bvf0jgx8VBcu+HRn00OZlzBOzS/xmnX6pTeoUQNQBOJXbS8lXndfKETSU8g2+QZrDk69JMG3WhdaenkeSN7LWqtFJSU2ksgvu5MxX1jUgyDuAh5foZSXsTohsZ20c5Pj7H0fpzReYny58XzIYGs2aRD1Z1jE6UaF9Vtf7bdVFY11qvyvdzWlXuDo9oRzVEcxdn4z43tXhdSbJpPVGZdzm4KM19RsFA2qk7uSPg0SpxLw71sS9Nz7/VP/YjS34sMCB/QwiyV2V9hk/JBrJTcbiyEEPDVmhbZrYbCtEctmsAt5MXz+JTVwLl1V8V7wgcmbOTg2FpuaIUo73loML9FoaqTDOtVW1inhkvusuGfkmiupp7954uXJu8YVpy5Yvqhx6ap1a1a2/Q6lYL08plfsHdVlbWK5d9EapI3sjy3MJKhECh7xaugKh1IjEQrB6h9geIjo=",
+      "claim_no": "hNd+Cgfkg2XUO0POipSvrg0+6Eo/Rbte6NkX9ZQlcN1UBxWN1ff1UMXCQ4M+1eahjXqxmtuKju1sz5DdwltZwoRIGBD6m3/HaA4XoUL9C2FjBJETMyVAHd2S+54DpkCc67lGuToU57ICYX9a8/c30fqnovI0R0Sgrv4oQ35IwPgrL2PjhAid3W1vClN5AjAvXzvNr/Uc6wEhY6JXjZAf7TQoY59iF7xwo95rIUKWlArN+R6QLVPD9Opcnti114/4eLsZtaVz/CAf+Tt9wZh1cRG0agk1RgYhqDM3P1gxeVd6CIlPDA5tFBdYoJRYoOPxus5RioZx1mkE8ASUrIrLEHQ4tCPadoHkUIYvsQOwWE/UIZal0xGSlpltAIqcbz8pLZSEqXcIhLbzETMYNuSGoAaHZRrRN4Uwr7yqMB2CBYRr6MIYYnJMgpyzRkahiceG7WbLNVJg4ywhEI6kLed1Pfw3KsuKhbotvdQh9ms8rd5DpOqNf0i6jw/U9wA2eB13G6BF42uh07KFSL24v6oXJIvmn6TlC1EyN40G99ntG/2kv703YcdLfO712I5PJsvcVf+xUE9VW4Bjmi0dhr303+yUaaIPOHt/dIszHqNlJhbM+4qZzyEnSlByj0TlWZmbwRRl8Pgr1FRWRU17+VEAD9WA6umnqHX/kh1yXCC3wZA=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2022-12-19T00:00:00+7:00",
+      "claim_report_date": "2023-01-06T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "หัวใจล้มเหลวเฉียบพลัน",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "12/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-03-24T00:00:00+7:00",
+          "claim_payment_account_date": "2023-03-24T00:00:00+7:00",
+          "claim_payment_invoice_amt": 220000.0,
+          "claim_payment_amt": 220000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส.สาขาภูพาน นายบุญญาฤทธิ์ แสงสิทธิ์"
+        }
+      ]
+    },
+    "Signature": "LlaJ2HthBhHIykFDKtYu+LGUu+uRuA1KWeJrR9221ji7wfCNU13ZWsj05ZGH+x96+bBEImyhjp3WETp2tCgSNPnquQlhpdbkeiPrWAy0kn5YuFfX/xZxrvFhkdQbUmCBXlrkv/quFvPZfvOonUhgH5SGZhbBz0KUJ55VL86XneJs9SC+RGKTlEZ/SRsN8irW5qkJ+4XWb/dSKpSTfjp7WkUbwz7NJyq2yaQbUuTtPsXMd7AEvT8sfg74MYaMeRsRfk/phutQWkAiaKuJwiBriqXcGxJ26agPMtpSm3S0rwblWaF+kiAXrdL/p6dDbulEKHRWcAwVLRv9Oz1bHHZK7IEXgQMzcztF9DitxQmyhG3AAwPOiS1rTyEbkfdcg90014YIm3sbqAYO11gok+sS2FOLyygyrIemDU0/ZNh7JGFWFubUNQv3f4xI2Bo2VnvcP76iQ3uRuWvoOVccFD+G/m6tHvL3t5OYved203SMuy1cAH+WZKLh9BnzQN3paRIuwvdjFHsdEw0Khu2qi6AtMyrGoCYk8zVQrbgjRVD80bCpHbtf2jJwqirBRJSE9dUSsr3M4ElY8REibYKyZX5oHgXZOYhW0S3IG45BtN5M6KJgiIz3C+n9HqRHxpfSXA90BEcViHlOKsFBZAB5H1Pk3Cg75q4MhKaWlNQHUKWU8Go="
+  },
+  "Response": {
+    "response_id": "67c0575c-187f-4dc0-bf4d-d575c44d4ab9",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "ngASXMkM8Uw7tjObj8eEl4BJWMp/mTAt0g22wSzSyjBMWnmZV6SepJ/Vxh2S3+wbmaqR9gFcBX0eEnRgoOqUUClsSM7639FcAN8NceqMsKrhCPZqT7jmVHm22zJAhNlt4NW1gZk8L1kYXL7sxoDrpx0O+B+pn2VTBkY5/OJ8UIloF7O3IZs4dNHZLHLU+8zWThckUi0SabYGIXSKx28J10tfLk39ppMhaB0yN7f+9hBGqW3UIeBwvwcbOQycKVreAKjYFpgeuI4LxBG6q8+jWP3klPlQaWyOYEl7HFBU2cKK0tNuilNYHV9chwOcogJ1NfyLzs370bEPOTW2o8sGLG4jjwDHb2DQT+5Ms2KPDeQJJgFLi3oV+B70+8eHuwaUwEHlc2xbw2Pxn8x4g4qGVWIZSZtPLXtdR8+656g/DpQSs9hb7z0eGqRu9CEat1oOWosqDBnpSJZNMXK8TuorMSGTFNYUaeCQYQntzbhWzP2zeZFCFaLs9Xr0fRWf0OQc82/Jf6Ob85b7cLXm1DK0PBdFl4a5LWt0XkSTpI7JLTP3CX648qNU0YSVhCNf/WOjlS6Iv9+FsRVtY7usxXgs2n8BDLv8HbrSa0DXDf6LkYaBYTf6BDzO44kN0pkbKcj5b71ihNDAoO7QEO05QFizx1X3Php69QkiWk2lohRKMiE=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "SENfI2OviK0Rf1z0C8d8nik8S4n73RyrNC8G+Fo1ikgI6R2Q+wluwEdqMXAP70S0SUb/Y6OTRD6lIdIuHMqvuSClEne6eBfMX6XEJErKL/Vh2+vPXSLVG+ViJDPJHRZcpVVvEe8LF789rsF3mhg7k+pbpQuq9f/ci5Cekr1jEF/siPycB3g6xO7oZzpZbCc4urCFDBXJ/u6V+ywj3STF6Om9oKu4hbIvMK7pX+WbmIW/X+42FPPPrqGQzizTwD6yL+v+HewG1JkBNHXkOQIymauOw74cMT0lYyuTiqfIN3OIwUt24gzcRIboRAYI2bG9KWMWGblMoULTncml+ZXdn4lIWcYg9pHisMRPVI/bbDeZLVEzQMGvKvpTF2KzCidVzAmXHj67ASpShxkIEDz+s6pqiyZaDK1m+AYM7tlq2IuUlkbJsJspkYR3K6O+CQs9o6UkDgrgYNQztAxDUOmZnspF0hKOBg69Rlvfo5Okm7WI3YmwxYjLS/iSwdtxGo2qF9ZHmTY8Tug+AOXWG4Fee7DBEjut4nuvsrkWvvww86rDTuTStGjFbsesMgHToSsr7AEFwqcMCrmPrOx92X7zv3ccp2PnApmGnI/MJOveYXQfsdcR6x4GJnGq5wB2H7ECKcy5gVHE2+Nja+yRQWuabFaMY+JfgJeU0mNvjChw3AE=",
+      "claim_pol_id": "KRpp3m4gqt+qz5GmerMjndSAI9dVe6AyMGchoUcvrTv0dx9ZpuAHUPB4fK3w22zP6D+cxzhhkSHl7noPHddioE1zKYqs33SAAsMQ33i6OTBTZwrzNHxSxE428KwD7kpqBS1NqbDFnh3o3WNbUrK3QticZrd5DnRiFp8XXg+XqfOc40b8ldOUcpb3lvtrbVy0lHQV9+VfRxpgEQl+PjHcTeI1aW4dRDEtQyYYCEzvfdDBLbUkLSpxR7zC4i6bmzwjbQVoyjXY0x8vruCxrpjQHa63c7yrHEKSZhYmUaWUuxQ7pFDggSi76iBMnql7b3tTyxq9Ay8RB0ujXn6zp1B+R3KXOywWBd4XTNnfjIcjJgJqZQuD2Yv+kkYkee6KeCqcnzKmB0Xto1Fgrvw2nHlRFM1svQ1JXywC/aAXhsABw5TJ/sT1LZ9tjykAKFXi7t8PVTd7paCWKnuoeteHuNAdNKIDYTOvW+08meVleatNj80w6oUM+cx0ylLTUJ7WH+iMIm6wiC/ry4bUk+haBL7yF8lHGlIeWZL1CKRoPfgQoiW1aOLbClGJh9VerNFT58bMmZKsASermn2Dixer3xIwdSereV18kBJBYL3tvPRBX4r/V8i3neUOGZNpUob2BSwo4jt4Scw7klRXunKlnWdPJm5nK8XxghLdZwgG0nkcKs8=",
+      "claim_pol_refer_code_of_company": "vHm0YlXXyYTAHmCpuIPQT9SUQ1ffPaV+nvvKH2EIwlRtQ4Wom5f+r2OmrjpDrslquV67ryEBEjm7Zyzm+E0ZJw0WJWRwefYKSs29lUHP0XMKSPXOke9nNfWTRkfS3Cjt5e7OZFHmrnk4JYBvdTIjptP/q6zrCDW1OrT3RLxp8ftgcz3NKI+czR4A89aGnoAn8429GbzYbQ70yKRo4/U8aCYJAleFHI7INmW8PikesjsSXhqBQtQIzWLhq+xkMFnuQdPYZ/wJVuvzdwm5h0uJeocp+pAnAmR8pW2CAnCVTBwrqzsGXRIQ2ew4nKo8omtT1Wypzcsxc7FTMZoNV+xarGpLGXWo0EI7BbMXkiSwAkFcKv3YcUxE3zL+rj4GDPJAnzZRY8JX+5rPBlzi1lmwdi2tJtKDCyCw9Bs9OwhER8I0mVAqQI01YIAfsBFWeee05Xqv3uEe3LwHFOGl2NaJ7pnzzNYfxe5I8d8vtkGxzoq7CJR3QztJiySq6W+fiBb8HtubXbFg17HASkgNz2pV8aCDeumMXwJNVA9s03VPlQ9dD+XvjRuCpem1IioZ/9jTK6Eq09w1f+HLAijCdMVrU14S2Z2yAivVgIsC7QGAmCLbw0Qgpe/LPIwNhLZ4pfL67KFWin/tFzNht2UTRqzLXKGX4YpS6OglukrupqPnYzU=",
+      "claim_id": "hQdPZc1OKAp2NiQR/ppLPWpLJ49BPhxLq8Ptpt8mYlOCscYcGJpPBDgjG1K1LMkjp8me+KISpGwztHxX/l0t0Ab44cjlt3NjLJXH7gEPnWARFVM/vtipzL8zuDMZlBSr77w1UfZiaZ6ATvVj29imGd7415Qz7QYOE8oTBslCmNXNbx4U4ckuzTvIyhufU0ZlqVAw5RkkVv720m1yaxM3RBEj/5S9uWXHcSMvq3U54t7KAfGjx1wLkLru/KTgN1vEMOvnxKjWIF6vpze/Nv+iSHOHQopxfzaIdRdqudEfE6ZvV1KSGfI2eDAYotI9HL09JkcEQIhEEddbEyYd8lvIsKy0UFsc2YvNs90nWHktEvRDbXT2TYSSdu+Vq/4VYN6EfH5gNJnLZgw9HEebSmfEc/ACO2X75iQ2BiY2YaxMLhe02Ds7vKKPGFO8YdT/Cqgz6n7AIduIEwCOVG+Xt4gybZ3sXm/NuTqBoiIwCuORYsvTxcurXb8sfn4D4xr1djGAjRdWLNj31glo8+S5E3pf9jlkJCsz9p0txU7gmd4xAIhcTOdixe3/9PTHpFFD/2p4UyTkJL+hFnTCB7EVEXnCpMAuSoiCEoipte7BGrzLBROhm79HoIJ4+0KrMmxBDLAxruFnNsMgMK8xYYwivi4IKrIbVuNkOQwfl4axqg/kyCw=",
+      "claim_no": "WNegfPf4RMUb5LEKPhiX9eOagbUGGNLe8OLbjfVYSz0/xK6Phl7/yVtE89Yd7C5q92em8QQUZquGJLO0EuaUDiDFAy+tymXm9KiblVlubG9wuzDzzA3460R9S6TxHgj/i2Ms09lmu7sKvl9rvP68DlKbKymhBu0F7RIL2tHvxfQWz1afFNaM61zQr3FP7v2Wbw6sgDKa//cGxLrEWbcGn0BPSdRenFV8E3ouL03sr8taGPQ0paH7RW4idIIZn32Z391FsX0XWR4i8MmeX4JlICoTcbKcTPKqRAn8ORS0vPaBxuI+ssXOIst7SHvbWnCrjKFv8vHwrSChb1yBXxuLPJ4jg9Q7AcE4kjR/wQhAgKLshefN060vooh80FbZAOy5I6YiO98Tcp8qRh4OnXtWGcyQ+eiSMCLay56xNUyNs+V1aEd4qM1EX/jj+l86+648BwSO0HYBZuAZani0MveBXdyP+UPjwaa/OdHEEW65hndGZXTcJ9oAahQTP7ykaixhQ1BqqPVuG8iNi/n8T7yPYnEc0KaPYNGo9/xqNoisdJA8h4Z1E9HXyN7W3zdRxBvxXUoUUe5Ca8vWUsbC5Lvv0kQeVMjNTqCabmZKynXWybwaC6NBsPAJSv3KUjZbs8h1b8HiQTwAPQI8XrN2Fci0yC6CwJtng8X+wjmnhEgSpBQ=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-01-26T00:00:00+7:00",
+      "claim_report_date": "2023-02-06T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "สันนิษฐานสมองขาดอากาศหายใจจากการแขวนคอ",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "98/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-03-10T00:00:00+7:00",
+          "claim_payment_account_date": "2023-03-10T00:00:00+7:00",
+          "claim_payment_invoice_amt": 50000.0,
+          "claim_payment_amt": 50000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "สกก.จะนะ จก.,นายวิทวัส จันอิ่ม,นายทวีรัตน์ จันอิ่ม"
+        }
+      ]
+    },
+    "Signature": "E+svn2J/XfqYR3W2l4qc7ZOBZRpg2fZ6796BtCYV/kvhB6g4JczrL+PxP8jWDtmaQumauRdHDVRvNLCNOz3RxfjltYRHAANStd7yvLf2vMR2ZUxQSGkOIqJiVOnwjNqDLcZPvNRtJ0wPkKr8srAGSvXNp8tWzG0LZAvxl69estlGJqcl5CrJFOJFu8YzHGrP7BRhvomXWslGrNCkYRNuChA0KXckTa+b281B+4i9eJE7oxXUixQgvGsoS/w8WsZjQJ9bq0DTZHKrSzrhiyjeXawC8iQt3ADhlXnjvjcs5MK4am4EngJv/N5aKXn7l627+qH0GjB9HAMguyRFWmwuPdzBoebjJYkSD9EIF3I67cia5FqkzEH5ODKzhBRuTJg7T8HAJxYlK5x5zufyrqjUvjED0hyLkHPvh3ELs5SJTxPBBNNKXhugvwHTxd7Y6y0DOarh6Wzq0DSZl0WVplfbFxJgZpgE5YGqkC/1Q2yktZNAJfioaLiCixmMuiNFffbciwVF7DgqJ+qvYOMbc4bQ5u5n0w7FNJAylGHL10+c3iF7u+H6DX2CEBql/HyWGn44ciGNhSDoA/MuQ6aUrNQOp1CT8yedSwf1m+rJFUnf/00Uqi+Msxezdk9FzxImE4sUMgRv6sxDiucc3ZDW16RO4k3/SjjFfjWQNQqC1LBruRY="
+  },
+  "Response": {
+    "response_id": "13bdb7fd-a325-4fe8-8075-9b5fea376efe",
+    "errors": [
+      {
+        "field": null,
+        "code": "1000001",
+        "message": "Duplicate data with the original data in the system.",
+        "remark": null
+      }
+    ]
+  }
+}
+{
+  "Body": {
+    "payload": {
+      "claim_refer_code_of_company": "NdIgmvhYQ0UrSUulOM8SFwTm7GdV4EVY8h0KAFmhpzJSqtvssYERgUssOt5P/nBCHVCBUqD/NQSEowDDDjpH/DfQacSunLLVDqULDn3E4LMAgD68ykzu4ajWGRD6yKdMcl1vUPVqnJ7btK84dtM0U7636dP13KC9wgo6Dn+yMSiADV0Y4JhyrChDYTuLKhkiQhkxSZfSRx5oJwO8ozDQgIaR82RvGNl9kTPWlUBZbhhzj+BtYbvODsql0oXucWLhn7Vuh2QPQgZrHrpYRxNaK5oB+FKVlY0URwc9PqlQ+qb4qqso6WV9cGsOZTKqSqOwrtKWL90z0nij4YkTzIhJnOEjv52ejmfxellRv1h7lgD8dONBlAPC1EZjoFJkfo16Pqe5uaLOgZsarai+rfm+HwwoUCXczJLS7HhiaMXyUAkB/LgLltkbqeJ74ufES245NbcsL+LxNgBDF/nv9DRheb7ozMPSVKoqxuOYjMntjdeFZthJMPbRh2sR4A1AKKBe4uVsqdomFHjI1koGgnlPfphPAU6R1gSBfIxybKvuTLtRaHhiLH9+QgmugmAIjGdQbdsr1laEpwIgMicXNkHVghsJQ5tfKARdW+ZTLeQ0bK89Z4Q+lY0OWxmHelRJ+qE71+Y/nC8zWBExjCe5izK4iPb/IbGRP+ySx9reuuBQgd4=",
+      "claim_transaction_status": "N",
+      "claim_company_id": "DH3zUFxprYv14aO4xxRYfspq3KVvAYXVMJgEkT9FWqfK6awKe7o4NyVxpfmc1SufqXxSdaszwvnTutk3UCi9Dfh3ZXEfFWwXhtftHwciV75S//tvawrNLVeit3URPz8eltiWpEcOb79azQ8Zn2byD4f4lQzGj3YepbrzOQSCx0P9mTOcKUtyRwl3ncENuVJMcBOtlYRfYpWNgwonfnku7ehkFVtgIFAzjCCz+2/sxOFgWAt9f0xiEp4wVbMxjkOVaWP65BBFiNE3xAjJz0y16WzptvPuDx4TAXHeOTH2KdFzv0J4C8+s8fnqC0WhZokLRaQhSsvgJerSMGD1yDrqlZmhg1FugQ/O3HEr45O/watHmQ4vD5HIHP/mSeGBR+ARBOtmGWK+ebooCkBZ2wuMKJ2Edw54tjnLGkdf7cHifbWU51Nu2aoVEv+UCoCB8dqVq/gXHRxigW3XE24BP7PlCUetStm+M2fy587YaPJRvPg9tub3zh95p/06VbopJ+Mjso41XciPOeavH4BTM1txM3Ok/Phi5SB9pEbzfIAVUaKQVV0f4AYy3wO52kcirkUUdvm2vaRv7TvG3wzfMbxr08l4XR6f+aWDbKfm91nIQzKG/22w3OAgkMO8+N9+pODmqn8nHZF1vMJgHiLMNr6RtDkimB5khGfft1dt2BrgCB4=",
+      "claim_pol_id": "Vsu2uTZxqTKVcgi/vvBi3jpQeckAQMSJC+Nj5vCmHNnweakS/T4L9kO2C6YzdW5Dpz4U9iT290Uw0V15kfMJTfpnELboxjktXoC1hAA02tm9M4sCgoRa1XgbD5SRPuJOlxMnckl3RgmjSb8Kh4hU0Q4in/stsXSLZOwmP9Ivox4Rmps3FDU8B3QAJ24hF6Jf3uVCfoA2XVtqzcfZIzmJcpM6TPR2pG7BPEFTJ/EfvFWCxagvspZbWVmIPc09zc2SIgRN8XUXCnXsBWd1D2vJRSuzO33fsxj76Wlh1Ekrkt/RsoXHe6k3itQNBjyrR1Whk7Q//djwwiWWoGsbucFowBByt11oNnwTCe+7A/auLMmwct1o8E0im+5dW/pAiVzWIOv7Hixi0+TdW27WbWQVY+vzslBwC5GRu4dU1B4MgMXCXn9o+5TwkLIF+SkSbEEdMm6CEnNIk1e72/L3BL7UrumNxH4S85dhf53wHxom0H2pLhmrwqWOWoi/v+fLKQkvzR/HTE+FzghYAoD0tHZIwPYYU4ZGXEyI43R9ljEquS2Ivo3uopkgl4TWxXXGntIGCxKN1exjqoPnleq0JF6yiagnHPs8ZnGUQsN8A9t6hJd0o0V4NQCbwrz+gzBBUwXezMKU/nqyqcR0KTF87uexz6l1XkE7VSfv2sbkV+0YA4s=",
+      "claim_pol_refer_code_of_company": "XX2sJFEnBPvs0T9VoBJR0nYOMqOMU4kgbGJgAP6k5W6EfdQ2PiAjJnLSFJ+d3nB9RbvhlpOYg3n0P5OVFyTu8Z4sJLtJ9g9qLMk41yGzPTWrRWHvcHun0w1d7fqGIMwP5wO6iMJC1xDEEu/rLYzKDRb7WTK5JYGVdZO19JVSzVhGbw/u8e8VYGu2mV/+bDE2T3MCvkpuqhmvRuBuLNrtOIxc/bOWJf0aqwXUIr4pabwkjOffRAjVa0IQcjTFEUZ/RfaoNnZqrkTgirRqksX7ULqXx+QvGny3A7bxBbqzVxvX3DFEXUTRy+ft92b3em6pJelj35+Q3zA49b+JMTqMEFLRQPrXWOPJohFfkmH2XFfIjDYF5x382VYvW5tikSe3ROB5M4qzH3j99a4I1tZrQWmeMTVr1wXuUO9Qq+gznsZslS4YbURylN9NdSSzxN2JraHxBKq1uXJMchqHSQ45ar/fhw1ZALm0vjfP/0CmYLakXgOtfu8WUweaNpuS8SugSkwGeZBZVf4X9nalqn4jRoH6W/NKFvpafXz6UgmzA2UZag8U2tCDr9QOsyoNOh61FonlpRo7JQzun/UyH3vMlzzRoxUrqetQFSq4rZiKDvQq9AX5045AnabVlIM1ymYNmLuwL/2uZuz13GITLPHbGa5+PBmV8LkaDh52Hs3iGkI=",
+      "claim_id": "yJR0sst8aPJdTdLNDk92XEolwU8MmXSHEqXlqA/20rQeZwXMacPx/1HUKb8rPStFl0+AtPnbkoe/L+sC2U71zmasU6QuSqU6H+sPlVh46q8rUQHfjKLzCKiVEZijSruD9hgMPINaXr1bu7valfHADJzTnYTAoi6FVL9CobxmH9X9XJPzL4ZEzcgRFl4SGmwvynpJR/+V5r/LySyrSGgnRQG2fXM0ve5e6nHtXrv7bLSEAj+FajGlrCeC+UfeAY+dPDdFmDXlmSwIojRFepQiuIPugPDDoZsa2n5HhSkIZsVticY0hqZDGUk5mJfx8jxp+7S+gG3OwNhoz7toowNzYbfL3GKcnG2ZS5USHpyweHEmSZfisnDXI4/c6m2nFG20Vwx2ftA/YCExb+0luaSatl6/rYYc/9nb/OdCuULvhWsaNzviBh7BQCjgR7zobxmTiMkZNabK3at2F/is0SnazoTR1yg2e8RlAXqYhZgbm16yClqvhUKYZhj8A1e/pblTjuAkq0yhYDzBxnT7gszQ3vOQ07Zop/kU11K5Y5ffWOydI9Uz8+7CWf4ESqCBMV5+nD5vUrlS8oP9+3vYm7RqO/PP+A7AI2BtGxr75FRom4NoHWm1AlH8NCCekan5kSvQM6X2RCnwFzZuN3E0UuiUYVGjs+0w5fphSycwZttdTg8=",
+      "claim_no": "o2ynA/HMi6SstgitmvqEZpk1XoOVhrWep7mhVkO13nAecnYb6hzd3aS6ywQkaRnQgNlyswpCgaMhbUwGgNWa2wuurvb7IpRh2V9BAEnKR0i4ZXJ5iDfr4p99xGn1+S1CidXbvGUoqOx27z0EGUlou7nloI7KVL5t5/UwHjgvXk18WjQNYbPccaTD1AwmW5nT/KgNgKmNfmSb0Ru8/acRLfhNTEX6nR/zQZTMKDpHxsaCYqNgQriat+bP2utohPjfBLKfo1W+Ebs+kewcICP78wfNcc8U8PwHjswVNi0xiGdhrzYp6T35LrlYHmkMEvoX1k/zk07p5/E8e7GgHKFzkWOM/fz6DXXtIrQYKt0+sg0mQa5PPEISwAzllLfY4YTprYiISr5pYu+NefsGwQbSDyFTlDBsMKH3zws2oBVXNocZ3RCzqkXDNkp3zAkm1RqImZTHm7vknkw7zF9IoxfjTtXFQGmKuOv2Axjq4j/vclF8eCykRkIaEfS/84xGkJuS3ITSkCOjmex+FmHiMOjPsTXtWFfjahMeR1+nzpChDTOv++TXc9uCfXfz9gjwxUP20jrc7CVGSaUaQ+tPvQIxzQ17TAsX2S4mIUf4D1XhLNtl4KjrmcV+HY2j5HGgd3A/q0oB1Wt//MT2vgTHjIWozD42ikHGEhsaRm4sYI8l0Qo=",
+      "claim_type": "01",
+      "claim_pol_type": "PT-01",
+      "claim_incurred_date": "2023-02-10T00:00:00+7:00",
+      "claim_report_date": "2023-03-14T00:00:00+7:00",
+      "claim_notify_date": null,
+      "claim_discharge_date": null,
+      "claim_hospital_id": null,
+      "claim_hospital_name": null,
+      "claim_doctor_name": null,
+      "claim_completion_date": null,
+      "claim_close_date": null,
+      "claim_status": null,
+      "claim_reject_reason": null,
+      "claim_document_link": null,
+      "claim_causes_of_death": null,
+      "claim_oic_case_id": null,
+      "claim_oic_case_detail": null,
+      "claim_request_channel": null,
+      "claim_insrd_ids": null,
+      "claim_icd_10_codes": null,
+      "claim_icd_9_codes": null,
+      "claim_coverages": [
+        {
+          "claim_coverage_code": "C10-051",
+          "claim_coverage_detail": "โรคมะเร็งปอด",
+          "claim_sum_insured_per_coverage_per_year": null,
+          "claim_sum_insured_per_coverage_per_time": null,
+          "claim_coverage_amt": null,
+          "claim_deductible_amt": null,
+          "claim_amount": null,
+          "simb2s": null
+        }
+      ],
+      "estimates": [],
+      "claim_payments": [
+        {
+          "claim_payment_id": "181/66",
+          "claim_payment_type": "01",
+          "claim_payment_term": 1,
+          "claim_payment_term_paid": 1,
+          "claim_payment_channel": "01",
+          "claim_payment_date": "2023-03-16T00:00:00+7:00",
+          "claim_payment_account_date": "2023-03-16T00:00:00+7:00",
+          "claim_payment_invoice_amt": 110000.0,
+          "claim_payment_amt": 110000.0,
+          "claim_payment_other_invoice_amt": null,
+          "claim_payment_beneficiary_name": "ธกส. สาขาเฝ้าไร่ ,น.ส.บุญล้อม  สรรพทรัพย์"
+        }
+      ]
+    },
+    "Signature": "d9kfdbgdVO/KOfBBxtnnbTiOcdZmK4fIxG8TJr1u1rBEEWswDyFKfqUtIUPO+sjOPdcJkYXrk8dIgyxSoFDinHrkQu5FrWlGtZaRT3783e4h2O0oRSdENXfoA9AWBwSmqeidGhOa5hFGDj9K6lCnF8bzEa0fDPPJLS5I9Necz7AEo41LIPBQOA7gm30z/BsrkBJQRGCF+V4/p2T/LzT6eeVYH+Gpr61fRvaR7BSEZYy7lYTG6Ou+mX5pieeX1wLq/W2a3fPoEvgtCOrdXWWqG2kwAjdU/tvcqCW+sRzhcOtGCGZTu2wG6UGu5Nl4gxR03+f0NylxehbyNHNOASsjRajgTU3Y6KwG6Ebg5kLxwHN7iNoqfrnowUrLFNKCMl/BuT4hryeRVLwdsrA/84H8iW3pnFYsZiUB9CISrrNjdJ1u4KZQsVJ4TaZiHbYhn1hKyKeUW8ArhQ89POIkCl9lBjOYTg7ViZBPvXcy9yCLw+o3u27QcTrm1FgjLIBj+BSvbag5sarL+9uavXTphKLJl7No92fVe206v1V4iX1blPlYZ9xFjxHkK6D60MdZ54OL/WA5VZjlhOKeXO/oBRyB1AQjpYV4Gbd8xnkM3KA2nEovhjFsgCdQzVJUQZUzEXUnZivc+x6oxM5+FJGdSDZ//NZZqNvi95d7+cA+Q5z0b4Q="
+  },
+  "Response": {
+    "response_id": "813a52eb-a94e-42e4-aded-6bd91bc9e30e",
+    "errors": [
+      {
+        "field": null,
+        "code": "1020009",
+        "message": "Claim information has invalid reference policy information.",
+        "remark": null
+      }
+    ]
+  }
+}

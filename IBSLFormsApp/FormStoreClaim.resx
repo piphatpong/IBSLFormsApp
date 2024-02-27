@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing"">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richBoxClaim.Text" xml:space="preserve">
+    <value>
+                        BEGIN
+                            SELECT clm.[claim_refer_code_of_company]
+                              ,clm.[claim_transaction_status]
+                              ,clm.[claim_company_id]
+                              ,clm.[claim_pol_id]
+                              ,clm.[claim_pol_refer_code_of_company]
+                              ,clm.[claim_id]
+                              ,clm.[claim_no]
+                              ,clm.[claim_type]
+                              ,clm.[claim_pol_type]
+                              ,clm.[claim_incurred_date]
+                              ,clm.[claim_report_date]
+                              ,clm.[claim_notify_date]
+                              ,clm.[claim_discharge_date]
+                              ,clm.[claim_hospital_id]
+                              ,clm.[claim_hospital_name]
+                              ,clm.[claim_doctor_name]
+                              ,clm.[claim_completion_date]
+                              ,clm.[claim_close_date]
+                              ,clm.[claim_status]
+                              ,clm.[claim_reject_reason]
+                              ,clm.[claim_document_link]
+                              ,clm.[claim_causes_of_death]
+                              ,clm.[claim_oic_case_id]
+                              ,clm.[claim_oic_case_detail]
+                              ,clm.[claim_request_channel]
+                              ,clm.[claim_insrd_ids]
+                              ,clm.[claim_icd_10_codes]
+                              ,clm.[claim_icd_9_codes]
+
+                              ,/***** claim_coverages *****/
+                              (select cov.[claim_coverage_code]
+                                  ,cov.[claim_coverage_detail]
+                                  ,cov.[claim_sum_insured_per_coverage_per_year]
+                                  ,cov.[claim_sum_insured_per_coverage_per_time]
+                                  ,cov.[claim_coverage_amt]
+                                  ,cov.[claim_deductible_amt]
+                                  ,cov.[claim_amount]
+
+                                  ,/***** simb2s *****/
+                                  (select sim.[claim_coverage_code_simb2]
+                                         ,sim.[claim_pol_coverage_detail_simb2]
+                                         ,sim.[claim_pol_coverage_detail_simb2_amt]
+                                        FROM [ibslife_SIMB2] sim
+                                        WHERE sim.[claim_coverage_code_simb2] = cov.[simb2s]
+                                        FOR JSON Auto, INCLUDE_NULL_VALUES) AS simb2s
+
+                               FROM [ibslife_Claim_Coverage] cov
+                               FOR JSON Auto, INCLUDE_NULL_VALUES) AS claim_coverages
+
+                              ,/***** estimates *****/
+                              (select est.[claim_estimate_seq]
+                                  ,est.[claim_estimate_date]
+                                  ,est.[claim_estimate_amount]
+                                  FROM [ibslife_Estimate] est
+                                  FOR JSON Auto, INCLUDE_NULL_VALUES) AS estimates
+                              
+
+                              ,/***** claim_payments *****/
+                              (select clp.[claim_payment_id]
+                                  ,clp.[claim_payment_type]
+                                  ,clp.[claim_payment_term]
+                                  ,clp.[claim_payment_term_paid]
+                                  ,clp.[claim_payment_channel]
+                                  ,clp.[claim_payment_date]
+                                  ,clp.[claim_payment_account_date]
+                                  ,clp.[claim_payment_invoice_amt]
+                                  ,clp.[claim_payment_amt]
+                                  ,clp.[claim_payment_other_invoice_amt]
+                                  ,clp.[claim_payment_beneficiary_name]
+                                                                    
+                                   FROM [ibslife_Claim_Payment] as clp
+                                   WHERE clp.[claim_payment_id] = clm.[claim_payments]
+                                   FOR JSON Auto, INCLUDE_NULL_VALUES) AS claim_payments
+
+                      FROM [ibslife_Claim] as clm   
+                      FOR JSON PATH, INCLUDE_NULL_VALUES
+                END
+           </value>
+  </data>
+</root>
