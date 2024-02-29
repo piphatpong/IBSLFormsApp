@@ -104,3 +104,4 @@ F:\Sahalife work\IBSLPortal\IBSLFormsApp\IBSLFormsApp\obj\Debug\net7.0-windows\r
 F:\Sahalife work\IBSLPortal\IBSLFormsApp\IBSLFormsApp\obj\Debug\net7.0-windows\IBSLFormsApp.pdb
 F:\Sahalife work\IBSLPortal\IBSLFormsApp\IBSLFormsApp\obj\Debug\net7.0-windows\IBSLFormsApp.genruntimeconfig.cache
 F:\Sahalife work\IBSLPortal\IBSLFormsApp\IBSLFormsApp\obj\Debug\net7.0-windows\ref\IBSLFormsApp.dll
+F:\Sahalife work\IBSLPortal\IBSLFormsApp\IBSLFormsApp\obj\Debug\net7.0-windows\IBSLFormsApp.sourcelink.json

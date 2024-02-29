@@ -10,6 +10,6 @@ namespace IBSLFormsApp.Model.MapDataPolicy
         public string insrd_beneficiary_name { get; set; }
         public string insrd_beneficiary_relation { get; set; }
         public string insrd_beneficiary_relation_other_detail { get; set; }
-        public string insrd_benefit_ratio { get; set; }
+        public decimal insrd_benefit_ratio { get; set; }
     }
 }

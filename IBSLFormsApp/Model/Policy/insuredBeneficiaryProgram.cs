@@ -8,6 +8,7 @@ using Newtonsoft.Json.Linq;
 using System.Text.Json.Nodes;
 using IBSLFormsApp.Model.MapDataPolicy;
 using IBSLFormsApp.Model.Libraries;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace IBSLFormsApp.Model.Policy
 {
@@ -86,6 +87,13 @@ namespace IBSLFormsApp.Model.Policy
                                 else
                                 {
                                     attr.SetValue(pocInsrdBene, value);
+                                }
+
+                                if (prop.Name == "insrd_benefit_ratio")
+                                {
+                                    //int xint = Int32.Parse(value.ToString());
+                                    decimal xint = Convert.ToDecimal(value);
+                                    attr.SetValue(pocInsrdBene, xint);
                                 }
                             }
 

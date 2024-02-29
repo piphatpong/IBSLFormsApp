@@ -74,7 +74,7 @@ namespace IBSLFormsApp
 
                   FROM Temp_Payment_IBSL pmt
 
-                  INNER join ibsl_kls_policies_104 pol
+                  INNER join Temp_policies_26_2_67 pol
                   
                   ON pmt.pmt_pol_refer_code_of_company = pol.pol_refer_code_of_company
 

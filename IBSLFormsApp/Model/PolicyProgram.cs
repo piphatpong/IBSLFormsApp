@@ -121,8 +121,6 @@ namespace IBSLFormsApp
                             //var xxx = reader.Read();
                             // debl.debuglog(" Reader : " + xxx.ToString());
 
-                            
-
                             while (reader.Read())
                             {
                                 jsonResult.Append(reader.GetValue(0).ToString());
@@ -144,7 +142,7 @@ namespace IBSLFormsApp
                             /*************** Log Test ***************/
                             logTest = "from JsonArray=>" + jsonArray;
 
-                            debl.debuglog(logTest);
+                            //debl.debuglog(logTest);
 
                             //debl.debuglog("insur_ben:" + jsonArray["insureds"].ToString());
                         } 
@@ -179,7 +177,7 @@ namespace IBSLFormsApp
                     pol_id = item["pol_id"];
 
                     JObject check_ins_ben = checkInsBen(item);
-                    debl.debuglog(" check_ins_ben: " + check_ins_ben);
+                    //debl.debuglog(" check_ins_ben: " + check_ins_ben);
 
                     //************* Check Insurance Beneficiary **********//
                     //if (check_ins_ben == "cross") { continue; } ;
@@ -280,7 +278,7 @@ namespace IBSLFormsApp
 
                     using (SqlConnection conn = new SqlConnection(connectionString))
                     {
-                        string upresp_status = @" UPDATE ibsl_kls_Policies_104 SET pol_transaction_status = '" + record_status + "' ,send_status = '" + send_tranc_status + "', send_res = '" + tranc_res + "' " +
+                        string upresp_status = @" UPDATE Temp_policies_26_2_67 SET pol_transaction_status = '" + record_status + "' ,send_status = '" + send_tranc_status + "', send_res = '" + tranc_res + "' " +
                             " ,send_res_code = '" + send_res_code + "', send_res_msg='" + send_res_msg + "'" +
                             " WHERE ref_seq = '" + ref_seq + "' and pol_id = '" + pol_id + "'";
 
