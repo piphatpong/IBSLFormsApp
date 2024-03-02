@@ -242,7 +242,7 @@ namespace IBSLFormsApp.Model.Payment
                                 {
                                     using (SqlConnection conn = new SqlConnection(connectionString))
                                     {
-                                        string upresp_status = " UPDATE Temp_Payment_IBSL SET pmt_transaction_status = '" + record_status + "' ,send_status = '" + send_tranc_status + "', send_res = '" + tranc_res + "' " +
+                                        string upresp_status = " UPDATE Temp_Payment_27_2_67 SET pmt_transaction_status = '" + record_status + "' ,send_status = '" + send_tranc_status + "', send_res = '" + tranc_res + "' " +
 
                                             " ,send_res_code = '" + send_res_code + "', send_res_msg='" + send_res_msg + "'" +
 
@@ -372,6 +372,11 @@ namespace IBSLFormsApp.Model.Payment
                             }
                             break;
 
+                        case "pmt_transaction_status":
+                                value = value.ToString().Trim();
+                                attr.SetValue(poc, value);
+                            break;
+
                         default:
 
                             if (value == null)
@@ -391,9 +396,10 @@ namespace IBSLFormsApp.Model.Payment
                                 }
                                 else
                                 {
-                                    attr.SetValue(poc, value);
+                                   attr.SetValue(poc, value);
                                 }
                             }
+
 
                             break;
                     }
